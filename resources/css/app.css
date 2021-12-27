@@ -1,0 +1,166 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* CUSTOM CLASSES */
+
+/* TEXT */
+.title {
+    @apply text-4xl font-black font-playfair text-white;
+}
+
+.subtitle {
+    font-weight: bolder;
+
+    @apply text-xl font-lora text-white mt-3 mb-14;
+}
+
+/* NAV */
+.nav-link {
+    @apply text-lg font-lora text-center mt-4 border-b-2 border-white hover:border-blue-300 text-transparent bg-clip-text bg-gradient-to-br from-white to-white hover:from-blue-300 hover:to-green-300;
+}
+
+
+/*SECTIONS*/
+.section-container {
+    @apply flex flex-col;
+}
+
+.section {
+    width: 90%;
+
+    @apply flex flex-col justify-center items-center mt-36 mx-auto;
+}
+
+
+/* SKILLS SECTION */
+.card {
+    @apply bg-white border-2 border-opacity-75 border-gray-200 py-2 px-6 rounded-2xl;
+}
+
+.card-content {
+    @apply flex justify-center items-center w-16 h-16 mx-auto my-auto text-5xl;
+}
+
+.button {
+    @apply font-lora text-lg font-black rounded-md px-4 py-2;
+}
+
+/* PROJECTS SECTION */
+.project-container {
+    display: flex;
+    max-width: 1000px;
+    height: 450px;
+    max-height: 450px;
+    width: 95%;
+}
+
+.project-details {
+    background-color: white;
+    border-radius: 1rem 0 0 1rem;
+    flex-direction: column;
+    display: flex;
+    padding: 1.5rem 2rem;
+    width: 50%;
+
+    @apply font-lora text-gray-700;
+}
+
+.project-title {
+    @apply text-2xl font-black;
+}
+
+.project-text {
+    @apply text-base font-black; 
+}
+
+/* SLIDESHOW*/
+.slideshow {
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.pics-container {
+    border-radius: 0 1rem 1rem 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.pic {
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.mobile {
+    height: 300px;
+    width: 160px;
+}
+
+.tablet {
+    height: 250px;
+    width: 300px;
+}
+
+.desktop {
+    height: 313px;
+    width: 440px;
+}
+
+.arrows-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.arrow {
+    border-radius: 50%;
+    background-color: rgba(10, 10, 10, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    padding: 1rem;
+    z-index: 1000;
+}
+
+.arrow:hover {
+    background-color: rgba(10, 10, 10, 0.8);
+    color: white;
+}
+
+/* SLIDESHOW ANIMATIONS */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+/*CERTIFICATES*/
+.certificates-container {
+    align-items: start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.certificate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.certificate-img {
+    display: flex;
+}
