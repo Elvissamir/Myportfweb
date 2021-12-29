@@ -7,6 +7,6 @@ RUN apt-get install -y git zip unzip
 
 RUN docker-php-ext-install bcmath pdo_mysql
 
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+COPY --from=composer:2.2.1 /usr/bin/composer /usr/bin/composer
 
 EXPOSE 9000
