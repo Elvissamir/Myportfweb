@@ -26,8 +26,8 @@ services:
         tty: true
         environment: 
             MYSQL_DATABASE: myportfweb
-            MYSQL_ROOT_PASSWORD: Unexpolcm1
-            MYSQL_PASSWORD: Unexpolcm1
+            MYSQL_ROOT_PASSWORD: password
+            MYSQL_PASSWORD: password
             MYSQL_USER: user
             SERVICE_TAGS: dev
             SERVICE_NAME: mysql
