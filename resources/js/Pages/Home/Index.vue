@@ -13,6 +13,51 @@
             </div>
         </div>
 
+        <!-- TEST -->
+        <div class="mydiv bg-gradient-to-l from-blue-700 via-blue-800 to-blue-700">
+            <p class="text-5xl font-black font-playfair">Crypto Portfolio Tracker - CPT</p>
+            <p class="text-3xl font-black font-lora mt-12">
+                CPT is a management system that allows you to keep track of your crypto portfolio and markets. Some of the features are: login system & demo, portfolio management (add, update & delete cryptos), charts & data (total growth, growth %, top cryptos & distribution), crypto markets.
+            </p>
+            <div class="flex mt-12">
+                <!-- PHP -->
+                <img src="/images/BrandLogos/php.png" alt="">
+
+                <!-- LARAVEL -->
+                <img src="/images/BrandLogos/laravel.png" alt="">
+
+                <!-- INERTIA -->
+                <img src="/images/BrandLogos/inertia.png" alt="">
+
+                <!-- MYSQL -->
+                <img src="/images/BrandLogos/mysql.png" alt="">
+
+                <!-- VUE -->
+                <img src="/images/BrandLogos/vue.png" alt="">
+
+                <!-- TAILWIND -->
+                <img src="/images/BrandLogos/tailwind.png" alt="">
+
+                <!-- GIT -->
+                <img src="/images/BrandLogos/git.png" alt="">
+
+                <!-- GITHUB -->
+                <img src="/images/BrandLogos/github.png" alt="">
+            </div>
+        </div>
+
+
+        <!-- TEST 2 -->
+        <div class="mydiv mt-16 bg-gradient-to-l from-green-700 via-green-800 to-green-700">
+            <p class="text-5xl font-black font-playfair">Registration Manager - Servm</p>
+            <p class="text-3xl font-black font-lora mt-12">
+                Servm is a management and registration system developed for the "Antonio Jose Carreno" school. This project allows users to manage (read, create, update and delete) students, teachers, courses, degrees, sections, scores and subjects.
+            </p>
+            <div>
+                Tecnology images
+            </div>
+        </div> 
+
         <!-- SECTIONS -->
         <div class="flex flex-col w-10/12 ml-auto bg-gradient-to-l from-gray-900 via-gray-800 to-gray-900">
             <!-- SKILLS -->
