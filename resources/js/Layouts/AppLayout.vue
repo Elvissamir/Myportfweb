@@ -25,7 +25,9 @@
 
                     <!-- menu links -->
                     <div class="flex flex-col justify-center text-lg font-bold mt-3 w-6/12 mx-auto">
-                        <a class="nav-link" href="#start">Start</a>
+                        <a class="nav-link" href="#start">
+                            Start
+                        </a>
                         <a class="nav-link" href="#skills">Skills</a>
                         <a class="nav-link" href="#projects">Projects</a>
                         <a class="nav-link" href="#education">Education</a>

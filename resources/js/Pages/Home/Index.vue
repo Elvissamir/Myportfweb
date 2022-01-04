@@ -1,85 +1,14 @@
 <template>
     <Layout>
-
         <!-- START WALL --> 
         <div id="start" class="flex w-10/12 h-screen ml-auto relative">
             <img class="flex w-full h-full" src="/images/wall.jpg" alt="">
 
             <div class="flex justify-center items-center absolute w-full h-full bg-black bg-opacity-75">
                 <div class="flex flex-col justify-center items-center">
-                    <p class="text-7xl text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-green-300 font-playfair font-black">Elvis Carrasco</p>
+                    <p class="text-7xl theta-gradient font-playfair">Elvis Carrasco</p>
                     <p class="text-5xl text-white font-playfair font-black mt-2">Fullstack Software Developer</p>
                 </div>
-            </div>
-        </div>
-
-        <!-- TEST -->
-        <div class="mydiv bg-gradient-to-l from-blue-700 via-blue-800 to-blue-700">
-            <p class="text-5xl font-black font-playfair">CPT - Crypto Portfolio Tracker</p>
-            <p class="text-3xl font-black font-lora mt-12 w-8/12 mx-auto text-justify">
-                CPT is a management system that allows you to keep track of your crypto portfolio and markets. Some of the features are: login system, portfolio management (add, update and delete cryptos), charts and data (total growth, growth %, top cryptos and distribution), crypto markets.
-            </p>
-            <div class="flex mt-14 mx-auto">
-                <!-- PHP -->
-                <img class="projectImage" src="/images/BrandLogos/php2.png" alt="">
-
-                <!-- LARAVEL -->
-                <img class="projectImage ml-8" src="/images/BrandLogos/laravel.png" alt="">
-
-                <!-- INERTIA -->
-                <img class="projectImage ml-8" src="/images/BrandLogos/inertia.png" alt="">
-
-                <!-- MYSQL -->
-                <img class="projectImage ml-8" src="/images/BrandLogos/mysql.png" alt="">
-            </div>
-
-             <div class="flex mt-8 mx-auto">
-                <!-- PHP -->
-                <img class="projectImage" src="/images/BrandLogos/vue.png" alt="">
-
-                <!-- LARAVEL -->
-                <img class="projectImage ml-8" src="/images/BrandLogos/tailwind.png" alt="">
-
-                <!-- INERTIA -->
-                <img class="projectImage ml-8" src="/images/BrandLogos/git.png" alt="">
-
-                <!-- MYSQL -->
-                <img class="projectImage ml-8" src="/images/BrandLogos/github.png" alt="">
-            </div>
-        </div>
-
-
-         <div class="mydiv bg-gradient-to-l from-green-600 via-green-800 to-green-600">
-            <p class="text-5xl font-black font-playfair">Servm - School Registration and Enrollment</p>
-            <p class="text-3xl font-black font-lora mt-12 w-8/12 mx-auto text-justify">
-                Servm is a management and registration system developed for the "Antonio Jose Carreño" school. This project allows users to manage (read, create, update and delete) students, teachers, courses, degrees, sections, scores and subjects.
-            </p>
-            <div class="flex mt-14 mx-auto">
-                <!-- PHP -->
-                <img class="projectImage" src="/images/BrandLogos/php2.png" alt="">
-
-                <!-- LARAVEL -->
-                <img class="projectImage ml-8" src="/images/BrandLogos/laravel.png" alt="">
-
-                <!-- INERTIA -->
-                <img class="projectImage ml-8" src="/images/BrandLogos/inertia.png" alt="">
-
-                <!-- MYSQL -->
-                <img class="projectImage ml-8" src="/images/BrandLogos/mysql.png" alt="">
-            </div>
-
-             <div class="flex mt-8 mx-auto">
-                <!-- PHP -->
-                <img class="projectImage" src="/images/BrandLogos/vue.png" alt="">
-
-                <!-- LARAVEL -->
-                <img class="projectImage ml-8" src="/images/BrandLogos/tailwind.png" alt="">
-
-                <!-- INERTIA -->
-                <img class="projectImage ml-8" src="/images/BrandLogos/git.png" alt="">
-
-                <!-- MYSQL -->
-                <img class="projectImage ml-8" src="/images/BrandLogos/github.png" alt="">
             </div>
         </div>
 
@@ -154,67 +83,11 @@
                         <p id="projects" class="title">Projects</p>
                         <p class="subtitle">These are some of the projects I've done:</p>
                     </div>
-
-                    <div v-for="(project, npro) in projects" :key="npro" class="project-container mt-10">
-                       <div class="project-details">
-                            <p class="project-title">{{ project.title }}</p>
-
-                            <!-- description --> 
-                            <div class="flex flex-col mt-3">
-                                <p class="project-text text-justify">{{ project.description }}</p>
-                            </div>
-
-                            <!-- programming language -->
-                            <div class="flex mt-3">
-                                <p class="project-text">Progamming Language: </p>
-                                <p class="project-text ml-2">{{ project.programmingL }}</p>
-                            </div>
-
-                            <!-- basic tecnologies -->
-                            <div class="flex">
-                                <p class="project-text">Basics: </p>
-                                <div class="ml-2" v-for="(basic, index) in project.basics" :key="index">
-                                    <p class="project-text">{{ basic }}</p>
-                                </div>
-                            </div>
-
-                            <!-- database -->
-                            <div class="flex">
-                                <p class="project-text">Database: </p>
-                                <p class="project-text ml-2">{{ project.database }}</p>
-                            </div>
-                            
-                            <!-- frameworks -->
-                            <div class="flex">
-                                <p class="project-text">Frameworks: </p>
-                                <div class="ml-2" v-for="(framework, index) in project.frameworks" :key="index">
-                                    <p class="project-text"></p>
-                                </div>
-                            </div>
-
-                            <!-- devices -->
-                            <div class="flex">
-                                <p class="project-text">Devices: </p>
-                                <div class="ml-2" v-for="(device, index) in project.devices" :key="index">
-                                    <p class="project-text">{{ device }}</p>
-                                </div>
-                            </div>
-
-                            <!-- language -->
-                            <div class="flex">
-                                <p class="project-text">Language: </p>
-                                <p class="project-text ml-2">{{ project.language }}</p>
-                            </div>
-
-                            <div class="flex mt-auto">
-                                <a class="button bg-black text-white border-2 border-black hover:text-black hover:bg-white" :href="projects[0].githubUrl">On Github</a>
-                                <a class="ml-3 button" :class="[project.demoBtnColors]" :href="projects[0].demoUrl">Live Demo</a>
-                            </div>
-                       </div>
                           
-                       <!-- SLIDESHOW --> 
-                       <Slideshow :images="project.images" :backgroundColors="project.backgroundColors"></Slideshow>
-                   </div>
+                    <div class="project-container mt-10" v-for="(project, index) in projects" :key="index">
+                        <!-- SLIDESHOW --> 
+                        <Slideshow :images="project.images" :backgroundColors="project.backgroundColors"></Slideshow>
+                    </div>
                 </div>
             </div>
 
@@ -222,7 +95,7 @@
             <div class="flex bg-gray-400 mt-14">
                 <div class="flex justify-center items-baseline py-5 mx-auto">
                     <p class="text-3xl my-auto text-white font-playfair font-black">Want to hire Me?</p>
-                    <a class="button font-black bg-gradient-to-br from-blue-300 to-green-300 border-2 border-blue-300 hover:text-gray-800 hover:bg-white text-white no-underline ml-5" href="#contact">Let's talk!</a>
+                    <a class="button brand-button no-underline ml-8" href="#contact">Let's talk!</a>
                 </div>
             </div>
 
@@ -267,30 +140,30 @@
                     </div>
             
                     <div class="w-full mx-auto max-w-xs my-14">
-                        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                        <form class="bg-gray-800 border border-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
                             <div class="mb-4">
-                                <label class="block text-gray-700 font-lora text-lg font-bold mb-2" for="title">
+                                <label class="block text-white font-lora text-lg font-bold mb-1" for="title">
                                     Subject
                                 </label>
-                                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="title" type="text">
+                                <input class="font-lora font-black shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="title" type="text">
                             </div>
 
                             <div class="mb-4">
-                                <label class="block text-gray-700 text-lg font-lora font-bold mb-2" for="email">
+                                <label class="block text-white text-lg font-lora font-bold mb-1" for="email">
                                     Email
                                 </label>
-                                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email">
+                                <input class="font-lora font-black shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email">
                             </div>
 
                             <div class="mb-4">
-                                <label class="block text-gray-700 text-lg font-lora font-bold mb-2" for="content">
+                                <label class="block text-white text-lg font-lora font-bold mb-1" for="content">
                                     Content
                                 </label>
-                                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="content" type="text">
+                                <input class="font-lora font-black shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="content" type="text">
                             </div>
 
-                            <div class="flex items-center justify-between">
-                                <button class="bg-blue-500 hover:bg-blue-700 text-white font-lora font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                            <div class="flex items-center justify-between mt-8">
+                                <button class="button brand-button focus:outline-none focus:shadow-outline" type="button">
                                     Send
                                 </button>
                             </div>
@@ -300,10 +173,8 @@
                 </div>
             </div> 
         </div>
-
     </Layout>
 </template>
-
 <script>
 
 import { ref } from 'vue'
@@ -328,6 +199,7 @@ export default {
                 devices: ['mobile', 'tablet', 'desktop'],
                 language: 'English',
                 images: [
+                    {url: '/images/cryptoPics/first.png', size: 'full'},
                     {url: '/images/cryptoPics/desktop-x.png', size: 'desktop'},
                     {url: '/images/cryptoPics/desktop-x.png', size: 'tablet'},
                     {url: '/images/cryptoPics/01-mobile.png', size: 'mobile'},
@@ -347,6 +219,7 @@ export default {
                 devices: ['desktop'],
                 language: 'Spanish',
                 images: [
+                    {url: '/images/servmPics/first.png', size: 'full'},
                     {url: '/images/servmPics/01.png', size: 'desktop'},
                     {url: '/images/servmPics/02.png', size: 'desktop'},
                     {url: '/images/servmPics/03.png', size: 'desktop'},
@@ -360,7 +233,6 @@ export default {
                 githubUrl: 'http://github.com/elvissamir/servm'
             }
         ]);
-
 
         const courseraVerificationUrl = 'http://coursera.org/verify';
         const certificationImagesUrl = "/images/Certificates";

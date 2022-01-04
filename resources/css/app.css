@@ -15,6 +15,29 @@
     margin-left: auto;
 }
 
+/* BRAND GRADIENT COLOR ANIMATION */
+.theta-gradient {
+   background-image: linear-gradient(to bottom right, #4d9af3, #93c5fd, #93f1e1, #6ee7b7);
+   -webkit-background-clip: text;
+   background-clip: text;
+   background-size: 300%;
+   background-position: -100%;
+   color: transparent;
+   font-weight: 700;
+
+   animation: animatedTheta 2s infinite alternate-reverse;
+}
+
+@keyframes animatedTheta {
+    from {
+        background-position: 0%;
+    }
+    to {
+        background-position: 100%;
+    }
+}
+
+
 /* TEXT */
 .title {
     @apply text-4xl font-black font-playfair text-white;
@@ -28,7 +51,25 @@
 
 /* NAV */
 .nav-link {
-    @apply text-lg font-lora text-center mt-4 border-b-2 border-white hover:border-blue-300 text-transparent bg-clip-text bg-gradient-to-br from-white to-white hover:from-blue-300 hover:to-green-300;
+
+    background: linear-gradient(to bottom right, #ffffff, #ffffff);
+    background-clip: text;
+    color: transparent;  
+    display: inline-block;
+    padding: 0.35em 0.5em 0.02em 0.5em;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #ffffff, #ffffff);
+    border-image-slice: 1;
+    
+    @apply text-lg font-lora text-center mt-4;
+}
+
+.nav-link:hover {
+    background: linear-gradient(to bottom right, #93c5fd, #6ee7b7);
+    background-clip: text;
+    color: transparent;  
+    border-image: linear-gradient(to bottom right, #93c5fd, #6ee7b7);
+    border-image-slice: 1;
 }
 
 
@@ -54,7 +95,11 @@
 }
 
 .button {
-    @apply font-lora text-lg font-black rounded-md px-4 py-2;
+    @apply font-lora text-lg font-black rounded-md px-6 py-2;
+}
+
+.brand-button {
+    @apply text-white bg-gray-800 border border-white bg-gradient-to-br hover:from-blue-300 hover:to-green-300;
 }
 
 /* PROJECTS SECTION */
@@ -68,7 +113,7 @@
 
 .project-details {
     background-color: white;
-    border-radius: 1rem 0 0 1rem;
+    border-radius: 1rem;
     flex-direction: column;
     display: flex;
     padding: 1.5rem 2rem;
@@ -90,15 +135,16 @@
     @apply text-base font-black; 
 }
 
-/* SLIDESHOW*/
+/* SLIDESHOW */
 .slideshow {
+    margin: auto;
     position: relative;
     height: 100%;
     width: 50%;
 }
 
 .pics-container {
-    border-radius: 0 1rem 1rem 0;
+    border-radius: 1rem;
     display: flex;
     height: 100%;
     width: 100%;
@@ -110,6 +156,8 @@
     margin: auto;
 }
 
+
+/* SLIDESHOW IMAGE SIZES */
 .mobile {
     height: 300px;
     width: 160px;
@@ -125,6 +173,13 @@
     width: 440px;
 }
 
+.full {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* SLIDESHOW BUTTONS*/
 .arrows-container {
     display: flex;
     justify-content: space-between;
