@@ -16,9 +16,9 @@
         <div class="flex flex-col w-10/12 ml-auto bg-gradient-to-l from-gray-900 via-gray-800 to-gray-900">
             <!-- SKILLS -->
             <div class="section-container">
-                <div class="section">
-                    <div class="flex flex-col justify-center items-center text-center">
-                        <p id="skills" class="title">Skills</p>
+                <div id="skills" class="section">
+                    <div class="flex flex-col justify-center items-center text-center mt-16">
+                        <p class="title">Skills</p>
                         <p class="subtitle">These are some of the programming languages, tools and frameworks I use: </p>
                     </div>
 
@@ -78,9 +78,9 @@
 
             <!-- PROJECTS -->
             <div class="section-container">
-                <div class="section">
-                    <div class="flex flex-col justify-center items-center">
-                        <p id="projects" class="title">Projects</p>
+                <div id="projects" class="section">
+                    <div class="flex flex-col justify-center items-center mt-16">
+                        <p class="title">Projects</p>
                         <p class="subtitle">These are some of the projects I've done:</p>
                     </div>
                           
@@ -92,7 +92,7 @@
             </div>
 
             <!-- HIRE ME -->
-            <div class="flex bg-gray-400 mt-14">
+            <div class="flex bg-gray-400 my-14">
                 <div class="flex justify-center items-baseline py-5 mx-auto">
                     <p class="text-3xl my-auto text-white font-playfair font-black">Want to hire Me?</p>
                     <a class="button brand-button no-underline ml-8" href="#contact">Let's talk!</a>
@@ -101,17 +101,19 @@
 
             <!-- EDUCATION & ACHIEVEMENTS -->
             <div class="section-container">
-                <div class="section">
-                    <p id="education" class="title">Education</p>
-                    <p class="subtitle">These are some of the certificates I've completed</p>
+                <div id="education" class="section">
+                    <div class="flex flex-col justify-center items-center mt-16">
+                        <p class="title">Education</p>
+                        <p class="subtitle">These are some of the certificates I've completed</p>
+                    </div>
 
                     <!-- certifications -->
                     <div class="certificates-container">
                         <div v-for="(certificate, index) in certificates" :key="index" class="certificate">
                             <a :href="certificate.url">
                                 <img :src="certificate.image" alt="">
+                                <p class="text-white font-bold font-lora text-center mt-2">{{ certificate.title }}</p>
                             </a>
-                            <p class="text-white font-bold font-lora text-center mt-2">{{ certificate.title }}</p>
                         </div>
                     </div>
                 </div>
@@ -119,24 +121,36 @@
 
             <!-- CODING CHALLENGES -->
             <div class="section-container">
-                <div class="section">
-                    <p id="challenges" class="title">Challenges</p>
-                    <p class="subtitle">A coding challenge is a problem that must be solved using logic and programming. Here are some common and cool ones: </p>
+                <div id="challenges"  class="section">
+                    <div class="flex flex-col justify-center items-center mt-16">
+                        <p class="title">Challenges</p>
+                        <p class="subtitle">A coding challenge is a problem that must be solved using logic and programming. Here are some common and cool ones: </p>
+                    </div>
                 </div>
             </div>
 
             <!-- ABOUT ME -->
             <div class="section-container">
-                <div class="section">
-                    <p id="about" class="title">About Me</p>
+                <div id="about" class="section">
+                    <div class="flex flex-col justify-center items-center mt-16">
+                        <p class="title">About Me</p>
+                        <div class="flex w-8/12 mt-8">
+                            <div class="w-6/12"></div>
+                            <div class="w-6/12">
+                                <p class="subtitle">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium excepturi eaque molestias magni adipisci laborum perspiciatis obcaecati cum doloremque, dolore facere aut quidem perferendis recusandae iste minus consequatur, commodi a?
+                                </p>
+                            </div>
+                        </div>  
+                    </div>
                 </div>
             </div>
 
             <!-- CONTACT ME -->
             <div class="section-container">
-                <div class="section">
-                    <div class="flex flex-col justify-center items-center">
-                        <p id="contact" class="title">Contact Me</p>
+                <div id="contact" class="section">
+                    <div class="flex flex-col justify-center items-center mt-16">
+                        <p class="title">Contact Me</p>
                     </div>
             
                     <div class="w-full mx-auto max-w-xs my-14">
