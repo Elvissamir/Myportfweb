@@ -51,21 +51,36 @@
 
 
 /* MOBILE BOTTOM MENU */
-.mobile-menu {
+.mobile-menu-container {
     position: fixed;
     bottom: 0%;
     width: 100%;
     z-index: 200000;
 }
 
+.mobile-menu {
+    color: white;
+    display: flex;
+    font-weight: 900;
+    margin: auto;
+    padding: 1rem 0rem;
+    height: 75px;
+    width: 100%;
+}
+
+.mobile-menu-line {
+    height: 100%;
+    width: 2px;
+}
+
 
 /* NAV */
 .nav {
+    position: fixed;
     z-index: 100000;
 }
 
 .nav-link {
-
     background: linear-gradient(to bottom right, #ffffff, #ffffff);
     background-clip: text;
     color: transparent;  
@@ -75,7 +90,7 @@
     border-image: linear-gradient(to bottom right, #ffffff, #ffffff);
     border-image-slice: 1;
     
-    @apply text-lg font-lora text-center mt-4;
+    @apply text-lg font-lora font-bold text-center mt-4;
 }
 
 .nav-link:hover {

@@ -7,10 +7,10 @@
         <div class="min-h-screen w-full relative">
 
             <!-- NAVBAR -->
-            <Navbar></Navbar>
+            <Navbar :show="show"></Navbar>
 
             <!-- MOBILE MENU -->
-            <Mobilemenu></Mobilemenu>
+            <Mobilemenu @toggle-navbar="showNavbar"></Mobilemenu>
 
             <!-- Page Content -->
             <main>
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-    import { defineComponent } from 'vue'
+    import { defineComponent, onUnmounted } from 'vue'
     import JetApplicationMark from '@/Jetstream/ApplicationMark.vue'
     import JetBanner from '@/Jetstream/Banner.vue'
     import { Head, Link } from '@inertiajs/inertia-vue3';
@@ -36,7 +36,6 @@
         props: {
             title: String,
         },
-
         components: {
             Head,
             Navbar,
@@ -46,13 +45,13 @@
             JetBanner,
             Link,
         },
-
         data() {
             return {
                 showingNavigationDropdown: false,
+                show: false,
+                screenWidth: window.innerWidth,
             }
         },
-
         methods: {
             switchToTeam(team) {
                 this.$inertia.put(route('current-team.update'), {
@@ -65,6 +64,29 @@
             logout() {
                 this.$inertia.post(route('logout'));
             },
+
+            showNavbar (event) {
+               this.show = event;
+            },
+
+            checkScreenWidth () {
+
+                if (this.screenWidth >= 1024)
+                    this.show = true;
+            }
+        },
+        mounted: function() {
+
+            window.addEventListener('resize', () => {
+                this.screenWidth = window.innerWidth;
+            })
+
+            this.checkScreenWidth();
+        },
+        watch: {
+            screenWidth: function () {
+                this.checkScreenWidth();
+            }
         }
     })
 </script>
