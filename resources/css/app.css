@@ -40,13 +40,13 @@
 
 /* TEXT */
 .title {
-    @apply text-4xl font-black font-playfair text-white;
+    @apply text-3xl font-black font-playfair text-white;
 }
 
 .subtitle {
     font-weight: bolder;
 
-    @apply text-xl font-lora text-white mt-3 mb-14;
+    @apply text-lg font-lora text-white mt-3 mb-14;
 }
 
 
@@ -115,11 +115,11 @@
 
 /* SKILLS SECTION */
 .card {
-    @apply bg-white border-2 border-opacity-75 border-gray-200 py-2 px-6 rounded-2xl;
+    @apply bg-white border-2 border-opacity-75 border-gray-200 py-2 px-2 rounded-full lg:p-4;
 }
 
 .card-content {
-    @apply flex justify-center items-center w-16 h-16 mx-auto my-auto text-5xl;
+    @apply flex justify-center items-center mx-auto my-auto text-3xl h-8 w-8 sm:text-4xl sm:h-10 sm:w-10 md:h-16 md:w-16 md:text-5xl lg:w-20 lg:h-20 lg:text-7xl; 
 }
 
 .button {
