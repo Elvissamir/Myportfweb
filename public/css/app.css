@@ -1822,6 +1822,10 @@ select {
 	font-size: 4.5rem;
 	line-height: 1;
 }
+.text-6xl {
+	font-size: 3.75rem;
+	line-height: 1;
+}
 .font-medium {
 	font-weight: 500;
 }
@@ -2741,6 +2745,21 @@ select {
 		line-height: 1.5rem;
 	}
 
+	.sm\:text-7xl {
+		font-size: 4.5rem;
+		line-height: 1;
+	}
+
+	.sm\:text-6xl {
+		font-size: 3.75rem;
+		line-height: 1;
+	}
+
+	.sm\:text-4xl {
+		font-size: 2.25rem;
+		line-height: 2.5rem;
+	}
+
 	.sm\:text-blue-300 {
 		--tw-text-opacity: 1;
 		color: rgba(147, 197, 253, var(--tw-text-opacity));
@@ -2764,6 +2783,10 @@ select {
 		display: grid;
 	}
 
+	.md\:w-10\/12 {
+		width: 83.333333%;
+	}
+
 	.md\:grid-cols-3 {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
@@ -2782,6 +2805,26 @@ select {
 
 	.md\:border-l {
 		border-left-width: 1px;
+	}
+
+	.md\:text-7xl {
+		font-size: 4.5rem;
+		line-height: 1;
+	}
+
+	.md\:text-4xl {
+		font-size: 2.25rem;
+		line-height: 2.5rem;
+	}
+
+	.md\:text-6xl {
+		font-size: 3.75rem;
+		line-height: 1;
+	}
+
+	.md\:text-5xl {
+		font-size: 3rem;
+		line-height: 1;
 	}
 
 	.md\:text-blue-600 {
@@ -2866,6 +2909,16 @@ select {
 	}
 }
 @media (min-width: 1280px) {
+
+	.xl\:text-6xl {
+		font-size: 3.75rem;
+		line-height: 1;
+	}
+
+	.xl\:text-8xl {
+		font-size: 6rem;
+		line-height: 1;
+	}
 
 	.xl\:text-green-900 {
 		--tw-text-opacity: 1;

@@ -1,19 +1,19 @@
 <template>
     <Layout>
         <!-- START WALL --> 
-        <div id="start" class="flex w-10/12 h-screen ml-auto relative">
+        <div id="start" class="flex w-full h-screen ml-auto relative">
             <img class="flex w-full h-full" src="/images/wall.jpg" alt="">
 
             <div class="flex justify-center items-center absolute w-full h-full bg-black bg-opacity-75">
-                <div class="flex flex-col justify-center items-center">
-                    <p class="text-7xl theta-gradient font-playfair">Elvis Carrasco</p>
-                    <p class="text-5xl text-white font-playfair font-black mt-2">Fullstack Software Developer</p>
+                <div class="flex flex-col justify-center items-center w-6/12 md:w-10/12">
+                    <p class="text-5xl text-center theta-gradient font-playfair sm:text-6xl md:text-7xl xl:text-8xl">Elvis Carrasco</p>
+                    <p class="text-3xl text-white text-center font-playfair font-black mt-6 sm:text-4xl md:text-5xl xl:text-6xl">Fullstack Software Developer</p>
                 </div>
             </div>
         </div>
 
         <!-- SECTIONS -->
-        <div class="flex flex-col w-10/12 ml-auto bg-gradient-to-l from-gray-900 via-gray-800 to-gray-900">
+        <div class="flex flex-col w-full ml-auto bg-gradient-to-l from-gray-900 via-gray-800 to-gray-900">
             <!-- SKILLS -->
             <div class="section-container">
                 <div id="skills" class="section">

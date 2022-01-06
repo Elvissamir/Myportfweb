@@ -37443,7 +37443,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "start",
-  "class": "flex w-10/12 h-screen ml-auto relative"
+  "class": "flex w-full h-screen ml-auto relative"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   "class": "flex w-full h-full",
   src: "/images/wall.jpg",
@@ -37451,17 +37451,17 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-center items-center absolute w-full h-full bg-black bg-opacity-75"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "flex flex-col justify-center items-center"
+  "class": "flex flex-col justify-center items-center w-6/12 md:w-10/12"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-7xl theta-gradient font-playfair"
+  "class": "text-5xl text-center theta-gradient font-playfair sm:text-6xl md:text-7xl xl:text-8xl"
 }, "Elvis Carrasco"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-5xl text-white font-playfair font-black mt-2"
+  "class": "text-3xl text-white text-center font-playfair font-black mt-6 sm:text-4xl md:text-5xl xl:text-6xl"
 }, "Fullstack Software Developer")])])], -1
 /* HOISTED */
 );
 
 var _hoisted_2 = {
-  "class": "flex flex-col w-10/12 ml-auto bg-gradient-to-l from-gray-900 via-gray-800 to-gray-900"
+  "class": "flex flex-col w-full ml-auto bg-gradient-to-l from-gray-900 via-gray-800 to-gray-900"
 };
 var _hoisted_3 = {
   "class": "section-container"
