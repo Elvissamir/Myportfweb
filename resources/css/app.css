@@ -85,12 +85,11 @@
     background-clip: text;
     color: transparent;  
     display: inline-block;
-    padding: 0.35em 0.5em 0.02em 0.5em;
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(to bottom right, #ffffff, #ffffff);
     border-image-slice: 1;
     
-    @apply text-lg font-lora font-bold text-center mt-4;
+    @apply text-lg font-lora font-bold text-center mt-4 lg:h-8;
 }
 
 .nav-link:hover {

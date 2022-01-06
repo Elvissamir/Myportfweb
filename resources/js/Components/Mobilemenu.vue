@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-800 mobile-menu-container md:hidden">
+    <div class="bg-gray-800 mobile-menu-container lg:hidden">
         <div class="mobile-menu">
             <div class="flex justify-center items-center w-6/12">
                 <button class="flex items-center" @click="toggleNavbar">

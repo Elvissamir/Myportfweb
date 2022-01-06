@@ -34737,7 +34737,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "bg-gray-800 mobile-menu-container md:hidden"
+  "class": "bg-gray-800 mobile-menu-container lg:hidden"
 };
 var _hoisted_2 = {
   "class": "mobile-menu"
@@ -34810,36 +34810,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "flex flex-col w-full h-screen lg:flex-row"
+  "class": "flex flex-col w-full h-screen lg:flex-row lg:h-auto lg:py-2 lg:px-4 lg:justify-around"
 };
 var _hoisted_2 = {
-  "class": "flex text-white font-bold mx-auto justify-center mt-8 lg:mx-0"
+  "class": "flex text-white font-bold mx-auto justify-center mt-8 lg:mx-0 lg:mt-3"
 };
 var _hoisted_3 = {
   "class": "flex flex-col font-black items-baseline",
   href: "https://github.com/Elvissamir"
 };
+var _hoisted_4 = {
+  "class": "text-5xl text-center mx-auto w-12 h-8 lg:text-4xl"
+};
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-lg sm:text-blue-300 md:text-blue-600 lg:text-blue-800 xl:text-green-900 2xl:text-red-900"
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-lg sm:text-blue-300 md:text-blue-600 lg:text-blue-800 xl:text-green-900 2xl:text-red-900 mt-3 lg:mt-1"
 }, "Check my Github", -1
 /* HOISTED */
 );
 
-var _hoisted_5 = {
-  "class": "text-5xl text-center mx-auto w-12 h-8 mt-3"
-};
-
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col justify-center mt-3 w-6/12 mx-auto lg:flex-row lg:w-auto lg:mx-0\"><a class=\"nav-link\" href=\"#start\"> Start </a><a class=\"nav-link\" href=\"#skills\">Skills</a><a class=\"nav-link\" href=\"#projects\">Projects</a><a class=\"nav-link\" href=\"#education\">Education</a><a class=\"nav-link\" href=\"#challenges\">Challenges</a><a class=\"nav-link\" href=\"#about\">About Me</a><a class=\"nav-link\" href=\"#contact\">Contact Me</a></div>", 1);
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col justify-center mt-3 w-6/12 mx-auto lg:flex-row lg:mx-0 lg:w-8/12 lg:justify-between lg:max-w-screen-md lg:mt-2\"><a class=\"nav-link\" href=\"#start\"> Start </a><a class=\"nav-link\" href=\"#skills\">Skills</a><a class=\"nav-link\" href=\"#projects\">Projects</a><a class=\"nav-link\" href=\"#education\">Education</a><a class=\"nav-link\" href=\"#challenges\">Challenges</a><a class=\"nav-link\" href=\"#about\">About Me</a><a class=\"nav-link\" href=\"#contact\">Contact Me</a></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_font_awesome_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("font-awesome-icon");
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("nav", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["bg-gray-800 w-full nav transition-all", [$props.show ? 'translate-x-0' : '-translate-x-full']])
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 768 PX "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" GITHUB LINK "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_font_awesome_icon, {
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" 768 PX "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" GITHUB LINK "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_font_awesome_icon, {
     icon: ['fab', 'github-square']
-  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" MENU LINKS "), _hoisted_6])], 2
+  })]), _hoisted_5])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" MENU LINKS "), _hoisted_6])], 2
   /* CLASS */
   );
 }
