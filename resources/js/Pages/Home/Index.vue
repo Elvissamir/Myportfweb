@@ -84,9 +84,9 @@
                         <p class="subtitle">These are some of the projects I've done:</p>
                     </div>
                           
-                    <div class="project-container" v-for="(project, index) in projects" :key="index">
-                        <!-- SLIDESHOW --> 
-                        <Slideshow :images="project.images" :backgroundColors="project.backgroundColors"></Slideshow>
+                    <!-- PROJECT CARD -->
+                    <div class="projects w-full">
+                        <ProjectCard v-for="(project, index) in projects" :key="index" :project="project"></ProjectCard>
                     </div>
                 </div>
             </div>
@@ -193,55 +193,40 @@
 
 import { ref } from 'vue'
 import Layout from '../../Layouts/AppLayout.vue'
-import Slideshow from '../../Components/Slideshow.vue'
+import ProjectCard from '../../Components/ProjectCard.vue'
 
 export default {
     components: {
         Layout,
-        Slideshow,
+        ProjectCard,
     },
     setup() {
         
         const projects = ref([
             { 
-                title: 'CPT - Crypto Portfolio Tracker', 
-                description: 'CPT is a management system that allows you to keep track of your crypto portfolio and markets. Some of the features are: login system & demo, portfolio management (add, update & delete cryptos), charts & data (total growth, growth %, top cryptos & distribution), crypto markets.',
+                code: 'CPT',
+                title: 'Crypto Portfolio Tracker', 
+                description: 'CPT is a management system that allows you to keep track of your crypto portfolio and markets. Some of the features are: login system, portfolio management (add, update and delete cryptos), charts (top cryptos, distribution), crypto markets.',
                 programmingL: 'php',
-                basics: ['html', 'css', 'javascript'],
-                database: 'mariadb',
-                frameworks: ['laravel', 'vue', 'inertiajs', 'tailwind'],
+                stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravel.png', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
                 devices: ['mobile', 'tablet', 'desktop'],
                 language: 'English',
-                images: [
-                    {url: '/images/cryptoPics/first.png', size: 'full'},
-                    {url: '/images/cryptoPics/desktop-x.png', size: 'desktop'},
-                    {url: '/images/cryptoPics/desktop-x.png', size: 'tablet'},
-                    {url: '/images/cryptoPics/01-mobile.png', size: 'mobile'},
-                ],
-                backgroundColors: "from-blue-300 via-blue-400 to-blue-300",
+                image: '/images/cryptoPics/desktop-x.png',
+                backgroundColor: "bg-blue-800",
                 demoBtnColors: 'bg-blue-800 text-white border-2 border-blue-800 hover:text-blue-800 hover:bg-white',
                 demoUrl: 'http://cryptop.test/login',
                 githubUrl: 'http://github.com/elvissamir/cryptop'
             },
             {
-                title: 'Servm - School Management', 
+                code: 'Servm',
+                title: 'School Management', 
                 description: 'Servm is a management and registration system developed for the "Antonio Jose Carreno" school. This project allows users to manage (read, create, update and delete) students, teachers, courses, degrees, sections, scores and subjects.',
                 programmingL: 'php',
-                basics: ['html', 'css', 'javascript'],
-                database: 'mariadb',
-                frameworks: ['laravel', 'vue', 'inertiajs', 'tailwind'],
+                stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravel.png', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
                 devices: ['desktop'],
                 language: 'Spanish',
-                images: [
-                    {url: '/images/servmPics/first.png', size: 'full'},
-                    {url: '/images/servmPics/01.png', size: 'desktop'},
-                    {url: '/images/servmPics/02.png', size: 'desktop'},
-                    {url: '/images/servmPics/03.png', size: 'desktop'},
-                    {url: '/images/servmPics/04.png', size: 'desktop'},
-                    {url: '/images/servmPics/05.png', size: 'desktop'},
-                    {url: '/images/servmPics/06.png', size: 'desktop'},
-                ],
-                backgroundColors: "from-green-300 via-green-400 to-green-300",
+                image: '/images/servmPics/01.png',
+                backgroundColor: "bg-green-800",
                 demoBtnColors: 'bg-green-800 text-white border-2 border-green-800 hover:text-green-800 hover:bg-white',
                 demoUrl: 'http://servm.test/login',
                 githubUrl: 'http://github.com/elvissamir/servm'
