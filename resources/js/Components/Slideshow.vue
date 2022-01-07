@@ -1,5 +1,5 @@
 <template>
-     <div class="slideshow">
+     <div class=" m-auto relative h-full w-full">
         <div class="arrows-container">
             <p @click="prevSlide()" class="arrow">
                 <font-awesome-icon :icon="['fas', 'angle-left']" />

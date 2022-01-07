@@ -34596,10 +34596,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "bg-gray-800 w-10/12 ml-auto"
+  "class": "bg-gray-800 w-full ml-auto mb-14 lg:mb-0"
 };
 var _hoisted_2 = {
-  "class": "flex flex-col w-10/12 mx-auto py-8 text-white text-lg font-montserrat"
+  "class": "flex flex-col w-10/12 mx-auto py-8 text-white font-montserrat"
 };
 var _hoisted_3 = {
   "class": "flex flex-col mx-auto"
@@ -34608,7 +34608,7 @@ var _hoisted_3 = {
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex w-full mb-1 justify-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "font-bold"
+  "class": "font-bold text-lg sm:text-xl"
 }, "My Social Networks:")], -1
 /* HOISTED */
 );
@@ -34620,13 +34620,13 @@ var _hoisted_6 = {
   "class": "flex items-baseline font-bold"
 };
 var _hoisted_7 = {
-  "class": "flex items-center text-sm sm:text-base"
+  "class": "flex items-center text-lg sm:text-xl"
 };
 
 var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Elvissamir18@gmail.com ");
 
 var _hoisted_9 = {
-  "class": "flex justify-between mt-2 mx-auto text-lg font-black"
+  "class": "flex justify-between mt-2 mx-auto text-lg font-black sm:text-2xl"
 };
 var _hoisted_10 = {
   "class": "flex"
@@ -34648,7 +34648,7 @@ var _hoisted_15 = {
   href: ""
 };
 var _hoisted_16 = {
-  "class": "flex flex-col mt-3 mx-auto items-center text-center"
+  "class": "flex flex-col mt-4 mx-auto items-center text-center text-lg sm:text-xl"
 };
 var _hoisted_17 = {
   "class": "flex flex-wrap justify-center font-bold"
@@ -34689,7 +34689,7 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 
 var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "font-bold mt-2"
-}, " My website! ", -1
+}, " Myportfweb ", -1
 /* HOISTED */
 );
 
@@ -34859,7 +34859,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "slideshow"
+  "class": "m-auto relative h-full w-full"
 };
 var _hoisted_2 = {
   "class": "arrows-container"
@@ -37580,11 +37580,11 @@ var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex bg-gray-400 my-14"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "flex justify-center items-baseline py-5 mx-auto"
+  "class": "flex flex-col justify-center items-baseline py-5 mx-auto sm:flex-row"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-3xl my-auto text-white font-playfair font-black"
+  "class": "text-2xl my-auto text-white font-playfair font-black sm:text-3xl md:text-4xl"
 }, "Want to hire Me?"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  "class": "button brand-button no-underline ml-8",
+  "class": "button brand-button no-underline mx-auto mt-3 sm:mt-0 sm:ml-8",
   href: "#contact"
 }, "Let's talk!")])], -1
 /* HOISTED */
@@ -37733,7 +37733,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         icon: ['fab', 'sass']
       })])])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" PROJECTS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_33, [_hoisted_34, ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.projects, function (project, index) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
-          "class": "project-container mt-10",
+          "class": "project-container",
           key: index
         }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" SLIDESHOW "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Slideshow, {
           images: project.images,

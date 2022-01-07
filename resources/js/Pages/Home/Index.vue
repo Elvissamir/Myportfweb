@@ -84,7 +84,7 @@
                         <p class="subtitle">These are some of the projects I've done:</p>
                     </div>
                           
-                    <div class="project-container mt-10" v-for="(project, index) in projects" :key="index">
+                    <div class="project-container" v-for="(project, index) in projects" :key="index">
                         <!-- SLIDESHOW --> 
                         <Slideshow :images="project.images" :backgroundColors="project.backgroundColors"></Slideshow>
                     </div>
@@ -93,9 +93,9 @@
 
             <!-- HIRE ME -->
             <div class="flex bg-gray-400 my-14">
-                <div class="flex justify-center items-baseline py-5 mx-auto">
-                    <p class="text-3xl my-auto text-white font-playfair font-black">Want to hire Me?</p>
-                    <a class="button brand-button no-underline ml-8" href="#contact">Let's talk!</a>
+                <div class="flex flex-col justify-center items-baseline py-5 mx-auto sm:flex-row">
+                    <p class="text-2xl my-auto text-white font-playfair font-black sm:text-3xl md:text-4xl">Want to hire Me?</p>
+                    <a class="button brand-button no-underline mx-auto mt-3 sm:mt-0 sm:ml-8" href="#contact">Let's talk!</a>
                 </div>
             </div>
 

@@ -123,11 +123,11 @@
 }
 
 .button {
-    @apply font-lora text-lg font-black rounded-md px-6 py-2;
+    @apply font-lora text-lg font-black rounded-md px-4 py-2 sm:text-xl;
 }
 
 .brand-button {
-    @apply text-white bg-gray-800 border border-white bg-gradient-to-br hover:from-blue-300 hover:to-green-300;
+    @apply text-white border border-white bg-gradient-to-br from-blue-300 to-green-300;
 }
 
 /* PROJECTS SECTION */
@@ -164,13 +164,6 @@
 }
 
 /* SLIDESHOW */
-.slideshow {
-    margin: auto;
-    position: relative;
-    height: 100%;
-    width: 50%;
-}
-
 .pics-container {
     border-radius: 1rem;
     display: flex;
@@ -183,7 +176,6 @@
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
     margin: auto;
 }
-
 
 /* SLIDESHOW IMAGE SIZES */
 .mobile {

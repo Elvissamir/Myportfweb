@@ -1,23 +1,23 @@
 <template>
-    <footer class="bg-gray-800 w-10/12 ml-auto">
-        <div class="flex flex-col w-10/12 mx-auto py-8 text-white text-lg font-montserrat">
+    <footer class="bg-gray-800 w-full ml-auto mb-14 lg:mb-0">
+        <div class="flex flex-col w-10/12 mx-auto py-8 text-white font-montserrat">
 
             <!-- LINKS -->
             <div class="flex flex-col mx-auto">
                 <div class=" flex w-full mb-1 justify-center">
-                    <p class="font-bold">My Social Networks:</p>
+                    <p class="font-bold text-lg sm:text-xl">My Social Networks:</p>
                 </div>
 
                 <div class="flex">
                     <div class="flex items-baseline font-bold">
-                        <p class="flex items-center text-sm sm:text-base">
+                        <p class="flex items-center text-lg sm:text-xl">
                             <font-awesome-icon :icon="['fas', 'envelope']" class="mr-2"/>
                             Elvissamir18@gmail.com
                         </p>
                     </div>
                 </div>
 
-                <div class="flex justify-between mt-2 mx-auto text-lg font-black">
+                <div class="flex justify-between mt-2 mx-auto text-lg font-black sm:text-2xl">
                     <div class="flex">
                         <a href="">
                             <font-awesome-icon :icon="['fas', 'globe']" size="lg"/>
@@ -39,7 +39,7 @@
             </div>
 
             <!-- INFO -->
-            <div class="flex flex-col mt-3 mx-auto items-center text-center">
+            <div class="flex flex-col mt-4 mx-auto items-center text-center text-lg sm:text-xl">
                 <div class="flex flex-wrap justify-center font-bold">
                     <div class="flex flex-wrap items-baseline">
                         <font-awesome-icon :icon="['fas', 'cog']" size="lg" class="my-auto"/>
@@ -51,7 +51,7 @@
                     <p class="ml-1">Elvis Carrasco</p>
                 </div>
                 <p class="font-bold mt-2">
-                    My website!
+                    Myportfweb
                 </p>
                 <p class="font-bold">
                     2021
