@@ -13,7 +13,7 @@
         </div>
 
         <!-- SECTIONS -->
-        <div class="flex flex-col w-full ml-auto bg-gradient-to-l from-gray-900 via-gray-800 to-gray-900">
+        <div class="flex flex-col w-full ml-auto sections-wrapper">
             <!-- SKILLS -->
             <div class="section-container">
                 <div id="skills" class="section">
@@ -206,12 +206,12 @@ export default {
             { 
                 code: 'CPT',
                 title: 'Crypto Portfolio Tracker', 
-                description: 'CPT is a management system that allows you to keep track of your crypto portfolio and markets. Some of the features are: login system, portfolio management (add, update and delete cryptos), charts (top cryptos, distribution), crypto markets.',
+                description: 'CPT allows you to keep track of your crypto portfolio and markets. Some of the features are: portfolio management (add, update and delete cryptos), charts (top cryptos, distribution), crypto markets.',
                 programmingL: 'php',
-                stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravel.png', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
+                stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravel.svg', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
                 devices: ['mobile', 'tablet', 'desktop'],
                 language: 'English',
-                image: '/images/cryptoPics/desktop-x.png',
+                image: '/images/cryptoPics/cryptopt.gif',
                 backgroundColor: "bg-blue-800",
                 demoBtnColors: 'bg-blue-800 text-white border-2 border-blue-800 hover:text-blue-800 hover:bg-white',
                 demoUrl: 'http://cryptop.test/login',
@@ -220,12 +220,12 @@ export default {
             {
                 code: 'Servm',
                 title: 'School Management', 
-                description: 'Servm is a management and registration system developed for the "Antonio Jose Carreno" school. This project allows users to manage (read, create, update and delete) students, teachers, courses, degrees, sections, scores and subjects.',
+                description: 'Servm is a management system developed for the "Antonio José" school. It allows management of students, teachers, courses, subjects and more.',
                 programmingL: 'php',
-                stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravel.png', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
+                stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravel.svg', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
                 devices: ['desktop'],
                 language: 'Spanish',
-                image: '/images/servmPics/01.png',
+                image: '/images/servmPics/servm.gif',
                 backgroundColor: "bg-green-800",
                 demoBtnColors: 'bg-green-800 text-white border-2 border-green-800 hover:text-green-800 hover:bg-white',
                 demoUrl: 'http://servm.test/login',

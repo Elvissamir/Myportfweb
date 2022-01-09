@@ -32546,8 +32546,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: {
     project: {
@@ -33896,12 +33894,12 @@ __webpack_require__.r(__webpack_exports__);
     var projects = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)([{
       code: 'CPT',
       title: 'Crypto Portfolio Tracker',
-      description: 'CPT is a management system that allows you to keep track of your crypto portfolio and markets. Some of the features are: login system, portfolio management (add, update and delete cryptos), charts (top cryptos, distribution), crypto markets.',
+      description: 'CPT allows you to keep track of your crypto portfolio and markets. Some of the features are: portfolio management (add, update and delete cryptos), charts (top cryptos, distribution), crypto markets.',
       programmingL: 'php',
-      stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravel.png', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
+      stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravel.svg', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
       devices: ['mobile', 'tablet', 'desktop'],
       language: 'English',
-      image: '/images/cryptoPics/desktop-x.png',
+      image: '/images/cryptoPics/cryptopt.gif',
       backgroundColor: "bg-blue-800",
       demoBtnColors: 'bg-blue-800 text-white border-2 border-blue-800 hover:text-blue-800 hover:bg-white',
       demoUrl: 'http://cryptop.test/login',
@@ -33909,12 +33907,12 @@ __webpack_require__.r(__webpack_exports__);
     }, {
       code: 'Servm',
       title: 'School Management',
-      description: 'Servm is a management and registration system developed for the "Antonio Jose Carreno" school. This project allows users to manage (read, create, update and delete) students, teachers, courses, degrees, sections, scores and subjects.',
+      description: 'Servm is a management system developed for the "Antonio José" school. It allows management of students, teachers, courses, subjects and more.',
       programmingL: 'php',
-      stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravel.png', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
+      stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravel.svg', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
       devices: ['desktop'],
       language: 'Spanish',
-      image: '/images/servmPics/01.png',
+      image: '/images/servmPics/servm.gif',
       backgroundColor: "bg-green-800",
       demoBtnColors: 'bg-green-800 text-white border-2 border-green-800 hover:text-green-800 hover:bg-white',
       demoUrl: 'http://servm.test/login',
@@ -34805,69 +34803,86 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "flex h-64 w-full"
+  "class": "flip-card"
 };
-var _hoisted_2 = ["src"];
+var _hoisted_2 = {
+  "class": "flip-card-inner"
+};
 var _hoisted_3 = {
-  "class": "flex flex-col py-2 px-4 justify-center text-gray-800 font-black mt-4"
+  "class": "flip-card-front"
 };
 var _hoisted_4 = {
-  "class": "text-2xl text-center font-playfair"
+  "class": "flex h-64 w-full"
 };
-var _hoisted_5 = {
-  "class": "text-xl text-center font-playfair mt-1"
-};
+var _hoisted_5 = ["src"];
 var _hoisted_6 = {
-  "class": "text-lg text-justify font-lora mt-3"
+  "class": "flex flex-col py-2 px-4 justify-center font-black mt-4"
 };
 var _hoisted_7 = {
-  "class": "grid grid-cols-3 gap-2 mt-3"
+  "class": "text-3xl text-center font-playfair"
 };
-var _hoisted_8 = ["src"];
+var _hoisted_8 = {
+  "class": "text-lg text-center font-playfair mt-1"
+};
 var _hoisted_9 = {
-  "class": "flex"
+  "class": "flex justify-around mt-2"
 };
 var _hoisted_10 = ["href"];
 var _hoisted_11 = ["href"];
+var _hoisted_12 = {
+  "class": "flip-card-back"
+};
+var _hoisted_13 = {
+  "class": "text-lg font-lora"
+};
+
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-2xl text-center font-lora font-black mt-6"
+}, "The stack", -1
+/* HOISTED */
+);
+
+var _hoisted_15 = {
+  "class": "grid grid-cols-3 gap-3 mt-4"
+};
+var _hoisted_16 = ["src"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
-    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["w-full h-full rounded-lg bg-white", []])
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" PROJECT IMAGE "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    "class": "flex rounded-t-2xl rounded-r-2xl",
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" PROJECT IMAGE "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "flex",
     src: $props.project.image,
     alt: "project image"
   }, null, 8
   /* PROPS */
-  , _hoisted_2)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" PROJECT DATA "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.project.code), 1
+  , _hoisted_5)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" PROJECT DATA "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.project.code), 1
   /* TEXT */
-  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.project.title), 1
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.project.title), 1
   /* TEXT */
-  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.project.description), 1
-  /* TEXT */
-  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.project.stack, function (image, index) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
-      "class": "flex justify-center",
-      key: index
-    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-      "class": "flex w-16 h-8",
-      src: image,
-      alt: ""
-    }, null, 8
-    /* PROPS */
-    , _hoisted_8)]);
-  }), 128
-  /* KEYED_FRAGMENT */
-  ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-    "class": "button",
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    "class": "button text-white border-2 hover:bg-white hover:text-gray-800",
     href: $props.project.githubUrl
   }, "Github", 8
   /* PROPS */
   , _hoisted_10), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-    "class": "button",
+    "class": "button brand-button",
     href: $props.project.demoUrl
   }, "Demo", 8
   /* PROPS */
-  , _hoisted_11)])])]);
+  , _hoisted_11)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" DESCRIPTION "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.project.description), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" STACK "), _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.project.stack, function (image, index) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+      "class": "flex justify-center",
+      key: index
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+      "class": "flex w-20 h-10 bg-white",
+      src: image,
+      alt: ""
+    }, null, 8
+    /* PROPS */
+    , _hoisted_16)]);
+  }), 128
+  /* KEYED_FRAGMENT */
+  ))])])])]);
 }
 
 /***/ }),
@@ -37431,7 +37446,7 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_2 = {
-  "class": "flex flex-col w-full ml-auto bg-gradient-to-l from-gray-900 via-gray-800 to-gray-900"
+  "class": "flex flex-col w-full ml-auto sections-wrapper"
 };
 var _hoisted_3 = {
   "class": "section-container"
