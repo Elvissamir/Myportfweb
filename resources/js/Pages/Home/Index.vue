@@ -79,7 +79,7 @@
             <!-- PROJECTS -->
             <div class="section-container">
                 <div id="projects" class="section">
-                    <div class="flex flex-col justify-center items-center mt-16">
+                    <div class="flex flex-col justify-center items-center">
                         <p class="title">Projects</p>
                         <p class="subtitle">These are some of the projects I've done:</p>
                     </div>
@@ -92,7 +92,7 @@
             </div>
 
             <!-- HIRE ME -->
-            <div class="flex bg-gray-400 my-14">
+            <div class="flex bg-gray-400">
                 <div class="flex flex-col justify-center items-baseline py-5 mx-auto sm:flex-row">
                     <p class="text-2xl my-auto text-white font-playfair font-black sm:text-3xl md:text-4xl">Want to hire Me?</p>
                     <a class="button brand-button no-underline mx-auto mt-3 sm:mt-0 sm:ml-8" href="#contact">Let's talk!</a>
@@ -102,7 +102,7 @@
             <!-- EDUCATION & ACHIEVEMENTS -->
             <div class="section-container">
                 <div id="education" class="section">
-                    <div class="flex flex-col justify-center items-center mt-16">
+                    <div class="flex flex-col justify-center items-center">
                         <p class="title">Education</p>
                         <p class="subtitle">These are some of the certificates I've completed</p>
                     </div>
@@ -122,7 +122,7 @@
             <!-- CODING CHALLENGES -->
             <div class="section-container">
                 <div id="challenges"  class="section">
-                    <div class="flex flex-col justify-center items-center mt-16">
+                    <div class="flex flex-col justify-center items-center">
                         <p class="title">Challenges</p>
                         <p class="subtitle">A coding challenge is a problem that must be solved using logic and programming. Here are some common and cool ones: </p>
                     </div>
@@ -132,7 +132,7 @@
             <!-- ABOUT ME -->
             <div class="section-container">
                 <div id="about" class="section">
-                    <div class="flex flex-col justify-center items-center mt-16">
+                    <div class="flex flex-col justify-center items-center">
                         <p class="title">About Me</p>
                         <div class="flex w-8/12 mt-8">
                             <div class="w-6/12"></div>
@@ -149,41 +149,11 @@
             <!-- CONTACT ME -->
             <div class="section-container">
                 <div id="contact" class="section">
-                    <div class="flex flex-col justify-center items-center mt-16">
+                    <div class="flex flex-col justify-center items-center">
                         <p class="title">Contact Me</p>
                     </div>
             
-                    <div class="w-full mx-auto max-w-xs my-14">
-                        <form class="bg-gray-800 border border-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-                            <div class="mb-4">
-                                <label class="block text-white font-lora text-lg font-bold mb-1" for="title">
-                                    Subject
-                                </label>
-                                <input class="font-lora font-black shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="title" type="text">
-                            </div>
-
-                            <div class="mb-4">
-                                <label class="block text-white text-lg font-lora font-bold mb-1" for="email">
-                                    Email
-                                </label>
-                                <input class="font-lora font-black shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email">
-                            </div>
-
-                            <div class="mb-4">
-                                <label class="block text-white text-lg font-lora font-bold mb-1" for="content">
-                                    Content
-                                </label>
-                                <input class="font-lora font-black shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="content" type="text">
-                            </div>
-
-                            <div class="flex items-center justify-between mt-8">
-                                <button class="button brand-button focus:outline-none focus:shadow-outline" type="button">
-                                    Send
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-
+                    <ContactForm></ContactForm>
                 </div>
             </div> 
         </div>
@@ -194,11 +164,13 @@
 import { ref } from 'vue'
 import Layout from '../../Layouts/AppLayout.vue'
 import ProjectCard from '../../Components/ProjectCard.vue'
+import ContactForm from '../../Components/ContactForm.vue'
 
 export default {
     components: {
         Layout,
         ProjectCard,
+        ContactForm,
     },
     setup() {
         
