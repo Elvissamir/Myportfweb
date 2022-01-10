@@ -34825,7 +34825,7 @@ var _hoisted_3 = {
   "class": "flip-card-top"
 };
 var _hoisted_4 = {
-  "class": "flex h-52 w-full"
+  "class": "flex h-48 w-full"
 };
 var _hoisted_5 = ["src"];
 var _hoisted_6 = {
@@ -34857,7 +34857,7 @@ var _hoisted_15 = {
   "class": "flip-card-back"
 };
 var _hoisted_16 = {
-  "class": "flip-card-top"
+  "class": "flip-card-top flex flex-col justify-center items-center"
 };
 var _hoisted_17 = {
   "class": "text-lg text-center font-lora"
@@ -34888,7 +34888,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["flip-card-inner", [$setup.flip ? 'flip' : '']])
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" PROJECT IMAGE "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    "class": "flex",
+    "class": "flex w-full",
     src: $props.project.image,
     alt: "project image"
   }, null, 8
@@ -37615,7 +37615,7 @@ var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_35 = {
-  "class": "projects w-full"
+  "class": "projects flex flex-col items-center justify-center w-full"
 };
 
 var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {

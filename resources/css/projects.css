@@ -1,14 +1,15 @@
 
 /* PROJECTS */
 .projects > div:nth-child(even) {
-    margin-top: 32px;
+    margin-top: 50px;
 }
 
 /* PROJECT FLIP CARD */
 .flip-card {
     background-color: transparent;
     width: 100%;
-    height: 450px;
+    max-width: 380px;
+    height: 430px;
     perspective: 1000px;
   }
   
@@ -40,12 +41,15 @@
   
   .flip-card-back {
     display: flex;
-    align-items: center;
     transform: rotateY(180deg);
   }
 
   .flip-card-top {
     @apply py-4 px-4;
+  }
+
+  .flip-card-back .flip-card-top {
+    height: 90%;
   }
 
   .flip-button-container {
@@ -63,4 +67,9 @@
 
   .flip-arrow {
     color: var(--brand-color-a);
+  }
+
+
+  @media (min-width: 640px) {
+
   }

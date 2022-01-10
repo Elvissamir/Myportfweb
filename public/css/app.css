@@ -1142,8 +1142,8 @@ select {
 .h-screen {
 	height: 100vh;
 }
-.h-52 {
-	height: 13rem;
+.h-48 {
+	height: 12rem;
 }
 .h-full {
 	height: 100%;
@@ -2138,27 +2138,16 @@ select {
 		line-height: 1;
 	}
 }
-@media (min-width: 1024px) {
-	.card-content {
-		height: 5rem;
-	}
-	.card-content {
-		width: 5rem;
-	}
-	.card-content {
-		font-size: 4.5rem;
-		line-height: 1;
-	}
-}
 /* PROJECTS */
 .projects > div:nth-child(even) {
-    margin-top: 32px;
+    margin-top: 50px;
 }
 /* PROJECT FLIP CARD */
 .flip-card {
     background-color: transparent;
     width: 100%;
-    height: 450px;
+    max-width: 380px;
+    height: 430px;
     perspective: 1000px;
   }
 .flip-card-inner {
@@ -2190,7 +2179,6 @@ select {
   }
 .flip-card-back {
     display: flex;
-    align-items: center;
     transform: rotateY(180deg);
   }
 .flip-card-top {
@@ -2199,6 +2187,9 @@ select {
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
+.flip-card-back .flip-card-top {
+    height: 90%;
+  }
 .flip-button-container {
 	display: flex;
 	width: 100%;
@@ -2219,6 +2210,26 @@ select {
 .flip-arrow {
     color: var(--brand-color-a);
   }
+@media (min-width: 640px) {
+
+  }
+/*CERTIFICATES*/
+.certificates-container {
+    align-items: start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    row-gap: 20px;
+}
+.certificate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.certificate-img {
+    display: flex;
+}
 .hover\:border-gray-300:hover {
 	--tw-border-opacity: 1;
 	border-color: rgba(209, 213, 219, var(--tw-border-opacity));

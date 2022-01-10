@@ -85,7 +85,7 @@
                     </div>
                           
                     <!-- PROJECT CARD -->
-                    <div class="projects w-full">
+                    <div class="projects flex flex-col items-center justify-center w-full">
                         <ProjectCard v-for="(project, index) in projects" :key="index" :project="project"></ProjectCard>
                     </div>
                 </div>

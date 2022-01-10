@@ -5,8 +5,8 @@
             <div class="flip-card-front">
                 <div class="flip-card-top">
                     <!-- PROJECT IMAGE -->
-                    <div class="flex h-52 w-full">
-                        <img class="flex" :src="project.image" alt="project image">
+                    <div class="flex h-48 w-full">
+                        <img class="flex w-full" :src="project.image" alt="project image">
                     </div>
 
                     <!-- PROJECT DATA -->
@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="flip-card-back">
-                <div class="flip-card-top">
+                <div class="flip-card-top flex flex-col justify-center items-center">
                     <!-- DESCRIPTION -->
                     <p class="text-lg text-center font-lora">{{ project.description }}</p>
                     
