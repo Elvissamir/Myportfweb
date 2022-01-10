@@ -1,0 +1,26 @@
+
+/* NAV */
+.nav {
+    position: fixed;
+    z-index: 100000;
+}
+
+.nav-link {
+    background: linear-gradient(to bottom right, #ffffff, #ffffff);
+    background-clip: text;
+    color: transparent;  
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #ffffff, #ffffff);
+    border-image-slice: 1;
+    
+    @apply text-lg font-lora font-bold text-center mt-4 lg:h-8;
+}
+
+.nav-link:hover {
+    background: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
+    background-clip: text;
+    color: transparent;  
+    border-image: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
+    border-image-slice: 1;
+}

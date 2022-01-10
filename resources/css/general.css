@@ -1,0 +1,52 @@
+
+/* TEXT */
+.title {
+    @apply text-3xl font-black font-playfair text-white;
+}
+
+.subtitle {
+    font-weight: bolder;
+
+    @apply text-lg font-lora text-white mt-3 mb-14;
+}
+
+/* BUTTON */
+.button {
+    @apply font-lora text-lg font-black rounded-md px-4 py-2 sm:text-xl;
+}
+
+.brand-button {
+
+    background-image: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
+
+    @apply text-gray-800 font-black;
+}
+
+.brand-button:hover {
+    box-shadow: 0 0 25px rgba(33, 237, 186, 0.5);
+
+    @apply text-gray-500;
+}
+
+/* BRAND GRADIENT COLOR ANIMATION */
+.theta-gradient {
+    background-image: linear-gradient(to bottom right, #73b1e4, #4a96ee, var(--brand-color-a), var(--brand-color-b), #09e0ab);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 300%;
+    background-position: -100%;
+    color: transparent;
+    font-weight: 700;
+ 
+    animation: animatedTheta 2s infinite alternate-reverse;
+ }
+ 
+ @keyframes animatedTheta {
+     from {
+         background-position: 0%;
+     }
+     to {
+         background-position: 100%;
+     }
+ }
+ 
