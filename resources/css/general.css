@@ -1,7 +1,7 @@
 
 /* TEXT */
 .title {
-    @apply text-3xl font-black font-playfair text-white;
+    @apply text-3xl font-black font-playfair text-white md:text-4xl lg:text-5xl;
 }
 
 .title-line {
@@ -14,7 +14,7 @@
 .subtitle {
     font-weight: bolder;
 
-    @apply text-lg font-lora text-white w-10/12;
+    @apply text-lg font-lora text-white w-10/12 md:text-xl lg:text-2xl;
 }
 
 /* BUTTON */

@@ -34878,13 +34878,13 @@ var _hoisted_6 = {
   "class": "flex flex-col py-2 px-4 justify-center font-black mt-4"
 };
 var _hoisted_7 = {
-  "class": "text-3xl text-center font-playfair"
+  "class": "text-3xl text-center font-playfair md:text-4xl"
 };
 var _hoisted_8 = {
-  "class": "text-lg text-center font-playfair mt-1"
+  "class": "text-lg text-center font-playfair mt-1 md:text-xl"
 };
 var _hoisted_9 = {
-  "class": "flex justify-around mt-2"
+  "class": "flex justify-around mt-3"
 };
 var _hoisted_10 = ["href"];
 var _hoisted_11 = ["href"];

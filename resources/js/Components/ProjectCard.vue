@@ -11,11 +11,11 @@
 
                     <!-- PROJECT DATA -->
                     <div class="flex flex-col py-2 px-4 justify-center font-black mt-4">
-                        <p class="text-3xl text-center font-playfair">{{ project.code }}</p>
-                        <p class="text-lg text-center font-playfair mt-1">{{ project.title }}</p>
+                        <p class="text-3xl text-center font-playfair md:text-4xl">{{ project.code }}</p>
+                        <p class="text-lg text-center font-playfair mt-1 md:text-xl">{{ project.title }}</p>
                     </div>
 
-                    <div class="flex justify-around mt-2">
+                    <div class="flex justify-around mt-3">
                         <a class="button text-white border-2 hover:bg-white hover:text-gray-800" :href="project.githubUrl">Github</a>
                         <a class="button brand-button" :href="project.demoUrl">Demo</a>
                     </div>
