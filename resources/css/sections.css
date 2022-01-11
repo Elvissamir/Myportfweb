@@ -14,20 +14,24 @@
 }
 
 .section-container {
-    @apply flex flex-col;
+    @apply flex flex-col items-center justify-center mt-16;
 }
 
 .section {
     width: 90%;
 
-    @apply flex flex-col justify-center items-center mt-16 mx-auto;
+    @apply flex flex-col justify-center items-center mx-auto pt-8;
 }
 
 .section-header {
     @apply flex flex-col justify-center items-center text-center w-full;
 }
 
+.title-container {
+    @apply mb-6;
+}
+
 .section-content {
 
-    @apply w-full;
+    @apply w-full mt-12;
 }
