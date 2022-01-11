@@ -2271,14 +2271,14 @@ select {
     border: 4px solid transparent;
     width: 100%;
     height: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     border-radius: 0.25rem;
     --tw-bg-opacity: 1;
     background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1.5rem;
-    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
@@ -2719,14 +2719,6 @@ select {
 	.md\:border-l {
 		border-left-width: 1px;
 	}
-	.md\:text-7xl {
-		font-size: 4.5rem;
-		line-height: 1;
-	}
-	.md\:text-5xl {
-		font-size: 3rem;
-		line-height: 1;
-	}
 	.md\:text-4xl {
 		font-size: 2.25rem;
 		line-height: 2.5rem;
@@ -2734,6 +2726,14 @@ select {
 	.md\:text-xl {
 		font-size: 1.25rem;
 		line-height: 1.75rem;
+	}
+	.md\:text-7xl {
+		font-size: 4.5rem;
+		line-height: 1;
+	}
+	.md\:text-5xl {
+		font-size: 3rem;
+		line-height: 1;
 	}
 	.md\:text-blue-600 {
 		--tw-text-opacity: 1;
