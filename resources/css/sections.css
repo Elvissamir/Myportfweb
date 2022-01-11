@@ -22,3 +22,12 @@
 
     @apply flex flex-col justify-center items-center mt-16 mx-auto;
 }
+
+.section-header {
+    @apply flex flex-col justify-center items-center text-center w-full;
+}
+
+.section-content {
+
+    @apply w-full;
+}

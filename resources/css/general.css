@@ -4,10 +4,17 @@
     @apply text-3xl font-black font-playfair text-white;
 }
 
+.title-line {
+
+    background-image: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
+
+    @apply w-12 h-1 mt-2 mx-auto;
+}
+
 .subtitle {
     font-weight: bolder;
 
-    @apply text-lg font-lora text-white mt-3 mb-14;
+    @apply text-lg font-lora text-white w-10/12;
 }
 
 /* BUTTON */

@@ -17,59 +17,64 @@
             <!-- SKILLS -->
             <div class="section-container">
                 <div id="skills" class="section">
-                    <div class="flex flex-col justify-center items-center text-center mt-16">
-                        <p class="title">Skills</p>
+                    <div class="section-header">
+                        <div class="title-container">
+                            <p class="title">Skills</p>
+                            <div class="title-line w-6/12"></div>
+                        </div>  
                         <p class="subtitle">These are some of the programming languages, tools and frameworks I use: </p>
                     </div>
 
-                    <!-- SKILL BLOCKS --> 
-                    <div class="flex flex-col justify-center w-6/12 mx-auto">
-                        <div class="flex justify-center">
-                            <div class="flex justify-center card">
-                                <p class="card-content text-blue-700"><font-awesome-icon :icon="['fab', 'php']" /></p>
-                            </div>
-                        </div>
-
-                        <div class="flex justify-center mt-4">
-                            <div class="flex justify-center card mr-4">
-                                <p class="card-content text-red-500"><font-awesome-icon :icon="['fab', 'laravel']" /></p>
+                    <div class="section-content">
+                        <!-- SKILL BLOCKS --> 
+                        <div class="flex flex-col justify-center w-6/12 mx-auto">
+                            <div class="flex justify-center">
+                                <div class="flex justify-center card">
+                                    <p class="card-content text-blue-700"><font-awesome-icon :icon="['fab', 'php']" /></p>
+                                </div>
                             </div>
 
-                            <div class="flex justify-center card">
-                                <p class="card-content text-green-600"><font-awesome-icon :icon="['fab', 'vuejs']" /></p>
-                            </div>
-                        </div>
+                            <div class="flex justify-center mt-4">
+                                <div class="flex justify-center card mr-4">
+                                    <p class="card-content text-red-500"><font-awesome-icon :icon="['fab', 'laravel']" /></p>
+                                </div>
 
-                        <div class="flex justify-center mt-4">
-                            <div class="flex justify-center card mr-4">
-                                <p class="card-content text-yellow-600"><font-awesome-icon :icon="['fab', 'html5']" /></p>
-                            </div>
-
-                            <div class="flex justify-center card mr-4">
-                                <p class="card-content text-blue-400"><font-awesome-icon :icon="['fab', 'css3']" /></p>
+                                <div class="flex justify-center card">
+                                    <p class="card-content text-green-600"><font-awesome-icon :icon="['fab', 'vuejs']" /></p>
+                                </div>
                             </div>
 
-                            <div class="flex justify-center card mr-4">
-                                <p class="card-content text-yellow-300"><font-awesome-icon :icon="['fab', 'js']" /></p>
+                            <div class="flex justify-center mt-4">
+                                <div class="flex justify-center card mr-4">
+                                    <p class="card-content text-yellow-600"><font-awesome-icon :icon="['fab', 'html5']" /></p>
+                                </div>
+
+                                <div class="flex justify-center card mr-4">
+                                    <p class="card-content text-blue-400"><font-awesome-icon :icon="['fab', 'css3']" /></p>
+                                </div>
+
+                                <div class="flex justify-center card mr-4">
+                                    <p class="card-content text-yellow-300"><font-awesome-icon :icon="['fab', 'js']" /></p>
+                                </div>
+
+                                <div class="flex justify-center card">
+                                    <p class="card-content text-gray-500"><font-awesome-icon :icon="['fas', 'database']" /></p>
+                                </div>
                             </div>
 
-                            <div class="flex justify-center card">
-                                <p class="card-content text-gray-500"><font-awesome-icon :icon="['fas', 'database']" /></p>
+                            <div class="flex justify-center mt-4">
+                                <div class="flex justify-center card mr-4">
+                                    <p class="card-content text-yellow-100"><font-awesome-icon :icon="['fab', 'git']" /></p>
+                                </div>
+                                <div class="flex justify-center card">
+                                    <p class="card-content text-black"><font-awesome-icon :icon="['fab', 'github']" /></p>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="flex justify-center mt-4">
-                            <div class="flex justify-center card mr-4">
-                                <p class="card-content text-yellow-100"><font-awesome-icon :icon="['fab', 'git']" /></p>
-                            </div>
-                            <div class="flex justify-center card">
-                                <p class="card-content text-black"><font-awesome-icon :icon="['fab', 'github']" /></p>
-                            </div>
-                        </div>
-
-                        <div class="flex justify-center mt-4">
-                            <div class="flex justify-center card">
-                                <p class="card-content text-pink-500"><font-awesome-icon :icon="['fab', 'sass']" /></p>
+                            <div class="flex justify-center mt-4">
+                                <div class="flex justify-center card">
+                                    <p class="card-content text-pink-500"><font-awesome-icon :icon="['fab', 'sass']" /></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -79,14 +84,19 @@
             <!-- PROJECTS -->
             <div class="section-container">
                 <div id="projects" class="section">
-                    <div class="flex flex-col justify-center items-center">
-                        <p class="title">Projects</p>
-                        <p class="subtitle">These are some of the projects I've done:</p>
+                    <div class="section-header">
+                        <div class="title-container">
+                            <p class="title">Projects</p>
+                            <div class="title-line w-6/12"></div>
+                        </div>
+                        <p class="subtitle">These are some of the projects I've done:</p>  
                     </div>
-                          
-                    <!-- PROJECT CARD -->
-                    <div class="projects flex flex-col items-center justify-center w-full">
-                        <ProjectCard v-for="(project, index) in projects" :key="index" :project="project"></ProjectCard>
+
+                    <div class="section-content">
+                        <!-- PROJECT CARD -->
+                        <div class="projects flex flex-col items-center justify-center w-full">
+                            <ProjectCard v-for="(project, index) in projects" :key="index" :project="project"></ProjectCard>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -102,18 +112,23 @@
             <!-- EDUCATION & ACHIEVEMENTS -->
             <div class="section-container">
                 <div id="education" class="section">
-                    <div class="flex flex-col justify-center items-center">
-                        <p class="title">Education</p>
+                    <div class="section-header">
+                        <div class="title-container">
+                            <p class="title">Education</p>
+                            <div class="title-line w-6/12"></div>
+                        </div>
                         <p class="subtitle">These are some of the certificates I've completed</p>
-                    </div>
+                    </div> 
 
-                    <!-- certifications -->
-                    <div class="certificates-container">
-                        <div v-for="(certificate, index) in certificates" :key="index" class="certificate">
-                            <a :href="certificate.url">
-                                <img :src="certificate.image" alt="">
-                                <p class="text-white font-bold font-lora text-center mt-2">{{ certificate.title }}</p>
-                            </a>
+                    <div class="section-content">
+                        <!-- certifications -->
+                        <div class="certificates-container">
+                            <div v-for="(certificate, index) in certificates" :key="index" class="certificate">
+                                <a :href="certificate.url">
+                                    <img :src="certificate.image" alt="">
+                                    <p class="text-white font-bold font-lora text-center mt-2">{{ certificate.title }}</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -122,38 +137,45 @@
             <!-- CODING CHALLENGES -->
             <div class="section-container">
                 <div id="challenges"  class="section">
-                    <div class="flex flex-col justify-center items-center">
-                        <p class="title">Challenges</p>
-                        <p class="subtitle">A coding challenge is a problem that must be solved using logic and programming. Here are some common and cool ones: </p>
+                    <div class="section-header">
+                        <div class="title-container">
+                            <p class="title">Challenges</p>
+                            <div class="title-line w-6/12"></div>
+                        </div>
+                        <p class="subtitle">Here are some common and cool coding challenges: </p>
                     </div>
+
+                    <div class="section-content"></div> 
                 </div>
             </div>
 
             <!-- ABOUT ME -->
             <div class="section-container">
                 <div id="about" class="section">
-                    <div class="flex flex-col justify-center items-center">
-                        <p class="title">About Me</p>
-                        <div class="flex w-8/12 mt-8">
-                            <div class="w-6/12"></div>
-                            <div class="w-6/12">
-                                <p class="subtitle">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium excepturi eaque molestias magni adipisci laborum perspiciatis obcaecati cum doloremque, dolore facere aut quidem perferendis recusandae iste minus consequatur, commodi a?
-                                </p>
-                            </div>
-                        </div>  
-                    </div>
+                   <div class="section-header">
+                        <div class="title-container">
+                            <p class="title">About Me</p>
+                            <div class="title-line w-6/12"></div>
+                        </div>
+                    </div> 
+
+                    <div class="section-content"></div>
                 </div>
             </div>
 
             <!-- CONTACT ME -->
             <div class="section-container">
                 <div id="contact" class="section">
-                    <div class="flex flex-col justify-center items-center">
-                        <p class="title">Contact Me</p>
+                   <div class="section-header">
+                        <div class="title-container">
+                            <p class="title">Contact Me</p>
+                            <div class="title-line w-6/12"></div>
+                        </div>
+                    </div> 
+                    
+                    <div class="section-content">
+                        <ContactForm></ContactForm>
                     </div>
-            
-                    <ContactForm></ContactForm>
                 </div>
             </div> 
         </div>

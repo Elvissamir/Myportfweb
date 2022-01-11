@@ -1087,9 +1087,6 @@ select {
 .mt-auto {
 	margin-top: auto;
 }
-.mt-16 {
-	margin-top: 4rem;
-}
 .mr-4 {
 	margin-right: 1rem;
 }
@@ -1194,9 +1191,6 @@ select {
 }
 .w-6\/12 {
 	width: 50%;
-}
-.w-8\/12 {
-	width: 66.666667%;
 }
 .min-w-0 {
 	min-width: 0px;
@@ -1908,10 +1902,23 @@ select {
 	--tw-text-opacity: 1;
 	color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
+.title-line {
+
+    background-image: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    margin-top: 0.5rem;
+
+    height: 0.25rem;
+
+    width: 3rem;
+}
 .subtitle {
     font-weight: bolder;
-    margin-top: 0.75rem;
-    margin-bottom: 3.5rem;
+    width: 83.333333%;
     font-family: lora, cursive;
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -2061,6 +2068,17 @@ select {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.section-header {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.section-content {
+	width: 100%;
 }
 /* SKILLS SECTION */
 .card {
