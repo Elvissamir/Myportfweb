@@ -11,16 +11,18 @@
     background-repeat: repeat;
     background-position: top center;
     z-index: -1;
+
+    @apply flex flex-col w-full ml-auto 2xl:w-9/12;
 }
 
 .section-container {
-    @apply flex flex-col items-center justify-center mt-16;
+    @apply flex flex-col items-center justify-center mt-4 lg:mt-16;
 }
 
 .section {
     width: 90%;
 
-    @apply flex flex-col justify-center items-center mx-auto pt-8;
+    @apply flex flex-col justify-center items-center mx-auto pt-20 lg:pt-24;
 }
 
 .section-header {

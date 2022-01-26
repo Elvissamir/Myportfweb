@@ -17,7 +17,7 @@
 }
 
 .form-label {
-    @apply block text-white font-lora text-lg font-bold mb-1
+    @apply block text-white font-lora text-lg font-bold mb-1 sm:text-xl;
 }
 
 .form-input {

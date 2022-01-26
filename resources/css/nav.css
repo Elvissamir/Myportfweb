@@ -13,8 +13,10 @@
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(to bottom right, #ffffff, #ffffff);
     border-image-slice: 1;
+
+    max-width: 150px;
     
-    @apply text-lg font-lora font-bold text-center mt-4 lg:h-8;
+    @apply text-lg font-lora font-bold text-center mt-4 lg:h-8 lg:text-xl 2xl:mx-auto 2xl:w-40;
 }
 
 .nav-link:hover {

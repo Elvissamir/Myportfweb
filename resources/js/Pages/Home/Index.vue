@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <!-- START WALL --> 
-        <div id="start" class="flex w-full h-screen ml-auto relative">
+        <div id="start" class="flex w-full h-screen ml-auto relative 2xl:w-10/12">
             <img class="flex w-full h-full" src="/images/wall.jpg" alt="">
 
             <div class="flex justify-center items-center absolute w-full h-full bg-black bg-opacity-75">
@@ -13,7 +13,7 @@
         </div>
 
         <!-- SECTIONS -->
-        <div class="flex flex-col w-full ml-auto sections-wrapper">
+        <div class="sections-wrapper">
             <!-- SKILLS -->
             <div class="section-container">
                 <div id="skills" class="section">
@@ -102,7 +102,7 @@
             </div>
 
             <!-- HIRE ME -->
-            <div class="flex bg-gray-400 mt-24">
+            <div class="flex bg-gray-400 mt-24 lg:mt-40">
                 <div class="flex flex-col justify-center items-baseline py-5 mx-auto sm:flex-row">
                     <p class="text-2xl my-auto text-white font-playfair font-black sm:text-3xl md:text-4xl">Want to hire Me?</p>
                     <a class="button brand-button no-underline mx-auto mt-3 sm:mt-0 sm:ml-8" href="#contact">Let's talk!</a>
@@ -142,10 +142,13 @@
                             <p class="title">Challenges</p>
                             <div class="title-line w-6/12"></div>
                         </div>
-                        <p class="subtitle">Here are some common and cool coding challenges: </p>
+                        <p class="subtitle">Here are some common and cool algorithms and coding challenges with UI: </p>
                     </div>
 
-                    <div class="section-content"></div> 
+                    <div class="section-content">
+                        <PreviewSection :elements="algorithms"></PreviewSection>
+                        <PreviewSection :elements="challenges"></PreviewSection>    
+                    </div> 
                 </div>
             </div>
 
@@ -187,12 +190,14 @@ import { ref } from 'vue'
 import Layout from '../../Layouts/AppLayout.vue'
 import ProjectCard from '../../Components/ProjectCard.vue'
 import ContactForm from '../../Components/ContactForm.vue'
+import PreviewSection from '../../Components/PreviewSection.vue'
 
 export default {
     components: {
         Layout,
         ProjectCard,
         ContactForm,
+        PreviewSection,
     },
     setup() {
         
@@ -242,9 +247,30 @@ export default {
             {title: 'Python Conclusion', image: `${certificationImagesUrl}/05py.jpg`, url: `${courseraVerificationUrl}/XZGEYJAFWZTG`},
         ];
 
+        const challengesImagesUrl = '/images/challenges'
+        const basechallengesUrl = 'http://'
+
+        const algorithms = [
+            {url: `${basechallengesUrl}/binaryTree`, title: 'Binary Tree', imageUrl: `${challengesImagesUrl}/binarytree_c.png`},
+            {url: `${basechallengesUrl}/linkedList`, title: 'Linked List', imageUrl: `${challengesImagesUrl}/linkedlist_c.png`},
+            {url: `${basechallengesUrl}/selectionSort`, title: 'Selection Sort', imageUrl: `${challengesImagesUrl}/selection_c.png`},
+            {url: `${basechallengesUrl}/shortestPath`, title: 'Shortest Path', imageUrl: `${challengesImagesUrl}/shortest_c.png`},
+        ]
+
+        const challenges = [
+            {url: `${basechallengesUrl}/stringreversal`, title: 'String Reversal', imageUrl: `${challengesImagesUrl}/linkedlist_c.png`},
+            {url: `${basechallengesUrl}/palindrome`, title: 'Palindrome', imageUrl: `${challengesImagesUrl}/palindrome_c.png`},
+            {url: `${basechallengesUrl}/fizzbuzz`, title: 'Fizz Buzz', imageUrl: `${challengesImagesUrl}/fizzbuzz_c.png`},
+            {url: `${basechallengesUrl}/findvowels`, title: 'Find Vowels', imageUrl: `${challengesImagesUrl}/findvowels_c.png`},
+            {url: `${basechallengesUrl}/maxchars`, title: 'Max Chars', imageUrl: `${challengesImagesUrl}/maxchars_c.png`},
+            {url: `${basechallengesUrl}/anagram`, title: 'Anagram', imageUrl: `${challengesImagesUrl}/anagram_c.png`}
+        ]
+
         return {
             projects,
             certificates,
+            algorithms,
+            challenges,
         }
     },
 }
