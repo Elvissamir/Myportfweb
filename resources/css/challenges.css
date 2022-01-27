@@ -1,6 +1,8 @@
 
 .preview-section {
-    @apply mt-2 flex flex-col w-full xl:flex-row xl:flex-wrap xl:justify-around;
+    max-width: 1000px;
+
+    @apply mt-2 flex flex-col mx-auto w-full xl:flex-row xl:flex-wrap xl:justify-around;
 }
 
 .preview-link {

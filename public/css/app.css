@@ -2285,10 +2285,13 @@ select {
     color: var(--brand-color-a);
   }
 .preview-section {
-	margin-top: 0.5rem;
-	display: flex;
-	width: 100%;
-	flex-direction: column;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 @media (min-width: 1280px) {
 	.preview-section {
@@ -2382,20 +2385,26 @@ select {
 }
 /*CERTIFICATES*/
 .certificates-container {
-    align-items: start;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    -moz-column-gap: 20px;
-         column-gap: 20px;
-    row-gap: 20px;
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .certificate {
+	margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 320px;
 }
 .certificate-img {
+    box-shadow: var(--shadow-default);
     display: flex;
+}
+.certificate-img:hover {
+    box-shadow: var(--shadow-active);
 }
 /* CONTACT FORM */
 .contact-form {

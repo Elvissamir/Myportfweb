@@ -1,18 +1,25 @@
 /*CERTIFICATES*/
 .certificates-container {
-    align-items: start;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    column-gap: 20px;
-    row-gap: 20px;
+    max-width: 860px;
+    @apply flex mx-auto flex-wrap justify-around;
+}
+
+.certificate {
+    @apply mt-8;
 }
 
 .certificate {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 320px;
 }
 
 .certificate-img {
+    box-shadow: var(--shadow-default);
     display: flex;
+}
+
+.certificate-img:hover {
+    box-shadow: var(--shadow-active);
 }

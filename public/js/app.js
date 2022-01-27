@@ -33980,7 +33980,7 @@ __webpack_require__.r(__webpack_exports__);
     var courseraVerificationUrl = 'http://coursera.org/verify';
     var certificationImagesUrl = "/images/Certificates";
     var certificates = [{
-      title: 'Html5',
+      title: 'HTML5',
       image: "".concat(certificationImagesUrl, "/03html.png"),
       url: "".concat(courseraVerificationUrl, "/J27UJY2P9M9K")
     }, {
@@ -37844,7 +37844,7 @@ var _hoisted_43 = {
 var _hoisted_44 = ["href"];
 var _hoisted_45 = ["src"];
 var _hoisted_46 = {
-  "class": "text-white font-bold font-lora text-center mt-2"
+  "class": "text-white text-lg font-bold font-lora text-center mt-2 lg:text-xl"
 };
 var _hoisted_47 = {
   "class": "section-container"
@@ -37963,6 +37963,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
           href: certificate.url
         }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+          "class": "certificate-img",
           src: certificate.image,
           alt: ""
         }, null, 8

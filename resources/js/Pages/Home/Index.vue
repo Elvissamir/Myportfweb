@@ -125,8 +125,8 @@
                         <div class="certificates-container">
                             <div v-for="(certificate, index) in certificates" :key="index" class="certificate">
                                 <a :href="certificate.url">
-                                    <img :src="certificate.image" alt="">
-                                    <p class="text-white font-bold font-lora text-center mt-2">{{ certificate.title }}</p>
+                                    <img class="certificate-img" :src="certificate.image" alt="">
+                                    <p class="text-white text-lg font-bold font-lora text-center mt-2 lg:text-xl">{{ certificate.title }}</p>
                                 </a>
                             </div>
                         </div>
@@ -235,7 +235,7 @@ export default {
         const courseraVerificationUrl = 'http://coursera.org/verify';
         const certificationImagesUrl = "/images/Certificates";
         const certificates = [
-            {title: 'Html5', image: `${certificationImagesUrl}/03html.png`, url: `${courseraVerificationUrl}/J27UJY2P9M9K`},
+            {title: 'HTML5', image: `${certificationImagesUrl}/03html.png`, url: `${courseraVerificationUrl}/J27UJY2P9M9K`},
             {title: 'CSS3', image: `${certificationImagesUrl}/01css.png`, url: `${courseraVerificationUrl}/2NHCEW4VTSGR`},
             {title: 'JS', image: `${certificationImagesUrl}/02js.png`, url: `${courseraVerificationUrl}/3PSJWWABDX72`},
             {title: 'Mobile Design', image: `${certificationImagesUrl}/05styling.png`, url: `${courseraVerificationUrl}/S3QDRDEVRRW9`},
