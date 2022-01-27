@@ -2157,6 +2157,14 @@ select {
 	width: 100%;
 }
 /* SKILLS SECTION */
+.skills-container {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+	justify-content: center;
+}
 .card {
 	border-radius: 9999px;
 	border-width: 2px;
@@ -2175,30 +2183,21 @@ select {
 		padding: 1rem;
 	}
 }
+.card:hover {
+    box-shadow: var(--shadow-active);
+}
 .card-content {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: auto;
 	margin-bottom: auto;
 	display: flex;
-	height: 2rem;
-	width: 2rem;
+	height: 2.5rem;
+	width: 2.5rem;
 	align-items: center;
 	justify-content: center;
 	font-size: 1.875rem;
 	line-height: 2.25rem;
-}
-@media (min-width: 640px) {
-	.card-content {
-		height: 2.5rem;
-	}
-	.card-content {
-		width: 2.5rem;
-	}
-	.card-content {
-		font-size: 2.25rem;
-		line-height: 2.5rem;
-	}
 }
 @media (min-width: 768px) {
 	.card-content {

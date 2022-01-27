@@ -27,7 +27,7 @@
 
                     <div class="section-content">
                         <!-- SKILL BLOCKS --> 
-                        <div class="flex flex-col justify-center w-6/12 mx-auto">
+                        <div class="skills-container">
                             <div class="flex justify-center">
                                 <div class="flex justify-center card">
                                     <p class="card-content text-blue-700"><font-awesome-icon :icon="['fab', 'php']" /></p>

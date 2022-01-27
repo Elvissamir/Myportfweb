@@ -37694,7 +37694,7 @@ var _hoisted_6 = {
   "class": "section-content"
 };
 var _hoisted_7 = {
-  "class": "flex flex-col justify-center w-6/12 mx-auto"
+  "class": "skills-container"
 };
 var _hoisted_8 = {
   "class": "flex justify-center"

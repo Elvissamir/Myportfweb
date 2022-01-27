@@ -1,9 +1,17 @@
 
 /* SKILLS SECTION */
+.skills-container {
+    @apply flex flex-col justify-center w-6/12 mx-auto;
+}
+
 .card {
     @apply bg-white border-2 border-opacity-75 border-gray-200 py-2 px-2 rounded-full lg:p-4;
 }
 
+.card:hover {
+    box-shadow: var(--shadow-active);
+}
+
 .card-content {
-    @apply flex justify-center items-center mx-auto my-auto text-3xl h-8 w-8 sm:text-4xl sm:h-10 sm:w-10 md:h-16 md:w-16 md:text-5xl; 
+    @apply flex justify-center items-center mx-auto my-auto text-3xl w-10 h-10 md:h-16 md:w-16 md:text-5xl; 
 }
