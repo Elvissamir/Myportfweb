@@ -5,4 +5,5 @@
     --brand-color-b: #21edba;
     --shadow-default: 0 0 22px rgba(189, 187, 197, 0.8);
     --shadow-active: 0 0 22px rgba(33, 237, 186, 1);
+    --border-radius: 1rem;
 }

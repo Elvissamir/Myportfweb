@@ -8,6 +8,7 @@
     max-width: 450px;
     min-width: 250px;
     box-shadow: var(--shadow-default);
+    border-radius: var(--border-radius);
 
     @apply mx-auto relative xl:mx-0;
 }
@@ -29,6 +30,7 @@
 }
 
 .preview-overlay {
+    border-radius: var(--border-radius);
     transition: 0.5s ease-in-out;
     top: 0%;
     left: 0%;
@@ -41,6 +43,7 @@
 
 .preview-image {
     display: flex;
+    border-radius: var(--border-radius);
 
     @apply w-full;
 }

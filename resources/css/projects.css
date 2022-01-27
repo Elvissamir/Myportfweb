@@ -35,8 +35,9 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    border-radius: var(--border-radius);
 
-    @apply text-white flex flex-col rounded-2xl;
+    @apply text-white flex flex-col;
   }
   
   .flip-card-back {

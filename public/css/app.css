@@ -1897,6 +1897,7 @@ select {
     --brand-color-b: #21edba;
     --shadow-default: 0 0 22px rgba(189, 187, 197, 0.8);
     --shadow-active: 0 0 22px rgba(33, 237, 186, 1);
+    --border-radius: 1rem;
 }
 /* TEXT */
 .title {
@@ -2245,9 +2246,9 @@ select {
     height: 100%;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
+    border-radius: var(--border-radius);
     display: flex;
     flex-direction: column;
-    border-radius: 1rem;
     --tw-text-opacity: 1;
     color: rgba(255, 255, 255, var(--tw-text-opacity));
   }
@@ -2309,6 +2310,7 @@ select {
     max-width: 450px;
     min-width: 250px;
     box-shadow: var(--shadow-default);
+    border-radius: var(--border-radius);
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -2337,6 +2339,7 @@ select {
 	opacity: 1;
 }
 .preview-overlay {
+    border-radius: var(--border-radius);
     transition: 0.5s ease-in-out;
     top: 0%;
     left: 0%;
@@ -2368,6 +2371,7 @@ select {
 }
 .preview-image {
     display: flex;
+    border-radius: var(--border-radius);
     width: 100%;
 }
 /*CERTIFICATES*/
@@ -2394,10 +2398,10 @@ select {
         linear-gradient(to right, rgb(31, 41, 55), rgb(31, 41, 55)) padding-box, 
         linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
     border: 4px solid transparent;
+    border-radius: var(--border-radius);
     width: 100%;
     height: 100%;
     margin-bottom: 4rem;
-    border-radius: 0.25rem;
     --tw-bg-opacity: 1;
     background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
     padding-left: 1rem;
