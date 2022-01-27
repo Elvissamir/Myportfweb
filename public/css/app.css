@@ -2242,10 +2242,14 @@ select {
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
     border-radius: var(--border-radius);
+    box-shadow: var(--shadow-default);
     display: flex;
     flex-direction: column;
     --tw-text-opacity: 1;
     color: rgba(255, 255, 255, var(--tw-text-opacity));
+  }
+.flip-card-front:hover, .flip-card-back:hover {
+    box-shadow: var(--shadow-active);
   }
 .flip-card-back {
     display: flex;
@@ -2258,12 +2262,15 @@ select {
     height: 90%;
   }
 .flip-button-container {
-	display: flex;
-	width: 100%;
-	justify-content: flex-end;
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
-}
+    border-radius: 0rem 0rem 1rem 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    --tw-bg-opacity: 1;
+    background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 .flip-button {
     color: transparent;
     display: flex;
@@ -2276,9 +2283,6 @@ select {
   }
 .flip-arrow {
     color: var(--brand-color-a);
-  }
-@media (min-width: 640px) {
-
   }
 .preview-section {
 	margin-top: 0.5rem;
@@ -2367,6 +2371,7 @@ select {
 }
 .hire-me {
     background-color: var(--brand-color-c);
+    box-shadow: var(--shadow-default);
     margin-top: 6rem;
     display: flex;
 }

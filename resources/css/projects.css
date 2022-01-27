@@ -33,8 +33,13 @@
     height: 100%;
     backface-visibility: hidden;
     border-radius: var(--border-radius);
+    box-shadow: var(--shadow-default);
 
     @apply text-white flex flex-col;
+  }
+
+  .flip-card-front:hover, .flip-card-back:hover {
+    box-shadow: var(--shadow-active);
   }
   
   .flip-card-back {
@@ -51,7 +56,8 @@
   }
 
   .flip-button-container {
-    @apply flex justify-end px-6 w-full;
+    border-radius: 0rem 0rem 1rem 1rem;
+    @apply flex justify-end px-4 w-full bg-gray-800;
   }
 
   .flip-button {
@@ -65,9 +71,4 @@
 
   .flip-arrow {
     color: var(--brand-color-a);
-  }
-
-
-  @media (min-width: 640px) {
-
   }

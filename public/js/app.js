@@ -35028,7 +35028,7 @@ var _hoisted_16 = {
   "class": "flip-card-top flex flex-col justify-center items-center"
 };
 var _hoisted_17 = {
-  "class": "text-lg text-center font-lora"
+  "class": "text-lg text-center font-lora lg:text-xl"
 };
 
 var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {

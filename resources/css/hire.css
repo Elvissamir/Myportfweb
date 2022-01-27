@@ -1,5 +1,6 @@
 
 .hire-me {
     background-color: var(--brand-color-c);
+    box-shadow: var(--shadow-default);
     @apply flex mt-24 lg:mt-40;
 }

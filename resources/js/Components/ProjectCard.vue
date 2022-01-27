@@ -30,7 +30,7 @@
             <div class="flip-card-back">
                 <div class="flip-card-top flex flex-col justify-center items-center">
                     <!-- DESCRIPTION -->
-                    <p class="text-lg text-center font-lora">{{ project.description }}</p>
+                    <p class="text-lg text-center font-lora lg:text-xl">{{ project.description }}</p>
                     
                     <!-- STACK --> 
                     <p class="text-2xl text-center font-lora font-black mt-6">The stack</p>
