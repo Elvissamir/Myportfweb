@@ -27,10 +27,7 @@
   }
   
   .flip-card-front, .flip-card-back {
-    background: 
-        linear-gradient(to right, rgb(31, 41, 55), rgb(31, 41, 55)) padding-box, 
-        linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
-    border: 4px solid transparent;
+    background: var(--brand-color-c);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -46,7 +43,7 @@
   }
 
   .flip-card-top {
-    @apply py-4 px-4;
+    padding: var(--box-padding);
   }
 
   .flip-card-back .flip-card-top {
@@ -54,7 +51,7 @@
   }
 
   .flip-button-container {
-    @apply flex justify-end px-4 w-full;
+    @apply flex justify-end px-6 w-full;
   }
 
   .flip-button {

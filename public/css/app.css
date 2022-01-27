@@ -1895,9 +1895,11 @@ select {
 :root {
     --brand-color-a: #29b3eb;
     --brand-color-b: #21edba;
+    --brand-color-c: rgb(156, 163, 175);
     --shadow-default: 0 0 22px rgba(189, 187, 197, 0.8);
     --shadow-active: 0 0 22px rgba(33, 237, 186, 1);
     --border-radius: 1rem;
+    --box-padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 /* TEXT */
 .title {
@@ -2237,10 +2239,7 @@ select {
     transform: rotateY(180deg);   
   }
 .flip-card-front, .flip-card-back {
-    background: 
-        linear-gradient(to right, rgb(31, 41, 55), rgb(31, 41, 55)) padding-box, 
-        linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
-    border: 4px solid transparent;
+    background: var(--brand-color-c);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2257,11 +2256,8 @@ select {
     transform: rotateY(180deg);
   }
 .flip-card-top {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
+    padding: var(--box-padding);
+  }
 .flip-card-back .flip-card-top {
     height: 90%;
   }
@@ -2269,8 +2265,8 @@ select {
 	display: flex;
 	width: 100%;
 	justify-content: flex-end;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 }
 .flip-button {
     color: transparent;
@@ -2393,21 +2389,12 @@ select {
 }
 /* CONTACT FORM */
 .contact-form {
-
-    background: 
-        linear-gradient(to right, rgb(31, 41, 55), rgb(31, 41, 55)) padding-box, 
-        linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
-    border: 4px solid transparent;
     border-radius: var(--border-radius);
     width: 100%;
     height: 100%;
+    background-color: var(--brand-color-c);
+    padding: var(--box-padding);
     margin-bottom: 4rem;
-    --tw-bg-opacity: 1;
-    background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
@@ -2420,7 +2407,7 @@ select {
 	font-family: lora, cursive;
 	font-size: 1.125rem;
 	line-height: 1.75rem;
-	font-weight: 700;
+	font-weight: 900;
 	--tw-text-opacity: 1;
 	color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
