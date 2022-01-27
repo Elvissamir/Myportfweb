@@ -102,7 +102,7 @@
             </div>
 
             <!-- HIRE ME -->
-            <div class="flex bg-gray-400 mt-24 lg:mt-40">
+            <div class="hire-me">
                 <div class="flex flex-col justify-center items-baseline py-5 mx-auto sm:flex-row">
                     <p class="text-2xl my-auto text-white font-playfair font-black sm:text-3xl md:text-4xl">Want to hire Me?</p>
                     <a class="button brand-button no-underline mx-auto mt-3 sm:mt-0 sm:ml-8" href="#contact">Let's talk!</a>
@@ -205,7 +205,7 @@ export default {
             { 
                 code: 'CPT',
                 title: 'Crypto Portfolio Tracker', 
-                description: 'CPT allows you to keep track of your crypto portfolio and markets. Some of the features are: portfolio management (add, update and delete cryptos), charts (top cryptos, distribution), crypto markets.',
+                description: 'CPT keeps track of your crypto portfolio and markets. The main features are: portfolio management, charts (top cryptos, distribution), crypto markets.',
                 programmingL: 'php',
                 stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravel.svg', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
                 devices: ['mobile', 'tablet', 'desktop'],

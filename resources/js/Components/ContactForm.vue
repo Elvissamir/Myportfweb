@@ -23,7 +23,7 @@
             </div>
 
             <div class="flex items-center justify-between mt-8">
-                <button class="button brand-button" type="button">
+                <button class="button brand-button w-full" type="button">
                     Send
                 </button>
             </div>

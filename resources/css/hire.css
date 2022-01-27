@@ -1,0 +1,5 @@
+
+.hire-me {
+    background-color: var(--brand-color-c);
+    @apply flex mt-24 lg:mt-40;
+}

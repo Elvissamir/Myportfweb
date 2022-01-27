@@ -31,10 +31,11 @@
 
 .preview-overlay {
     border-radius: var(--border-radius);
+    background-color: var(--brand-color-c);
     transition: 0.5s ease-in-out;
     top: 0%;
     left: 0%;
-    @apply flex flex-col absolute justify-center items-center opacity-0 w-full h-full bg-gray-400;
+    @apply flex flex-col absolute justify-center items-center opacity-0 w-full h-full;
 }
 
 .preview-text {

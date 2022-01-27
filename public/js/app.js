@@ -33953,7 +33953,7 @@ __webpack_require__.r(__webpack_exports__);
     var projects = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)([{
       code: 'CPT',
       title: 'Crypto Portfolio Tracker',
-      description: 'CPT allows you to keep track of your crypto portfolio and markets. Some of the features are: portfolio management (add, update and delete cryptos), charts (top cryptos, distribution), crypto markets.',
+      description: 'CPT keeps track of your crypto portfolio and markets. The main features are: portfolio management, charts (top cryptos, distribution), crypto markets.',
       programmingL: 'php',
       stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravel.svg', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
       devices: ['mobile', 'tablet', 'desktop'],
@@ -34648,7 +34648,7 @@ var _hoisted_1 = {
   "class": "w-full mx-auto max-w-xs"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<form class=\"contact-form\"><div class=\"form-field\"><label class=\"form-label\" for=\"title\"> Subject </label><input class=\"form-input\" id=\"title\" type=\"text\"></div><div class=\"form-field\"><label class=\"form-label\" for=\"email\"> Email </label><input class=\"form-input\" id=\"email\" type=\"email\"></div><div class=\"form-field\"><label class=\"form-label\" for=\"content\"> Content </label><textarea class=\"form-textarea\" name=\"\" id=\"content\" cols=\"30\" rows=\"6\"></textarea></div><div class=\"flex items-center justify-between mt-8\"><button class=\"button brand-button\" type=\"button\"> Send </button></div></form>", 1);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<form class=\"contact-form\"><div class=\"form-field\"><label class=\"form-label\" for=\"title\"> Subject </label><input class=\"form-input\" id=\"title\" type=\"text\"></div><div class=\"form-field\"><label class=\"form-label\" for=\"email\"> Email </label><input class=\"form-input\" id=\"email\" type=\"email\"></div><div class=\"form-field\"><label class=\"form-label\" for=\"content\"> Content </label><textarea class=\"form-textarea\" name=\"\" id=\"content\" cols=\"30\" rows=\"6\"></textarea></div><div class=\"flex items-center justify-between mt-8\"><button class=\"button brand-button w-full\" type=\"button\"> Send </button></div></form>", 1);
 
 var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -34997,7 +34997,7 @@ var _hoisted_4 = {
 };
 var _hoisted_5 = ["src"];
 var _hoisted_6 = {
-  "class": "flex flex-col py-2 px-4 justify-center font-black mt-4"
+  "class": "flex flex-col py-1 px-4 justify-center font-black mt-4"
 };
 var _hoisted_7 = {
   "class": "text-3xl text-center font-playfair md:text-4xl"
@@ -35066,7 +35066,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.project.title), 1
   /* TEXT */
   )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-    "class": "button text-white border-2 hover:bg-white hover:text-gray-800",
+    "class": "button bg-gray-800 text-white border-2 border-white hover:bg-white hover:border-gray-800 hover:text-gray-800",
     href: $props.project.githubUrl
   }, "Github", 8
   /* PROPS */
@@ -37801,7 +37801,7 @@ var _hoisted_37 = {
 };
 
 var _hoisted_38 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "flex bg-gray-400 mt-24 lg:mt-40"
+  "class": "hire-me"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex flex-col justify-center items-baseline py-5 mx-auto sm:flex-row"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {

@@ -1090,9 +1090,6 @@ select {
 .mr-4 {
 	margin-right: 1rem;
 }
-.mt-24 {
-	margin-top: 6rem;
-}
 .block {
 	display: block;
 }
@@ -1418,6 +1415,10 @@ select {
 	--tw-border-opacity: 1;
 	border-color: rgba(156, 163, 175, var(--tw-border-opacity));
 }
+.border-white {
+	--tw-border-opacity: 1;
+	border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+}
 .border-blue-800 {
 	--tw-border-opacity: 1;
 	border-color: rgba(30, 64, 175, var(--tw-border-opacity));
@@ -1477,10 +1478,6 @@ select {
 .bg-black {
 	--tw-bg-opacity: 1;
 	background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
-}
-.bg-gray-400 {
-	--tw-bg-opacity: 1;
-	background-color: rgba(156, 163, 175, var(--tw-bg-opacity));
 }
 .bg-blue-800 {
 	--tw-bg-opacity: 1;
@@ -2336,6 +2333,7 @@ select {
 }
 .preview-overlay {
     border-radius: var(--border-radius);
+    background-color: var(--brand-color-c);
     transition: 0.5s ease-in-out;
     top: 0%;
     left: 0%;
@@ -2346,8 +2344,6 @@ select {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    --tw-bg-opacity: 1;
-    background-color: rgba(156, 163, 175, var(--tw-bg-opacity));
     opacity: 0;
 }
 .preview-text {
@@ -2369,6 +2365,16 @@ select {
     display: flex;
     border-radius: var(--border-radius);
     width: 100%;
+}
+.hire-me {
+    background-color: var(--brand-color-c);
+    margin-top: 6rem;
+    display: flex;
+}
+@media (min-width: 1024px) {
+	.hire-me {
+		margin-top: 10rem;
+	}
 }
 /*CERTIFICATES*/
 .certificates-container {
@@ -2394,9 +2400,11 @@ select {
     height: 100%;
     background-color: var(--brand-color-c);
     padding: var(--box-padding);
+    box-shadow: var(--shadow-default);
     margin-bottom: 4rem;
-    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.contact-form:hover {
+    box-shadow: var(--shadow-active);
 }
 .form-field {
 	margin-top: 1rem;
@@ -2450,6 +2458,10 @@ select {
 .hover\:border-gray-300:hover {
 	--tw-border-opacity: 1;
 	border-color: rgba(209, 213, 219, var(--tw-border-opacity));
+}
+.hover\:border-gray-800:hover {
+	--tw-border-opacity: 1;
+	border-color: rgba(31, 41, 55, var(--tw-border-opacity));
 }
 .hover\:bg-indigo-600:hover {
 	--tw-bg-opacity: 1;
@@ -2877,9 +2889,6 @@ select {
 	}
 	.lg\:mt-2 {
 		margin-top: 0.5rem;
-	}
-	.lg\:mt-40 {
-		margin-top: 10rem;
 	}
 	.lg\:hidden {
 		display: none;

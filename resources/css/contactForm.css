@@ -6,8 +6,13 @@
     height: 100%;
     background-color: var(--brand-color-c);
     padding: var(--box-padding);
+    box-shadow: var(--shadow-default);
 
-    @apply shadow-md mb-16;
+    @apply mb-16;
+}
+
+.contact-form:hover {
+    box-shadow: var(--shadow-active);
 }
 
 .form-field {
