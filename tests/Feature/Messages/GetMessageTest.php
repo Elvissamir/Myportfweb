@@ -6,7 +6,6 @@ use Tests\TestCase;
 use App\Models\Message;
 use Inertia\Testing\Assert;
 use App\Http\Resources\MessageResource;
-use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class GetMessageTest extends TestCase

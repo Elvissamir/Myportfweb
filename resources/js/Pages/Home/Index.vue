@@ -177,7 +177,7 @@
                     </div> 
                     
                     <div class="section-content">
-                        <ContactForm></ContactForm>
+                        <ContactForm :errors="errors"></ContactForm>
                     </div>
                 </div>
             </div> 
@@ -198,6 +198,12 @@ export default {
         ProjectCard,
         ContactForm,
         PreviewSection,
+    },
+    props: {
+        errors: {
+            type: Object,
+            required: true,
+        }
     },
     setup() {
         

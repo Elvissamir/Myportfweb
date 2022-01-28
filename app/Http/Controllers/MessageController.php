@@ -42,7 +42,7 @@ class MessageController extends Controller
      */
     public function store(StoreMessageRequest $request)
     {
-        Message::create($request->all());
+        Message::create($request->validated());
 
         return redirect(route('home'));
     }

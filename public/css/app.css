@@ -2987,12 +2987,6 @@ select {
 	.\32xl\:h-screen {
 		height: 100vh;
 	}
-	.\32xl\:w-9\/12 {
-		width: 75%;
-	}
-	.\32xl\:w-3\/12 {
-		width: 25%;
-	}
 	.\32xl\:w-10\/12 {
 		width: 83.333333%;
 	}

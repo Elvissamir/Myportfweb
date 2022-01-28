@@ -4,7 +4,6 @@ namespace Tests\Feature\Messages;
 
 use Tests\TestCase;
 use Illuminate\Support\Str;
-use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class PostMessageTest extends TestCase
@@ -137,14 +136,14 @@ class PostMessageTest extends TestCase
     }
 
 
-    public function test_the_content_max_length_is_180_chars()
+    public function test_the_content_max_length_is_200_chars()
     {
         // $this->withoutExceptionHandling();
 
         $message = [
             'title' => 'Title',
             'email' => 'guest@mail.com',
-            'content' => Str::random(181),
+            'content' => Str::random(201),
         ];
 
         $this->assertDatabaseCount('messages', 0);
@@ -156,6 +155,4 @@ class PostMessageTest extends TestCase
         $response->assertRedirect();
         $response->assertSessionHasErrors('content');
     }
-
-
 }
