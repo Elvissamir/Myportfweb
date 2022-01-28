@@ -2026,7 +2026,6 @@ select {
             background-clip: text;
     color: transparent;  
     display: inline-block;
-    border-bottom: 2px solid transparent;
     -o-border-image: linear-gradient(to bottom right, #ffffff, #ffffff);
        border-image: linear-gradient(to bottom right, #ffffff, #ffffff);
     border-image-slice: 1;
@@ -2047,6 +2046,9 @@ select {
 }
 @media (min-width: 1024px) {
 	.nav-link {
+		margin-top: 0px;
+	}
+	.nav-link {
 		height: 2rem;
 	}
 	.nav-link {
@@ -2060,10 +2062,40 @@ select {
 		margin-right: auto;
 	}
 	.nav-link {
+		margin-top: 0.75rem;
+	}
+	.nav-link {
 		width: 10rem;
 	}
 }
 .nav-link:hover {
+    background: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;  
+    -o-border-image: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));  
+       border-image: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
+    border-image-slice: 1;
+}
+.github-nav-icon {
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #ffffff, #ffffff);
+}
+.github-nav-text {
+    background: linear-gradient(to bottom right, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;  
+    display: inline-block;
+    -o-border-image: linear-gradient(to bottom right, #ffffff, #ffffff);
+       border-image: linear-gradient(to bottom right, #ffffff, #ffffff);
+    border-image-slice: 1;
+}
+.github-nav-icon-container:hover .github-nav-icon {
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
+}
+.github-nav-icon-container:hover .github-nav-text {
     background: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
     -webkit-background-clip: text;
             background-clip: text;
@@ -2111,7 +2143,7 @@ select {
 }
 @media (min-width: 1536px) {
 	.sections-wrapper {
-		width: 75%;
+		width: 83.333333%;
 	}
 }
 .section-container {
@@ -2524,10 +2556,6 @@ select {
 	--tw-text-opacity: 1;
 	color: rgba(17, 24, 39, var(--tw-text-opacity));
 }
-.hover\:text-green-300:hover {
-	--tw-text-opacity: 1;
-	color: rgba(110, 231, 183, var(--tw-text-opacity));
-}
 .hover\:text-blue-800:hover {
 	--tw-text-opacity: 1;
 	color: rgba(30, 64, 175, var(--tw-text-opacity));
@@ -2936,10 +2964,6 @@ select {
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
-	.lg\:text-4xl {
-		font-size: 2.25rem;
-		line-height: 2.5rem;
-	}
 	.lg\:text-xl {
 		font-size: 1.25rem;
 		line-height: 1.75rem;
@@ -2963,9 +2987,6 @@ select {
 	.\32xl\:h-screen {
 		height: 100vh;
 	}
-	.\32xl\:h-12 {
-		height: 3rem;
-	}
 	.\32xl\:w-9\/12 {
 		width: 75%;
 	}
@@ -2975,15 +2996,21 @@ select {
 	.\32xl\:w-10\/12 {
 		width: 83.333333%;
 	}
+	.\32xl\:w-2\/12 {
+		width: 16.666667%;
+	}
 	.\32xl\:flex-col {
 		flex-direction: column;
 	}
 	.\32xl\:justify-center {
 		justify-content: center;
 	}
-	.\32xl\:text-5xl {
-		font-size: 3rem;
-		line-height: 1;
+	.\32xl\:border-r-4 {
+		border-right-width: 4px;
+	}
+	.\32xl\:border-gray-400 {
+		--tw-border-opacity: 1;
+		border-color: rgba(156, 163, 175, var(--tw-border-opacity));
 	}
 }
 

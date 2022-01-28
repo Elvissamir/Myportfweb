@@ -10,13 +10,12 @@
     background-clip: text;
     color: transparent;  
     display: inline-block;
-    border-bottom: 2px solid transparent;
     border-image: linear-gradient(to bottom right, #ffffff, #ffffff);
     border-image-slice: 1;
 
     max-width: 150px;
     
-    @apply text-lg font-lora font-bold text-center mt-4 lg:h-8 lg:text-xl 2xl:mx-auto 2xl:w-40;
+    @apply text-lg font-lora font-bold text-center mt-4 lg:mt-0 lg:h-8 lg:text-xl 2xl:mx-auto 2xl:w-40 2xl:mt-3;
 }
 
 .nav-link:hover {
@@ -26,3 +25,31 @@
     border-image: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
     border-image-slice: 1;
 }
+
+.github-nav-icon {
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, #ffffff, #ffffff);
+}
+
+.github-nav-text {
+    background: linear-gradient(to bottom right, #ffffff, #ffffff);
+    background-clip: text;
+    color: transparent;  
+    display: inline-block;
+    border-image: linear-gradient(to bottom right, #ffffff, #ffffff);
+    border-image-slice: 1;
+}
+
+.github-nav-icon-container:hover .github-nav-icon {
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
+}
+
+.github-nav-icon-container:hover .github-nav-text {
+    background: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
+    background-clip: text;
+    color: transparent;  
+    border-image: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
+    border-image-slice: 1;
+}
+
