@@ -1,5 +1,12 @@
 <template>
     <Layout>
+
+        <!-- SUCCESS FLASH CARD -->
+        <FlashCard class="flash-card success-card" v-if="$page.props.flash.message" :message="$page.props.flash.message"></FlashCard>
+
+        <!-- ERROR FLASH CARD --> 
+        <FlashCard class="flash-card error-card" v-if="showErrorFlashCard" :message="errorFlashCardMessage"></FlashCard>
+
         <!-- START WALL --> 
         <div id="start" class="flex w-full h-screen ml-auto relative 2xl:w-10/12">
             <img class="flex w-full h-full" src="/images/wall.jpg" alt="">
@@ -186,11 +193,12 @@
 </template>
 <script>
 
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import Layout from '../../Layouts/AppLayout.vue'
 import ProjectCard from '../../Components/ProjectCard.vue'
 import ContactForm from '../../Components/ContactForm.vue'
 import PreviewSection from '../../Components/PreviewSection.vue'
+import FlashCard from '../../Components/FlashCard.vue'
 
 export default {
     components: {
@@ -198,6 +206,7 @@ export default {
         ProjectCard,
         ContactForm,
         PreviewSection,
+        FlashCard,
     },
     props: {
         errors: {
@@ -205,7 +214,10 @@ export default {
             required: true,
         }
     },
-    setup() {
+    setup(props) {
+
+        const showErrorFlashCard = ref(false)
+        const errorFlashCardMessage = ref('')
         
         const projects = ref([
             { 
@@ -272,11 +284,22 @@ export default {
             {url: `${basechallengesUrl}/anagram`, title: 'Anagram', imageUrl: `${challengesImagesUrl}/anagram_c.png`}
         ]
 
+        watch(() => props.errors, () => {
+            if (Object.keys(props.errors).length > 0) {
+                showErrorFlashCard.value = true
+                errorFlashCardMessage.value = 'There was an error with the form fields...'
+
+                setTimeout(() => showErrorFlashCard.value = false, 5000)
+            }
+        })
+
         return {
             projects,
             certificates,
             algorithms,
             challenges,
+            showErrorFlashCard,
+            errorFlashCardMessage,
         }
     },
 }

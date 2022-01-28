@@ -6,6 +6,7 @@
 /* APP STYLES */
 @import 'variables';
 @import 'general';
+@import 'flashcard';
 @import 'nav';
 @import 'mobileMenu';
 @import 'sections';

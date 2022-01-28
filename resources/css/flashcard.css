@@ -1,0 +1,25 @@
+
+.flash-card {
+    border-radius: var(--border-radius);
+    @apply absolute text-lg top-40 right-12 p-7 z-50;
+}
+
+.success-card {
+    box-shadow: 0 0 15px rgb(74, 238, 142);
+    @apply bg-green-300 border-2 border-green-800 text-green-800 font-black;
+}
+
+.error-card {
+
+    box-shadow: 0 0 15px rgb(238, 74, 74);
+
+    @apply bg-red-300 border-2 border-red-800 text-red-800 font-black;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+}

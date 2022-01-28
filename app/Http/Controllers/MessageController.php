@@ -7,6 +7,7 @@ use App\Models\Message;
 use Illuminate\Http\Request;
 use App\Http\Resources\MessageResource;
 use App\Http\Requests\StoreMessageRequest;
+use Illuminate\Support\Facades\Redirect;
 
 class MessageController extends Controller
 {
@@ -44,7 +45,7 @@ class MessageController extends Controller
     {
         Message::create($request->validated());
 
-        return redirect(route('home'));
+        return Redirect::route('home')->with('message', 'The message was sent...');
     }
 
     /**
