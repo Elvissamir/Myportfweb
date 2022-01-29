@@ -46,6 +46,10 @@
                                     <p class="card-content text-red-500"><font-awesome-icon :icon="['fab', 'laravel']" /></p>
                                 </div>
 
+                                <div class="flex justify-center card mr-4">
+                                    <p class="card-content text-green-400"><font-awesome-icon :icon="['fab', 'node-js']" /></p>
+                                </div>
+
                                 <div class="flex justify-center card">
                                     <p class="card-content text-green-600"><font-awesome-icon :icon="['fab', 'vuejs']" /></p>
                                 </div>
@@ -65,22 +69,27 @@
                                 </div>
 
                                 <div class="flex justify-center card">
-                                    <p class="card-content text-gray-500"><font-awesome-icon :icon="['fas', 'database']" /></p>
+                                    <p class="card-content"><img class="flex h-8 md:h-10" src="/images/BrandLogos/tailwind.png" alt=""></p>
                                 </div>
                             </div>
 
                             <div class="flex justify-center mt-4">
                                 <div class="flex justify-center card mr-4">
-                                    <p class="card-content text-yellow-100"><font-awesome-icon :icon="['fab', 'git']" /></p>
+                                    <p class="card-content"><img class="flex h-6 md:h-8" src="/images/BrandLogos/git.png" alt=""></p>
                                 </div>
+                                
+                                <div class="flex justify-center card mr-4">
+                                    <p class="card-content text-red-500"><font-awesome-icon :icon="['fab', 'npm']" /></p>
+                                </div>
+
                                 <div class="flex justify-center card">
-                                    <p class="card-content text-black"><font-awesome-icon :icon="['fab', 'github']" /></p>
+                                    <p class="card-content"><img class="flex h-6 md:h-8" src="/images/BrandLogos/mysql.png" alt=""></p>
                                 </div>
                             </div>
 
                             <div class="flex justify-center mt-4">
                                 <div class="flex justify-center card">
-                                    <p class="card-content text-pink-500"><font-awesome-icon :icon="['fab', 'sass']" /></p>
+                                    <p class="card-content text-black"><font-awesome-icon :icon="['fab', 'github']" /></p>
                                 </div>
                             </div>
                         </div>
@@ -225,7 +234,7 @@ export default {
                 title: 'Crypto Portfolio Tracker', 
                 description: 'CPT keeps track of your crypto portfolio and markets. The main features are: portfolio management, charts (top cryptos, distribution), crypto markets.',
                 programmingL: 'php',
-                stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravel.svg', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
+                stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravelb.jpg', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
                 devices: ['mobile', 'tablet', 'desktop'],
                 language: 'English',
                 image: '/images/cryptoPics/cryptopt.gif',
@@ -239,7 +248,7 @@ export default {
                 title: 'School Management', 
                 description: 'Servm is a management system developed for the "Antonio José" school. It allows management of students, teachers, courses, subjects and more.',
                 programmingL: 'php',
-                stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravel.svg', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
+                stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravelb.jpg', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
                 devices: ['desktop'],
                 language: 'Spanish',
                 image: '/images/servmPics/servm.gif',

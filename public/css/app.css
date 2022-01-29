@@ -2978,6 +2978,12 @@ select {
 	.md\:grid {
 		display: grid;
 	}
+	.md\:h-8 {
+		height: 2rem;
+	}
+	.md\:h-10 {
+		height: 2.5rem;
+	}
 	.md\:w-10\/12 {
 		width: 83.333333%;
 	}
