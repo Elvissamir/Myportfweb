@@ -2567,6 +2567,9 @@ select {
     --tw-text-opacity: 1;
     color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
+.message-container:hover {
+    box-shadow: var(--shadow-active);
+}
 .message-top {
 	display: flex;
 	justify-content: space-between;
@@ -2587,9 +2590,17 @@ select {
 	line-height: 1.75rem;
 }
 .delete-message-btn {
-    border-radius: var(--border-radius);
-    --tw-bg-opacity: 1;
-    background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    background: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
+}
+.delete-message-btn:hover {
+   background: linear-gradient(to bottom right, rgb(31, 41, 55), rgb(31, 41, 55));
 }
 .hover\:border-gray-300:hover {
 	--tw-border-opacity: 1;

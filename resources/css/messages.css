@@ -7,6 +7,10 @@
     @apply flex flex-col w-8/12 mx-auto mt-5 p-6 text-white font-black font-lora;
 }
 
+.message-container:hover {
+    box-shadow: var(--shadow-active);
+}
+
 .message-top {
     
     @apply flex justify-between;
@@ -25,7 +29,16 @@
 }
 
 .delete-message-btn {
-    border-radius: var(--border-radius);
-    
-    @apply bg-gray-800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    background: linear-gradient(to bottom right, var(--brand-color-a), var(--brand-color-b));
+}
+
+.delete-message-btn:hover {
+   background: linear-gradient(to bottom right, rgb(31, 41, 55), rgb(31, 41, 55));
 }
