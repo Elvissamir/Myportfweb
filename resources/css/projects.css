@@ -1,6 +1,6 @@
 
 /* PROJECTS */
-.projects > div:nth-child(even) {
+.projects > div {
     margin-top: 50px;
 }
 
