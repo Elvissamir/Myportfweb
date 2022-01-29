@@ -1003,6 +1003,10 @@ select {
 	margin-top: auto;
 	margin-bottom: auto;
 }
+.my-4 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
 .ml-3 {
 	margin-left: 0.75rem;
 }
@@ -1664,11 +1668,11 @@ select {
 .font-semibold {
 	font-weight: 600;
 }
-.font-bold {
-	font-weight: 700;
-}
 .font-black {
 	font-weight: 900;
+}
+.font-bold {
+	font-weight: 700;
 }
 .uppercase {
 	text-transform: uppercase;
@@ -2546,6 +2550,46 @@ select {
     outline: none !important;
     border-color: rgba(33, 237, 186, 0.7);
     box-shadow: 0 0 25px rgba(33, 237, 186, 0.5);
+}
+.message-container {
+    background-color: var(--brand-color-c);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-default);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.25rem;
+    display: flex;
+    width: 66.666667%;
+    flex-direction: column;
+    padding: 1.5rem;
+    font-family: lora, cursive;
+    font-weight: 900;
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+.message-top {
+	display: flex;
+	justify-content: space-between;
+}
+.message-title {
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+}
+.message-from {
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+}
+.message-content {
+	margin-top: 0.75rem;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+}
+.delete-message-btn {
+    border-radius: var(--border-radius);
+    --tw-bg-opacity: 1;
+    background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
 }
 .hover\:border-gray-300:hover {
 	--tw-border-opacity: 1;

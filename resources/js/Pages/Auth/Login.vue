@@ -2,9 +2,7 @@
     <Head title="Log in" />
 
     <jet-authentication-card>
-        <template #logo>
-            <jet-authentication-card-logo />
-        </template>
+        <h1 class=" text-center mx-auto font-playfair font-black text-3xl my-4">My Portfweb</h1>
 
         <jet-validation-errors class="mb-4" />
 

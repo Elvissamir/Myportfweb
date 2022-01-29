@@ -24,7 +24,7 @@
 </template>
 
 <script>
-    import { defineComponent, onUnmounted } from 'vue'
+    import { defineComponent } from 'vue'
     import JetApplicationMark from '@/Jetstream/ApplicationMark.vue'
     import JetBanner from '@/Jetstream/Banner.vue'
     import { Head, Link } from '@inertiajs/inertia-vue3';

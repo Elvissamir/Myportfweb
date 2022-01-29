@@ -1,0 +1,31 @@
+
+.message-container {
+    background-color: var(--brand-color-c);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-default);
+
+    @apply flex flex-col w-8/12 mx-auto mt-5 p-6 text-white font-black font-lora;
+}
+
+.message-top {
+    
+    @apply flex justify-between;
+}
+
+.message-title {
+    @apply text-xl;
+}
+
+.message-from {
+    @apply text-lg;
+}
+
+.message-content {
+    @apply flex flex-col text-lg mt-3;
+}
+
+.delete-message-btn {
+    border-radius: var(--border-radius);
+    
+    @apply bg-gray-800;
+}
