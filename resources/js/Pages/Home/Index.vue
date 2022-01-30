@@ -110,7 +110,7 @@
 
                     <div class="section-content">
                         <!-- PROJECT CARD -->
-                        <div class="projects flex flex-col items-center justify-center w-full">
+                        <div class="projects">
                             <ProjectCard v-for="(project, index) in projects" :key="index" :project="project"></ProjectCard>
                         </div>
                     </div>
@@ -267,7 +267,7 @@ export default {
             },
             {
                 code: 'AAC',
-                title: 'Algorithms and Challenges', 
+                title: 'Algorithms & Challenges', 
                 description: 'AAC is a project aimed to gather cool algorithms and coding challenges with a UI.',
                 programmingL: 'php',
                 stack: ['/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
