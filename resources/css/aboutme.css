@@ -1,0 +1,8 @@
+
+.about-text {
+
+    font-weight: bolder;
+    max-width: 830px;
+
+    @apply text-lg font-lora mx-auto text-white w-10/12 md:text-xl lg:text-2xl;
+}
