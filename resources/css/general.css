@@ -14,7 +14,7 @@
 .subtitle {
     font-weight: bolder;
 
-    @apply text-lg font-lora text-white w-10/12 md:text-xl lg:text-2xl;
+    @apply text-lg mt-6 font-lora text-white w-10/12 md:text-xl lg:text-2xl;
 }
 
 /* BUTTON */

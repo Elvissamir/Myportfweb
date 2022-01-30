@@ -29,11 +29,6 @@
     @apply flex flex-col justify-center items-center text-center w-full;
 }
 
-.title-container {
-    @apply mb-6;
-}
-
 .section-content {
-
-    @apply w-full mt-12;
+    @apply w-full mt-4;
 }

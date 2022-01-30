@@ -10,7 +10,7 @@
 }
 
 .projects > div:first-child {
-  @apply mt-0 xl:mt-12;
+  @apply mt-8 xl:mt-12;
 }
 
 /* PROJECT FLIP CARD */

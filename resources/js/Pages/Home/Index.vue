@@ -162,8 +162,10 @@
                     </div>
 
                     <div class="section-content">
-                        <PreviewSection :elements="algorithms"></PreviewSection>
-                        <PreviewSection :elements="challenges"></PreviewSection>    
+                        <div class="preview-section">
+                            <PreviewSection :elements="algorithms"></PreviewSection>
+                            <PreviewSection :elements="challenges"></PreviewSection>    
+                        </div>
                     </div> 
                 </div>
             </div>

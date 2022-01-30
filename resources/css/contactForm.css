@@ -8,7 +8,7 @@
     padding: var(--box-padding);
     box-shadow: var(--shadow-default);
 
-    @apply mb-16;
+    @apply mb-16 mt-8 xl:mt-12;
 }
 
 .contact-form:hover {

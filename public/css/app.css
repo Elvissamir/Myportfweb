@@ -1921,6 +1921,7 @@ select {
 }
 .subtitle {
     font-weight: bolder;
+    margin-top: 1.5rem;
     width: 83.333333%;
     font-family: lora, cursive;
     font-size: 1.125rem;
@@ -2221,21 +2222,24 @@ select {
 	justify-content: center;
 	text-align: center;
 }
-.title-container {
-	margin-bottom: 1.5rem;
-}
 .section-content {
-	margin-top: 3rem;
+	margin-top: 1rem;
 	width: 100%;
 }
 /* SKILLS SECTION */
 .skills-container {
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 2rem;
 	display: flex;
 	width: 50%;
 	flex-direction: column;
 	justify-content: center;
+}
+@media (min-width: 1280px) {
+	.skills-container {
+		margin-top: 3rem;
+	}
 }
 .card {
 	border-radius: 9999px;
@@ -2313,7 +2317,7 @@ select {
 	}
 }
 .projects > div:first-child {
-	margin-top: 0px;
+	margin-top: 2rem;
 }
 @media (min-width: 1280px) {
 	.projects > div:first-child {
@@ -2395,6 +2399,7 @@ select {
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
     width: 83.333333%;
     font-family: lora, cursive;
     font-size: 1.125rem;
@@ -2414,11 +2419,15 @@ select {
 		line-height: 2rem;
 	}
 }
+@media (min-width: 1280px) {
+	.about-text {
+		margin-top: 3rem;
+	}
+}
 .preview-section {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.5rem;
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -2451,15 +2460,15 @@ select {
 	}
 }
 .preview-section .preview-link:first-child {
-	margin-top: 1rem;
+	margin-top: 2rem;
 }
 @media (min-width: 1280px) {
 	.preview-section .preview-link:first-child {
-		margin-top: 2.5rem;
+		margin-top: 3rem;
 	}
 }
 .preview-section .preview-link {
-	margin-top: 2.5rem;
+	margin-top: 3rem;
 }
 .preview-link:hover {
     box-shadow: var(--shadow-active);
@@ -2522,6 +2531,22 @@ select {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.certificates-container > .certificate:not(:first-child) {
+	margin-top: 2rem;
+}
+@media (min-width: 1280px) {
+	.certificates-container > .certificate:not(:first-child) {
+		margin-top: 3rem;
+	}
+}
+.certificates-container > .certificate:first-child {
+	margin-top: 2rem;
+}
+@media (min-width: 1280px) {
+	.certificates-container > .certificate:first-child {
+		margin-top: 3rem;
+	}
+}
 .certificate {
 	margin-top: 2rem;
     display: flex;
@@ -2545,6 +2570,12 @@ select {
     padding: var(--box-padding);
     box-shadow: var(--shadow-default);
     margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+@media (min-width: 1280px) {
+	.contact-form {
+		margin-top: 3rem;
+	}
 }
 .contact-form:hover {
     box-shadow: var(--shadow-active);

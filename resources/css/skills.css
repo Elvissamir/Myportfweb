@@ -1,7 +1,7 @@
 
 /* SKILLS SECTION */
 .skills-container {
-    @apply flex flex-col justify-center w-6/12 mx-auto;
+    @apply flex flex-col mt-8 justify-center w-6/12 mx-auto xl:mt-12;
 }
 
 .card {

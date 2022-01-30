@@ -2,7 +2,7 @@
 .preview-section {
     max-width: 1000px;
 
-    @apply mt-2 flex flex-col mx-auto w-full xl:flex-row xl:flex-wrap xl:justify-around;
+    @apply flex flex-col mx-auto w-full xl:flex-row xl:flex-wrap xl:justify-around;
 }
 
 .preview-link {
@@ -16,11 +16,11 @@
 }
 
 .preview-section .preview-link:first-child {
-    @apply mt-4 xl:mt-10;
+    @apply mt-8 xl:mt-12;
 }
 
 .preview-section .preview-link {
-    @apply mt-10;
+    @apply mt-12;
 }
 
 .preview-link:hover {

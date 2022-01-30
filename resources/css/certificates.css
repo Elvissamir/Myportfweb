@@ -4,6 +4,14 @@
     @apply flex mx-auto flex-wrap justify-around;
 }
 
+.certificates-container > .certificate:not(:first-child) {
+    @apply mt-8 xl:mt-12;
+  }
+  
+.certificates-container > .certificate:first-child {
+    @apply mt-8 xl:mt-12;
+}
+
 .certificate {
     @apply mt-8;
 }
