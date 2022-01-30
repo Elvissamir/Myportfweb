@@ -9,9 +9,9 @@
 
         <!-- START WALL --> 
         <div id="start" class="flex w-full h-screen ml-auto relative 2xl:w-10/12">
-            <img class="flex w-full h-full" src="/images/wall.jpg" alt="">
-
-            <div class="flex justify-center items-center absolute w-full h-full bg-black bg-opacity-50">
+            <div class="parallax"></div>
+            <div class="w-full h-full bg-black bg-opacity-30 z-10"></div>
+            <div class="flex justify-center items-center w-full h-full absolute z-20">
                 <div class="flex flex-col justify-center items-center w-6/12 md:w-10/12">
                     <p class="text-5xl text-center theta-gradient font-playfair sm:text-6xl md:text-7xl xl:text-8xl">Elvis Carrasco</p>
                     <p class="text-3xl text-white text-center font-playfair font-black mt-6 sm:text-4xl md:text-5xl xl:text-6xl">Fullstack Software Developer</p>
