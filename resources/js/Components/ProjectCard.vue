@@ -63,13 +63,10 @@ export default {
         },
     },
     setup(props) {
-
         const flip = ref(false);
 
         const flipCard = () => {
-            console.log(flip.value);
             flip.value = (flip.value)? false : true;
-            console.log(flip.value);
         }
 
         return {

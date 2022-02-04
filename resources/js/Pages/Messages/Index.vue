@@ -1,5 +1,5 @@
 <template>
-    <Layout>
+    <Layout title="Elvis Carrasco | Messages">
         <div class="sections-wrapper min-h-screen">
             <div class="section-container">
                 <div class="section">
@@ -47,9 +47,6 @@ export default {
         },
     },
     setup(props) {
-
-        console.log(props.messages);
-
         const deleteMessage = (messageId) => {
             Inertia.delete(`/messages/${messageId}`)
         }

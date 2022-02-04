@@ -1,6 +1,5 @@
 <template>
-    <Layout>
-
+    <Layout title="ELvis Carrasco | Portfolio">
         <!-- SUCCESS FLASH CARD -->
         <FlashCard class="flash-card success-card" v-if="$page.props.flash.message" :message="$page.props.flash.message"></FlashCard>
 
@@ -14,7 +13,7 @@
             <div class="flex justify-center items-center w-full h-full absolute z-20">
                 <div class="flex flex-col justify-center items-center w-6/12 md:w-10/12">
                     <p class="text-5xl text-center theta-gradient font-playfair sm:text-6xl md:text-7xl xl:text-8xl">Elvis Carrasco</p>
-                    <p class="text-3xl text-white text-center font-playfair font-black mt-6 sm:text-4xl md:text-5xl xl:text-6xl">Fullstack Software Developer</p>
+                    <p class="text-3xl text-white text-center font-playfair font-black mt-6 sm:text-4xl md:text-5xl xl:text-6xl">Software Developer</p>
                 </div>
             </div>
         </div>
@@ -246,8 +245,8 @@ export default {
                 devices: ['mobile', 'tablet', 'desktop'],
                 language: 'English',
                 image: '/images/cryptoPics/cryptopt.gif',
-                demoUrl: 'http://cryptop.test/login',
-                githubUrl: 'http://github.com/elvissamir/cryptop'
+                demoUrl: 'https://cpptracker.herokuapp.com/login',
+                githubUrl: 'https://github.com/Elvissamir/cryptoPT'
             },
             {
                 code: 'Servm',
@@ -258,20 +257,20 @@ export default {
                 devices: ['desktop'],
                 language: 'Spanish',
                 image: '/images/servmPics/servm.gif',
-                demoUrl: 'http://servm.test/login',
-                githubUrl: 'http://github.com/elvissamir/servm'
+                demoUrl: 'https://servm.herokuapp.com/login',
+                githubUrl: 'https://github.com/Elvissamir/registrationManager'
             },
             {
                 code: 'Myportfweb',
                 title: 'My Portfolio', 
-                description: 'This website was developed by me, Elvis. The design was inspired by paperpillars and theta network.',
+                description: 'My awesome web portfolio. The design was inspired by paperpillars and theta network.',
                 programmingL: 'php',
                 stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravelb.jpg', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
                 devices: ['desktop'],
                 language: 'English',
                 image: '/images/myportfwebPics/myportfweb.gif',
-                demoUrl: 'http://servm.test/login',
-                githubUrl: 'http://github.com/elvissamir/myportfweb'
+                demoUrl: '',
+                githubUrl: 'https://github.com/Elvissamir/Myportfweb'
             },
             {
                 code: 'AAC',
@@ -282,8 +281,8 @@ export default {
                 devices: ['desktop'],
                 language: 'English',
                 image: '/images/aacPics/aac.gif',
-                demoUrl: 'http://servm.test/login',
-                githubUrl: 'http://github.com/elvissamir/aac'
+                demoUrl: 'https://aacsite.netlify.app/',
+                githubUrl: 'https://github.com/Elvissamir/AAC'
             }
         ]);
 
