@@ -14,8 +14,8 @@ module.exports = {
         extend: {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
-                'playfair': ['"Playfair Display"', 'cursive'],
-                'lora': ['lora', 'cursive']
+                'playfair': ['"Playfair Display"', 'sans'],
+                'lora': ['lora', 'sans']
             },
         },
     },
