@@ -7,9 +7,9 @@
         <FlashCard class="flash-card error-card" v-if="showErrorFlashCard" :message="errorFlashCardMessage"></FlashCard>
 
         <!-- START WALL --> 
-        <div id="start" class="flex w-full h-screen ml-auto relative 2xl:w-10/12">
-            <div class="parallax"></div>
-            <div class="w-full h-full bg-black bg-opacity-30 z-10"></div>
+        <div id="start" class="wall-background flex w-full h-screen ml-auto relative 2xl:w-10/12">
+            <div class=""></div>
+            <div class=""></div>
             <div class="flex justify-center items-center w-full h-full absolute z-20">
                 <div class="flex flex-col justify-center items-center w-6/12 md:w-10/12">
                     <p class="text-5xl text-center theta-gradient font-playfair sm:text-6xl md:text-7xl xl:text-8xl">Elvis Carrasco</p>
@@ -104,7 +104,7 @@
                             <p class="title">Projects</p>
                             <div class="title-line w-6/12"></div>
                         </div>
-                        <p class="subtitle">These are some of the projects I've done:</p>  
+                        <p class="subtitle">These are some of the projects I've developed:</p>  
                     </div>
 
                     <div class="section-content">
@@ -139,7 +139,10 @@
                         <!-- certifications -->
                         <div class="certificates-container">
                             <div v-for="(certificate, index) in certificates" :key="index" class="certificate">
-                                <a :href="certificate.url">
+                                <a 
+                                    :href="certificate.url"  
+                                    target="_blank" 
+                                    rel="noopener noreferrer">
                                     <img class="certificate-img" :src="certificate.image" alt="">
                                     <p class="text-white text-lg font-bold font-lora text-center mt-2 lg:text-xl">{{ certificate.title }}</p>
                                 </a>
@@ -302,7 +305,7 @@ export default {
         ];
 
         const challengesImagesUrl = '/images/challenges'
-        const basechallengesUrl = 'http://'
+        const basechallengesUrl = 'https://aacsite.netlify.app'
 
         const algorithms = [
             {url: `${basechallengesUrl}/binaryTree`, title: 'Binary Tree', imageUrl: `${challengesImagesUrl}/binarytree_c.png`},
@@ -312,7 +315,7 @@ export default {
         ]
 
         const challenges = [
-            {url: `${basechallengesUrl}/stringreversal`, title: 'String Reversal', imageUrl: `${challengesImagesUrl}/linkedlist_c.png`},
+            {url: `${basechallengesUrl}/stringReversal`, title: 'String Reversal', imageUrl: `${challengesImagesUrl}/stringreversal_c.png`},
             {url: `${basechallengesUrl}/palindrome`, title: 'Palindrome', imageUrl: `${challengesImagesUrl}/palindrome_c.png`},
             {url: `${basechallengesUrl}/fizzbuzz`, title: 'Fizz Buzz', imageUrl: `${challengesImagesUrl}/fizzbuzz_c.png`},
             {url: `${basechallengesUrl}/findvowels`, title: 'Find Vowels', imageUrl: `${challengesImagesUrl}/findvowels_c.png`},
