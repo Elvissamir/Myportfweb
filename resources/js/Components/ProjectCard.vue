@@ -16,8 +16,16 @@
                     </div>
 
                     <div class="flex justify-around mt-3">
-                        <a class="button bg-gray-800 text-white border-2 border-white hover:bg-white hover:border-gray-800 hover:text-gray-800" :href="project.githubUrl">Github</a>
-                        <a class="button brand-button" :href="project.demoUrl">Demo</a>
+                        <a 
+                            class="button bg-gray-800 text-white border-2 border-white hover:bg-white hover:border-gray-800 hover:text-gray-800" 
+                            :href="project.githubUrl" 
+                            target="_blank" 
+                            rel="noopener noreferrer">Github</a>
+                        <a 
+                            class="button brand-button" 
+                            :href="project.demoUrl"
+                            target="_blank" 
+                            rel="noopener noreferrer">Demo</a>
                     </div>
                 </div>
 
