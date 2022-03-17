@@ -308,7 +308,7 @@ export default {
                 devices: ['desktop'],
                 language: 'English',
                 image: '/images/vmoviesPics/vmovie.gif',
-                githubUrl: 'https://github.com/Elvissamir/AAC'
+                githubUrl: 'https://github.com/Elvissamir/Fullrvmovies'
             }
         ]);
 
