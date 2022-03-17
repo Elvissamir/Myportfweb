@@ -21,7 +21,8 @@
                             :href="project.githubUrl" 
                             target="_blank" 
                             rel="noopener noreferrer">Github</a>
-                        <a 
+                        <a  
+                            v-if="project.demoUrl"
                             class="button brand-button" 
                             :href="project.demoUrl"
                             target="_blank" 
