@@ -32574,11 +32574,8 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   setup: function setup(props, context) {
-    var showNav = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)(false);
-
     var toggleNavbar = function toggleNavbar() {
-      if (showNav.value == false) showNav.value = true;else showNav.value = false;
-      context.emit('toggle-navbar', showNav.value);
+      context.emit('toggle-navbar');
     };
 
     return {
@@ -33335,8 +33332,8 @@ __webpack_require__.r(__webpack_exports__);
     logout: function logout() {
       this.$inertia.post(route('logout'));
     },
-    showNavbar: function showNavbar(event) {
-      this.show = event;
+    showNavbar: function showNavbar() {
+      this.show = this.show ? false : true;
     },
     checkScreenWidth: function checkScreenWidth() {
       if (this.screenWidth >= 1024) this.show = true;
@@ -36473,10 +36470,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, null, 8
   /* PROPS */
   , ["show"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" MOBILE MENU "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Mobilemenu, {
+    show: _ctx.show,
     onToggleNavbar: _ctx.showNavbar
   }, null, 8
   /* PROPS */
-  , ["onToggleNavbar"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Page Content "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FOOTER "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)])]);
+  , ["show", "onToggleNavbar"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Page Content "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, "default")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" FOOTER "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)])]);
 }
 
 /***/ }),
