@@ -13,7 +13,7 @@
             <div class="bg-white mobile-menu-line"></div>
 
             <div class="flex justify-center w-6/12">
-                <a class="flex items-center" href="https://github.com/Elvissamir">
+                <a class="flex items-center" href="https://github.com/Elvissamir" target="_blank">
                     <p class="text-white">My Github</p>
                     <p class="text-white text-4xl ml-2">
                         <font-awesome-icon :icon="['fab', 'github-square']" />
