@@ -17,3 +17,40 @@
     background-position: top center;
     z-index: -1;
 }
+
+.mouse {
+    width: 30px;
+    height: 60px;
+    border: 3px solid var(--brand-color-b);
+    border-radius: 60px;
+    position: relative;
+}
+  
+.mouse::before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--brand-color-b);
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 2s infinite;
+    -webkit-animation: wheel 2s infinite;
+}
+  
+@keyframes wheel {
+    to {
+      opacity: 0;
+      top: 50px;
+    }
+}
+
+@-webkit-keyframes wheel {
+    to {
+      opacity: 0;
+      top: 50px;
+    }
+}

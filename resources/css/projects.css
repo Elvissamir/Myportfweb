@@ -2,7 +2,7 @@
 /* PROJECTS */
 .projects {
   max-width: 860px;
-  @apply flex flex-col flex-wrap mx-auto h-auto items-center justify-center w-full xl:flex-row xl:justify-around;
+  @apply flex flex-col flex-wrap mx-auto h-auto items-center justify-center w-full xl:flex-row xl:justify-between;
 }
 
 .projects > div:not(:first-child) {

@@ -1,5 +1,5 @@
 <template>
-    <Layout title="ELvis Carrasco | Portfolio">
+    <Layout title="Elvis Carrasco | Portfolio">
         <!-- SUCCESS FLASH CARD -->
         <FlashCard class="flash-card success-card" v-if="$page.props.flash.message" :message="$page.props.flash.message"></FlashCard>
 
@@ -8,12 +8,13 @@
 
         <!-- START WALL --> 
         <div id="start" class="wall-background flex w-full h-screen ml-auto relative 2xl:w-10/12">
-            <div class=""></div>
-            <div class=""></div>
-            <div class="flex justify-center items-center w-full h-full absolute z-20">
+            <div class="flex flex-col justify-center items-center w-full h-full absolute z-20">
                 <div class="flex flex-col justify-center items-center w-6/12 md:w-10/12">
-                    <p class="text-5xl text-center theta-gradient font-playfair sm:text-6xl md:text-7xl xl:text-8xl">Elvis Carrasco</p>
-                    <p class="text-3xl text-white text-center font-playfair font-black mt-6 sm:text-4xl md:text-5xl xl:text-6xl">Software Developer</p>
+                    <div>
+                        <p class="text-5xl text-center theta-gradient font-playfair sm:text-6xl md:text-7xl xl:text-8xl">Elvis Carrasco</p>
+                        <p class="text-3xl text-white text-center font-playfair font-black mt-6 sm:text-4xl md:text-5xl xl:text-6xl">Software Developer</p>
+                    </div>
+                    <div class="mouse mt-20 md:mt-36 lg:mt-42"></div>
                 </div>
             </div>
         </div>
@@ -280,12 +281,34 @@ export default {
                 title: 'Algorithms & Challenges', 
                 description: 'AAC is a project aimed to gather cool algorithms and coding challenges with a UI.',
                 programmingL: 'php',
-                stack: ['/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
+                stack: [
+                    '/images/BrandLogos/javascript.png',
+                    '/images/BrandLogos/vue.png', 
+                    '/images/BrandLogos/tailwind.png'
+                ],
                 devices: ['desktop'],
                 language: 'English',
                 image: '/images/aacPics/aac.gif',
                 demoUrl: 'https://aacsite.netlify.app/',
                 githubUrl: 'https://github.com/Elvissamir/AAC'
+            },
+             {
+                code: 'Fullrvmovies',
+                title: 'RVMovies', 
+                description: 'Movie inventory manager created with Node and React.',
+                programmingL: 'node',
+                stack: [
+                    '/images/BrandLogos/javascript.png',
+                    '/images/BrandLogos/node.png', 
+                    '/images/BrandLogos/express.png', 
+                    '/images/BrandLogos/mongo.png',
+                    '/images/BrandLogos/react.png',
+                    '/images/BrandLogos/tailwind.png'
+                ],
+                devices: ['desktop'],
+                language: 'English',
+                image: '/images/vmoviesPics/vmovie.gif',
+                githubUrl: 'https://github.com/Elvissamir/Fullrvmovies'
             }
         ]);
 

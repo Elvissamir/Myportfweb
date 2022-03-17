@@ -10,7 +10,7 @@
             <Navbar :show="show"></Navbar>
 
             <!-- MOBILE MENU -->
-            <Mobilemenu @toggle-navbar="showNavbar"></Mobilemenu>
+            <Mobilemenu :show="show" @toggle-navbar="showNavbar"></Mobilemenu>
 
             <!-- Page Content -->
             <main>
@@ -65,12 +65,11 @@
                 this.$inertia.post(route('logout'));
             },
 
-            showNavbar (event) {
-               this.show = event;
+            showNavbar () {
+                this.show = this.show ? false : true
             },
 
             checkScreenWidth () {
-
                 if (this.screenWidth >= 1024)
                     this.show = true;
             }
