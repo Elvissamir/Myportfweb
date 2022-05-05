@@ -36,18 +36,18 @@
                         <!-- SKILL BLOCKS --> 
                         <div class="skills-container">
                             <div class="flex justify-center">
-                                <div class="flex justify-center card">
-                                    <p class="card-content text-blue-700"><font-awesome-icon :icon="['fab', 'php']" /></p>
+                                <div class="flex justify-center card mr-4">
+                                    <p class="card-content text-green-400"><font-awesome-icon :icon="['fab', 'node-js']" /></p>
                                 </div>
                             </div>
 
                             <div class="flex justify-center mt-4">
                                 <div class="flex justify-center card mr-4">
-                                    <p class="card-content text-red-500"><font-awesome-icon :icon="['fab', 'laravel']" /></p>
+                                    <p class="card-content text-blue-400"><font-awesome-icon :icon="['fab', 'react']" /></p>
                                 </div>
 
                                 <div class="flex justify-center card mr-4">
-                                    <p class="card-content text-green-400"><font-awesome-icon :icon="['fab', 'node-js']" /></p>
+                                    <p class="card-content text-red-400"><font-awesome-icon :icon="['fab', 'laravel']" /></p>
                                 </div>
 
                                 <div class="flex justify-center card">
