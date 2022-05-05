@@ -239,6 +239,8 @@ export default {
         const showErrorFlashCard = ref(false)
         const errorFlashCardMessage = ref('')
         
+        console.log('updated')
+
         const projects = ref([
             { 
                 code: 'CPT',

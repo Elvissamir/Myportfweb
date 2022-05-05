@@ -34069,6 +34069,16 @@ __webpack_require__.r(__webpack_exports__);
       demoUrl: "https://rvmovies.netlify.app/",
       image: '/images/vmoviesPics/vmovie.gif',
       githubUrl: 'https://github.com/Elvissamir/Fullrvmovies'
+    }, {
+      code: 'Front Store',
+      title: 'React Front Store',
+      description: 'Front Store developed using react and redux',
+      programmingL: 'node',
+      stack: ['/images/BrandLogos/javascript.png', '/images/BrandLogos/node.png', '/images/BrandLogos/express.png', '/images/BrandLogos/mongo.png', '/images/BrandLogos/react.png', '/images/BrandLogos/css.png'],
+      devices: ['desktop'],
+      language: 'English',
+      image: '/images/scwebPics/scweb.gif',
+      githubUrl: 'https://github.com/Elvissamir/Scweb'
     }]);
     var courseraVerificationUrl = 'http://coursera.org/verify';
     var certificationImagesUrl = "/images/Certificates";
