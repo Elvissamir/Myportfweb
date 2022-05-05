@@ -292,7 +292,7 @@ export default {
                 demoUrl: 'https://aacsite.netlify.app/',
                 githubUrl: 'https://github.com/Elvissamir/AAC'
             },
-             {
+            {
                 code: 'Fullrvmovies',
                 title: 'RVMovies', 
                 description: 'Movie inventory manager created with Node and React.',
@@ -307,6 +307,7 @@ export default {
                 ],
                 devices: ['desktop'],
                 language: 'English',
+                demoUrl:  "https://rvmovies.netlify.app/" ,
                 image: '/images/vmoviesPics/vmovie.gif',
                 githubUrl: 'https://github.com/Elvissamir/Fullrvmovies'
             }

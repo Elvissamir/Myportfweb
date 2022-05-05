@@ -34066,6 +34066,7 @@ __webpack_require__.r(__webpack_exports__);
       stack: ['/images/BrandLogos/javascript.png', '/images/BrandLogos/node.png', '/images/BrandLogos/express.png', '/images/BrandLogos/mongo.png', '/images/BrandLogos/react.png', '/images/BrandLogos/tailwind.png'],
       devices: ['desktop'],
       language: 'English',
+      demoUrl: "https://rvmovies.netlify.app/",
       image: '/images/vmoviesPics/vmovie.gif',
       githubUrl: 'https://github.com/Elvissamir/Fullrvmovies'
     }]);
