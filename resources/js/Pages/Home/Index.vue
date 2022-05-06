@@ -45,18 +45,7 @@
 
             <!-- CONTACT ME -->
             <div class="section-container">
-                <div id="contact" class="section">
-                   <div class="section-header">
-                        <div class="title-container">
-                            <p class="title">Contact Me</p>
-                            <div class="title-line w-6/12"></div>
-                        </div>
-                    </div> 
-                    
-                    <div class="section-content">
-                        <ContactForm :errors="errors"></ContactForm>
-                    </div>
-                </div>
+                <ContactMe :errors="errors" />
             </div> 
         </div>
     </Layout>
@@ -72,8 +61,8 @@ import HireMe from '../../Components/HireMe.vue'
 import EducationSection from '../../Components/EducationSection.vue'
 import ChallengesSection from '../../Components/ChallengesSection.vue'
 import AboutMe from '../../Components/AboutMe.vue'
+import ContactMe from '../../Components/ContactMe.vue'
 import FlashCard from '../../Components/FlashCard.vue'
-import ContactForm from '../../Components/ContactForm.vue'
 
 export default {
     components: {
@@ -85,7 +74,7 @@ export default {
         EducationSection,
         ChallengesSection,
         AboutMe, 
-        ContactForm,
+        ContactMe,
         FlashCard,
     },
     props: {
@@ -95,7 +84,6 @@ export default {
         }
     },
     setup(props) {
-
         const showErrorFlashCard = ref(false)
         const errorFlashCardMessage = ref('')
 
