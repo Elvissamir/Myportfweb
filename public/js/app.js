@@ -32507,6 +32507,70 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/EducationSection.vue?vue&type=script&lang=js":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/EducationSection.vue?vue&type=script&lang=js ***!
+  \**********************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  setup: function setup() {
+    var courseraVerificationUrl = 'http://coursera.org/verify';
+    var certificationImagesUrl = "/images/Certificates";
+    var certificates = [{
+      title: 'HTML5',
+      image: "".concat(certificationImagesUrl, "/03html.png"),
+      url: "".concat(courseraVerificationUrl, "/J27UJY2P9M9K")
+    }, {
+      title: 'CSS3',
+      image: "".concat(certificationImagesUrl, "/01css.png"),
+      url: "".concat(courseraVerificationUrl, "/2NHCEW4VTSGR")
+    }, {
+      title: 'JS',
+      image: "".concat(certificationImagesUrl, "/02js.png"),
+      url: "".concat(courseraVerificationUrl, "/3PSJWWABDX72")
+    }, {
+      title: 'Mobile Design',
+      image: "".concat(certificationImagesUrl, "/05styling.png"),
+      url: "".concat(courseraVerificationUrl, "/S3QDRDEVRRW9")
+    }, {
+      title: 'GIT',
+      image: "".concat(certificationImagesUrl, "/04git.png"),
+      url: "".concat(courseraVerificationUrl, "/DJ2RQAPH7Z48")
+    }, {
+      title: 'Python Indtroduction',
+      image: "".concat(certificationImagesUrl, "/01py.png"),
+      url: "".concat(courseraVerificationUrl, "/AH66XLUFPF5L")
+    }, {
+      title: 'Python Data Structures',
+      image: "".concat(certificationImagesUrl, "/02py.png"),
+      url: "".concat(courseraVerificationUrl, "/DSL4J4DP5Z3E")
+    }, {
+      title: 'Python Databases',
+      image: "".concat(certificationImagesUrl, "/03py.png"),
+      url: "".concat(courseraVerificationUrl, "/93KEAYK5GUED")
+    }, {
+      title: 'Python Web Data',
+      image: "".concat(certificationImagesUrl, "/04py.png"),
+      url: "".concat(courseraVerificationUrl, "/SEUQQ2RTH8YM")
+    }, {
+      title: 'Python Conclusion',
+      image: "".concat(certificationImagesUrl, "/05py.jpg"),
+      url: "".concat(courseraVerificationUrl, "/XZGEYJAFWZTG")
+    }];
+    return {
+      certificates: certificates
+    };
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/FlashCard.vue?vue&type=script&lang=js":
 /*!***************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/FlashCard.vue?vue&type=script&lang=js ***!
@@ -34084,9 +34148,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Components_SkillSection_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Components/SkillSection.vue */ "./resources/js/Components/SkillSection.vue");
 /* harmony import */ var _Components_ProjectList_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Components/ProjectList.vue */ "./resources/js/Components/ProjectList.vue");
 /* harmony import */ var _Components_HireMe_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../Components/HireMe.vue */ "./resources/js/Components/HireMe.vue");
-/* harmony import */ var _Components_PreviewSection_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../Components/PreviewSection.vue */ "./resources/js/Components/PreviewSection.vue");
-/* harmony import */ var _Components_FlashCard_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../Components/FlashCard.vue */ "./resources/js/Components/FlashCard.vue");
-/* harmony import */ var _Components_ContactForm_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../Components/ContactForm.vue */ "./resources/js/Components/ContactForm.vue");
+/* harmony import */ var _Components_EducationSection_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../Components/EducationSection.vue */ "./resources/js/Components/EducationSection.vue");
+/* harmony import */ var _Components_PreviewSection_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../Components/PreviewSection.vue */ "./resources/js/Components/PreviewSection.vue");
+/* harmony import */ var _Components_FlashCard_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../Components/FlashCard.vue */ "./resources/js/Components/FlashCard.vue");
+/* harmony import */ var _Components_ContactForm_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../Components/ContactForm.vue */ "./resources/js/Components/ContactForm.vue");
+
 
 
 
@@ -34103,9 +34169,10 @@ __webpack_require__.r(__webpack_exports__);
     SkillSection: _Components_SkillSection_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
     ProjectList: _Components_ProjectList_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
     HireMe: _Components_HireMe_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
-    ContactForm: _Components_ContactForm_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
-    PreviewSection: _Components_PreviewSection_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
-    FlashCard: _Components_FlashCard_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
+    EducationSection: _Components_EducationSection_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    ContactForm: _Components_ContactForm_vue__WEBPACK_IMPORTED_MODULE_9__["default"],
+    PreviewSection: _Components_PreviewSection_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
+    FlashCard: _Components_FlashCard_vue__WEBPACK_IMPORTED_MODULE_8__["default"]
   },
   props: {
     errors: {
@@ -34116,49 +34183,6 @@ __webpack_require__.r(__webpack_exports__);
   setup: function setup(props) {
     var showErrorFlashCard = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)(false);
     var errorFlashCardMessage = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)('');
-    var courseraVerificationUrl = 'http://coursera.org/verify';
-    var certificationImagesUrl = "/images/Certificates";
-    var certificates = [{
-      title: 'HTML5',
-      image: "".concat(certificationImagesUrl, "/03html.png"),
-      url: "".concat(courseraVerificationUrl, "/J27UJY2P9M9K")
-    }, {
-      title: 'CSS3',
-      image: "".concat(certificationImagesUrl, "/01css.png"),
-      url: "".concat(courseraVerificationUrl, "/2NHCEW4VTSGR")
-    }, {
-      title: 'JS',
-      image: "".concat(certificationImagesUrl, "/02js.png"),
-      url: "".concat(courseraVerificationUrl, "/3PSJWWABDX72")
-    }, {
-      title: 'Mobile Design',
-      image: "".concat(certificationImagesUrl, "/05styling.png"),
-      url: "".concat(courseraVerificationUrl, "/S3QDRDEVRRW9")
-    }, {
-      title: 'GIT',
-      image: "".concat(certificationImagesUrl, "/04git.png"),
-      url: "".concat(courseraVerificationUrl, "/DJ2RQAPH7Z48")
-    }, {
-      title: 'Python Indtroduction',
-      image: "".concat(certificationImagesUrl, "/01py.png"),
-      url: "".concat(courseraVerificationUrl, "/AH66XLUFPF5L")
-    }, {
-      title: 'Python Data Structures',
-      image: "".concat(certificationImagesUrl, "/02py.png"),
-      url: "".concat(courseraVerificationUrl, "/DSL4J4DP5Z3E")
-    }, {
-      title: 'Python Databases',
-      image: "".concat(certificationImagesUrl, "/03py.png"),
-      url: "".concat(courseraVerificationUrl, "/93KEAYK5GUED")
-    }, {
-      title: 'Python Web Data',
-      image: "".concat(certificationImagesUrl, "/04py.png"),
-      url: "".concat(courseraVerificationUrl, "/SEUQQ2RTH8YM")
-    }, {
-      title: 'Python Conclusion',
-      image: "".concat(certificationImagesUrl, "/05py.jpg"),
-      url: "".concat(courseraVerificationUrl, "/XZGEYJAFWZTG")
-    }];
     var challengesImagesUrl = '/images/challenges';
     var basechallengesUrl = 'https://aacsite.netlify.app';
     var algorithms = [{
@@ -34215,7 +34239,6 @@ __webpack_require__.r(__webpack_exports__);
       }
     });
     return {
-      certificates: certificates,
       algorithms: algorithms,
       challenges: challenges,
       showErrorFlashCard: showErrorFlashCard,
@@ -34935,6 +34958,64 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]), _hoisted_11], 32
   /* HYDRATE_EVENTS */
   )]);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/EducationSection.vue?vue&type=template&id=783b75e8":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/EducationSection.vue?vue&type=template&id=783b75e8 ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  id: "education",
+  "class": "section"
+};
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"section-header\"><div class=\"title-container\"><p class=\"title\">Education</p><div class=\"title-line w-6/12\"></div></div><p class=\"subtitle\">These are some of the certificates I&#39;ve completed</p></div>", 1);
+
+var _hoisted_3 = {
+  "class": "section-content"
+};
+var _hoisted_4 = {
+  "class": "certificates-container"
+};
+var _hoisted_5 = ["href"];
+var _hoisted_6 = ["src"];
+var _hoisted_7 = {
+  "class": "text-white text-lg font-bold font-lora text-center mt-2 lg:text-xl"
+};
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" certifications "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.certificates, function (certificate, index) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+      key: index,
+      "class": "certificate"
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+      href: certificate.url,
+      target: "_blank",
+      rel: "noopener noreferrer"
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+      "class": "certificate-img",
+      src: certificate.image,
+      alt: ""
+    }, null, 8
+    /* PROPS */
+    , _hoisted_6), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(certificate.title), 1
+    /* TEXT */
+    )], 8
+    /* PROPS */
+    , _hoisted_5)]);
+  }), 128
+  /* KEYED_FRAGMENT */
+  ))])])]);
 }
 
 /***/ }),
@@ -38267,44 +38348,14 @@ var _hoisted_6 = {
   "class": "section-container"
 };
 var _hoisted_7 = {
-  id: "education",
-  "class": "section"
-};
-
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "section-header"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "title-container"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "title"
-}, "Education"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "title-line w-6/12"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "subtitle"
-}, "These are some of the certificates I've completed")], -1
-/* HOISTED */
-);
-
-var _hoisted_9 = {
-  "class": "section-content"
-};
-var _hoisted_10 = {
-  "class": "certificates-container"
-};
-var _hoisted_11 = ["href"];
-var _hoisted_12 = ["src"];
-var _hoisted_13 = {
-  "class": "text-white text-lg font-bold font-lora text-center mt-2 lg:text-xl"
-};
-var _hoisted_14 = {
   "class": "section-container"
 };
-var _hoisted_15 = {
+var _hoisted_8 = {
   id: "challenges",
   "class": "section"
 };
 
-var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "section-header"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "title-container"
@@ -38318,14 +38369,14 @@ var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_17 = {
+var _hoisted_10 = {
   "class": "section-content"
 };
-var _hoisted_18 = {
+var _hoisted_11 = {
   "class": "preview-section"
 };
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "section-container"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "about",
@@ -38346,15 +38397,15 @@ var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_20 = {
+var _hoisted_13 = {
   "class": "section-container"
 };
-var _hoisted_21 = {
+var _hoisted_14 = {
   id: "contact",
   "class": "section"
 };
 
-var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "section-header"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "title-container"
@@ -38366,7 +38417,7 @@ var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_23 = {
+var _hoisted_16 = {
   "class": "section-content"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -38379,6 +38430,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_ProjectList = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ProjectList");
 
   var _component_HireMe = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("HireMe");
+
+  var _component_EducationSection = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("EducationSection");
 
   var _component_PreviewSection = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("PreviewSection");
 
@@ -38402,28 +38455,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         message: $setup.errorFlashCardMessage
       }, null, 8
       /* PROPS */
-      , ["message"])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" START WALL "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_StartWall)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" SECTIONS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" SKILLS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SkillSection)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" PROJECTS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ProjectList)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" HIRE ME "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_HireMe)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" EDUCATION & ACHIEVEMENTS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" certifications "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($setup.certificates, function (certificate, index) {
-        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
-          key: index,
-          "class": "certificate"
-        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-          href: certificate.url,
-          target: "_blank",
-          rel: "noopener noreferrer"
-        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-          "class": "certificate-img",
-          src: certificate.image,
-          alt: ""
-        }, null, 8
-        /* PROPS */
-        , _hoisted_12), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(certificate.title), 1
-        /* TEXT */
-        )], 8
-        /* PROPS */
-        , _hoisted_11)]);
-      }), 128
-      /* KEYED_FRAGMENT */
-      ))])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" CODING CHALLENGES "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [_hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_PreviewSection, {
+      , ["message"])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" START WALL "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_StartWall)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" SECTIONS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" SKILLS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SkillSection)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" PROJECTS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ProjectList)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" HIRE ME "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_HireMe)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" EDUCATION & ACHIEVEMENTS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_EducationSection)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" CODING CHALLENGES "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_PreviewSection, {
         elements: $setup.algorithms
       }, null, 8
       /* PROPS */
@@ -38431,7 +38463,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         elements: $setup.challenges
       }, null, 8
       /* PROPS */
-      , ["elements"])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" ABOUT ME "), _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" CONTACT ME "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [_hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactForm, {
+      , ["elements"])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" ABOUT ME "), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" CONTACT ME "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [_hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactForm, {
         errors: $props.errors
       }, null, 8
       /* PROPS */
@@ -64194,6 +64226,34 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./resources/js/Components/EducationSection.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/Components/EducationSection.vue ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _EducationSection_vue_vue_type_template_id_783b75e8__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EducationSection.vue?vue&type=template&id=783b75e8 */ "./resources/js/Components/EducationSection.vue?vue&type=template&id=783b75e8");
+/* harmony import */ var _EducationSection_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EducationSection.vue?vue&type=script&lang=js */ "./resources/js/Components/EducationSection.vue?vue&type=script&lang=js");
+/* harmony import */ var _var_www_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,_var_www_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_EducationSection_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_EducationSection_vue_vue_type_template_id_783b75e8__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Components/EducationSection.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
 /***/ "./resources/js/Components/FlashCard.vue":
 /*!***********************************************!*\
   !*** ./resources/js/Components/FlashCard.vue ***!
@@ -65764,6 +65824,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Components/EducationSection.vue?vue&type=script&lang=js":
+/*!******************************************************************************!*\
+  !*** ./resources/js/Components/EducationSection.vue?vue&type=script&lang=js ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_EducationSection_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_EducationSection_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./EducationSection.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/EducationSection.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/Components/FlashCard.vue?vue&type=script&lang=js":
 /*!***********************************************************************!*\
   !*** ./resources/js/Components/FlashCard.vue?vue&type=script&lang=js ***!
@@ -66576,6 +66652,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ContactForm_vue_vue_type_template_id_ed2febee__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ContactForm_vue_vue_type_template_id_ed2febee__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./ContactForm.vue?vue&type=template&id=ed2febee */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/ContactForm.vue?vue&type=template&id=ed2febee");
+
+
+/***/ }),
+
+/***/ "./resources/js/Components/EducationSection.vue?vue&type=template&id=783b75e8":
+/*!************************************************************************************!*\
+  !*** ./resources/js/Components/EducationSection.vue?vue&type=template&id=783b75e8 ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_EducationSection_vue_vue_type_template_id_783b75e8__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_EducationSection_vue_vue_type_template_id_783b75e8__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./EducationSection.vue?vue&type=template&id=783b75e8 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/EducationSection.vue?vue&type=template&id=783b75e8");
 
 
 /***/ }),
