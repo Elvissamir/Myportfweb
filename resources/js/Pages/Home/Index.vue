@@ -25,10 +25,7 @@
 
             <!-- HIRE ME -->
             <div class="hire-me">
-                <div class="flex flex-col justify-center items-baseline py-5 mx-auto sm:flex-row">
-                    <p class="text-2xl my-auto text-white font-playfair font-black sm:text-3xl md:text-4xl">Want to hire Me?</p>
-                    <a class="button brand-button no-underline mx-auto mt-3 sm:mt-0 sm:ml-8" href="#contact">Let's talk!</a>
-                </div>
+               <HireMe />
             </div>
 
             <!-- EDUCATION & ACHIEVEMENTS -->
@@ -124,6 +121,7 @@ import Layout from '../../Layouts/AppLayout.vue'
 import StartWall from '../../Components/StartWall.vue'
 import SkillSection from '../../Components/SkillSection.vue'
 import ProjectList from '../../Components/ProjectList.vue'
+import HireMe from '../../Components/HireMe.vue'
 import PreviewSection from '../../Components/PreviewSection.vue'
 import FlashCard from '../../Components/FlashCard.vue'
 import ContactForm from '../../Components/ContactForm.vue'
@@ -134,6 +132,7 @@ export default {
         StartWall,
         SkillSection,
         ProjectList,
+        HireMe,
         ContactForm,
         PreviewSection,
         FlashCard,
