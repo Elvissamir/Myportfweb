@@ -39993,24 +39993,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-var challengesImagesUrl = '/images/challenges';
-var baseUrl = 'https://aacsite.netlify.app';
+/* harmony import */ var _urls__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../urls */ "./resources/js/urls.js");
+
 var algorithms = [{
-  url: "".concat(baseUrl, "/binaryTree"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.aacUrl, "/binaryTree"),
   title: 'Binary Tree',
-  imageUrl: "".concat(challengesImagesUrl, "/binarytree_c.png")
+  imageUrl: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.challengesImagesUrl, "/binarytree_c.png")
 }, {
-  url: "".concat(baseUrl, "/linkedList"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.aacUrl, "/linkedList"),
   title: 'Linked List',
-  imageUrl: "".concat(challengesImagesUrl, "/linkedlist_c.png")
+  imageUrl: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.challengesImagesUrl, "/linkedlist_c.png")
 }, {
-  url: "".concat(baseUrl, "/selectionSort"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.aacUrl, "/selectionSort"),
   title: 'Selection Sort',
-  imageUrl: "".concat(challengesImagesUrl, "/selection_c.png")
+  imageUrl: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.challengesImagesUrl, "/selection_c.png")
 }, {
-  url: "".concat(baseUrl, "/shortestPath"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.aacUrl, "/shortestPath"),
   title: 'Shortest Path',
-  imageUrl: "".concat(challengesImagesUrl, "/shortest_c.png")
+  imageUrl: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.challengesImagesUrl, "/shortest_c.png")
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (algorithms);
 
@@ -40027,48 +40027,48 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-var courseraVerificationUrl = 'http://coursera.org/verify';
-var certificationImagesUrl = "/images/Certificates";
+/* harmony import */ var _urls__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../urls */ "./resources/js/urls.js");
+
 var certificates = [{
   title: 'HTML5',
-  image: "".concat(certificationImagesUrl, "/03html.png"),
-  url: "".concat(courseraVerificationUrl, "/J27UJY2P9M9K")
+  image: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.certificationImagesUrl, "/03html.png"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.courseraVerificationUrl, "/J27UJY2P9M9K")
 }, {
   title: 'CSS3',
-  image: "".concat(certificationImagesUrl, "/01css.png"),
-  url: "".concat(courseraVerificationUrl, "/2NHCEW4VTSGR")
+  image: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.certificationImagesUrl, "/01css.png"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.courseraVerificationUrl, "/2NHCEW4VTSGR")
 }, {
   title: 'JS',
-  image: "".concat(certificationImagesUrl, "/02js.png"),
-  url: "".concat(courseraVerificationUrl, "/3PSJWWABDX72")
+  image: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.certificationImagesUrl, "/02js.png"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.courseraVerificationUrl, "/3PSJWWABDX72")
 }, {
   title: 'Mobile Design',
-  image: "".concat(certificationImagesUrl, "/05styling.png"),
-  url: "".concat(courseraVerificationUrl, "/S3QDRDEVRRW9")
+  image: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.certificationImagesUrl, "/05styling.png"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.courseraVerificationUrl, "/S3QDRDEVRRW9")
 }, {
   title: 'GIT',
-  image: "".concat(certificationImagesUrl, "/04git.png"),
-  url: "".concat(courseraVerificationUrl, "/DJ2RQAPH7Z48")
+  image: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.certificationImagesUrl, "/04git.png"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.courseraVerificationUrl, "/DJ2RQAPH7Z48")
 }, {
   title: 'Python Indtroduction',
-  image: "".concat(certificationImagesUrl, "/01py.png"),
-  url: "".concat(courseraVerificationUrl, "/AH66XLUFPF5L")
+  image: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.certificationImagesUrl, "/01py.png"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.courseraVerificationUrl, "/AH66XLUFPF5L")
 }, {
   title: 'Python Data Structures',
-  image: "".concat(certificationImagesUrl, "/02py.png"),
-  url: "".concat(courseraVerificationUrl, "/DSL4J4DP5Z3E")
+  image: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.certificationImagesUrl, "/02py.png"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.courseraVerificationUrl, "/DSL4J4DP5Z3E")
 }, {
   title: 'Python Databases',
-  image: "".concat(certificationImagesUrl, "/03py.png"),
-  url: "".concat(courseraVerificationUrl, "/93KEAYK5GUED")
+  image: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.certificationImagesUrl, "/03py.png"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.courseraVerificationUrl, "/93KEAYK5GUED")
 }, {
   title: 'Python Web Data',
-  image: "".concat(certificationImagesUrl, "/04py.png"),
-  url: "".concat(courseraVerificationUrl, "/SEUQQ2RTH8YM")
+  image: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.certificationImagesUrl, "/04py.png"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.courseraVerificationUrl, "/SEUQQ2RTH8YM")
 }, {
   title: 'Python Conclusion',
-  image: "".concat(certificationImagesUrl, "/05py.jpg"),
-  url: "".concat(courseraVerificationUrl, "/XZGEYJAFWZTG")
+  image: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.certificationImagesUrl, "/05py.jpg"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.courseraVerificationUrl, "/XZGEYJAFWZTG")
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (certificates);
 
@@ -40085,32 +40085,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-var challengesImagesUrl = '/images/challenges';
-var baseUrl = 'https://aacsite.netlify.app';
+/* harmony import */ var _urls__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../urls */ "./resources/js/urls.js");
+
 var challenges = [{
-  url: "".concat(baseUrl, "/stringReversal"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.aacUrl, "/stringReversal"),
   title: 'String Reversal',
-  imageUrl: "".concat(challengesImagesUrl, "/stringreversal_c.png")
+  imageUrl: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.challengesImagesUrl, "/stringreversal_c.png")
 }, {
-  url: "".concat(baseUrl, "/palindrome"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.aacUrl, "/palindrome"),
   title: 'Palindrome',
-  imageUrl: "".concat(challengesImagesUrl, "/palindrome_c.png")
+  imageUrl: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.challengesImagesUrl, "/palindrome_c.png")
 }, {
-  url: "".concat(baseUrl, "/fizzbuzz"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.aacUrl, "/fizzbuzz"),
   title: 'Fizz Buzz',
-  imageUrl: "".concat(challengesImagesUrl, "/fizzbuzz_c.png")
+  imageUrl: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.challengesImagesUrl, "/fizzbuzz_c.png")
 }, {
-  url: "".concat(baseUrl, "/findvowels"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.aacUrl, "/findvowels"),
   title: 'Find Vowels',
-  imageUrl: "".concat(challengesImagesUrl, "/findvowels_c.png")
+  imageUrl: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.challengesImagesUrl, "/findvowels_c.png")
 }, {
-  url: "".concat(baseUrl, "/maxchars"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.aacUrl, "/maxchars"),
   title: 'Max Chars',
-  imageUrl: "".concat(challengesImagesUrl, "/maxchars_c.png")
+  imageUrl: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.challengesImagesUrl, "/maxchars_c.png")
 }, {
-  url: "".concat(baseUrl, "/anagram"),
+  url: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.aacUrl, "/anagram"),
   title: 'Anagram',
-  imageUrl: "".concat(challengesImagesUrl, "/anagram_c.png")
+  imageUrl: "".concat(_urls__WEBPACK_IMPORTED_MODULE_0__.challengesImagesUrl, "/anagram_c.png")
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (challenges);
 
@@ -40194,6 +40194,28 @@ var projects = [{
   githubUrl: 'https://github.com/Elvissamir/Scweb'
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (projects);
+
+/***/ }),
+
+/***/ "./resources/js/urls.js":
+/*!******************************!*\
+  !*** ./resources/js/urls.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "courseraVerificationUrl": () => (/* binding */ courseraVerificationUrl),
+/* harmony export */   "certificationImagesUrl": () => (/* binding */ certificationImagesUrl),
+/* harmony export */   "challengesImagesUrl": () => (/* binding */ challengesImagesUrl),
+/* harmony export */   "aacUrl": () => (/* binding */ aacUrl)
+/* harmony export */ });
+var courseraVerificationUrl = 'http://coursera.org/verify';
+var certificationImagesUrl = "/images/Certificates";
+var challengesImagesUrl = '/images/challenges';
+var aacUrl = 'https://aacsite.netlify.app';
+
 
 /***/ }),
 

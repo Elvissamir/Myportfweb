@@ -1,5 +1,4 @@
-const courseraVerificationUrl = 'http://coursera.org/verify';
-const certificationImagesUrl = "/images/Certificates";
+import { certificationImagesUrl, courseraVerificationUrl } from "../urls"
 
 const certificates = [
     {title: 'HTML5', image: `${certificationImagesUrl}/03html.png`, url: `${courseraVerificationUrl}/J27UJY2P9M9K`},
