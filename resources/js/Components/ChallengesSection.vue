@@ -18,6 +18,8 @@
 </template>
 
 <script>
+import mychallenges from '../data/challenges'
+import myalgorithms from '../data/algorithms'
 import PreviewSection from './PreviewSection.vue'
 
 export default {
@@ -25,24 +27,9 @@ export default {
         PreviewSection
     },
     setup() {
-        const challengesImagesUrl = '/images/challenges'
-        const basechallengesUrl = 'https://aacsite.netlify.app'
-
-        const algorithms = [
-            {url: `${basechallengesUrl}/binaryTree`, title: 'Binary Tree', imageUrl: `${challengesImagesUrl}/binarytree_c.png`},
-            {url: `${basechallengesUrl}/linkedList`, title: 'Linked List', imageUrl: `${challengesImagesUrl}/linkedlist_c.png`},
-            {url: `${basechallengesUrl}/selectionSort`, title: 'Selection Sort', imageUrl: `${challengesImagesUrl}/selection_c.png`},
-            {url: `${basechallengesUrl}/shortestPath`, title: 'Shortest Path', imageUrl: `${challengesImagesUrl}/shortest_c.png`},
-        ]
-
-        const challenges = [
-            {url: `${basechallengesUrl}/stringReversal`, title: 'String Reversal', imageUrl: `${challengesImagesUrl}/stringreversal_c.png`},
-            {url: `${basechallengesUrl}/palindrome`, title: 'Palindrome', imageUrl: `${challengesImagesUrl}/palindrome_c.png`},
-            {url: `${basechallengesUrl}/fizzbuzz`, title: 'Fizz Buzz', imageUrl: `${challengesImagesUrl}/fizzbuzz_c.png`},
-            {url: `${basechallengesUrl}/findvowels`, title: 'Find Vowels', imageUrl: `${challengesImagesUrl}/findvowels_c.png`},
-            {url: `${basechallengesUrl}/maxchars`, title: 'Max Chars', imageUrl: `${challengesImagesUrl}/maxchars_c.png`},
-            {url: `${basechallengesUrl}/anagram`, title: 'Anagram', imageUrl: `${challengesImagesUrl}/anagram_c.png`}
-        ]
+        
+        const algorithms = [...myalgorithms]
+        const challenges = [...mychallenges]
 
         return {
             challenges, 

@@ -32476,57 +32476,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _PreviewSection_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PreviewSection.vue */ "./resources/js/Components/PreviewSection.vue");
+/* harmony import */ var _data_challenges__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../data/challenges */ "./resources/js/data/challenges.js");
+/* harmony import */ var _data_algorithms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../data/algorithms */ "./resources/js/data/algorithms.js");
+/* harmony import */ var _PreviewSection_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PreviewSection.vue */ "./resources/js/Components/PreviewSection.vue");
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+
+
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
-    PreviewSection: _PreviewSection_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+    PreviewSection: _PreviewSection_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
   },
   setup: function setup() {
-    var challengesImagesUrl = '/images/challenges';
-    var basechallengesUrl = 'https://aacsite.netlify.app';
-    var algorithms = [{
-      url: "".concat(basechallengesUrl, "/binaryTree"),
-      title: 'Binary Tree',
-      imageUrl: "".concat(challengesImagesUrl, "/binarytree_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/linkedList"),
-      title: 'Linked List',
-      imageUrl: "".concat(challengesImagesUrl, "/linkedlist_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/selectionSort"),
-      title: 'Selection Sort',
-      imageUrl: "".concat(challengesImagesUrl, "/selection_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/shortestPath"),
-      title: 'Shortest Path',
-      imageUrl: "".concat(challengesImagesUrl, "/shortest_c.png")
-    }];
-    var challenges = [{
-      url: "".concat(basechallengesUrl, "/stringReversal"),
-      title: 'String Reversal',
-      imageUrl: "".concat(challengesImagesUrl, "/stringreversal_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/palindrome"),
-      title: 'Palindrome',
-      imageUrl: "".concat(challengesImagesUrl, "/palindrome_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/fizzbuzz"),
-      title: 'Fizz Buzz',
-      imageUrl: "".concat(challengesImagesUrl, "/fizzbuzz_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/findvowels"),
-      title: 'Find Vowels',
-      imageUrl: "".concat(challengesImagesUrl, "/findvowels_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/maxchars"),
-      title: 'Max Chars',
-      imageUrl: "".concat(challengesImagesUrl, "/maxchars_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/anagram"),
-      title: 'Anagram',
-      imageUrl: "".concat(challengesImagesUrl, "/anagram_c.png")
-    }];
+    var algorithms = _toConsumableArray(_data_algorithms__WEBPACK_IMPORTED_MODULE_1__["default"]);
+
+    var challenges = _toConsumableArray(_data_challenges__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
     return {
       challenges: challenges,
       algorithms: algorithms
@@ -39923,6 +39899,40 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/js/data/algorithms.js":
+/*!*****************************************!*\
+  !*** ./resources/js/data/algorithms.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var challengesImagesUrl = '/images/challenges';
+var baseUrl = 'https://aacsite.netlify.app';
+var algorithms = [{
+  url: "".concat(baseUrl, "/binaryTree"),
+  title: 'Binary Tree',
+  imageUrl: "".concat(challengesImagesUrl, "/binarytree_c.png")
+}, {
+  url: "".concat(baseUrl, "/linkedList"),
+  title: 'Linked List',
+  imageUrl: "".concat(challengesImagesUrl, "/linkedlist_c.png")
+}, {
+  url: "".concat(baseUrl, "/selectionSort"),
+  title: 'Selection Sort',
+  imageUrl: "".concat(challengesImagesUrl, "/selection_c.png")
+}, {
+  url: "".concat(baseUrl, "/shortestPath"),
+  title: 'Shortest Path',
+  imageUrl: "".concat(challengesImagesUrl, "/shortest_c.png")
+}];
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (algorithms);
+
+/***/ }),
+
 /***/ "./resources/js/data/certificates.js":
 /*!*******************************************!*\
   !*** ./resources/js/data/certificates.js ***!
@@ -39978,6 +39988,48 @@ var certificates = [{
   url: "".concat(courseraVerificationUrl, "/XZGEYJAFWZTG")
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (certificates);
+
+/***/ }),
+
+/***/ "./resources/js/data/challenges.js":
+/*!*****************************************!*\
+  !*** ./resources/js/data/challenges.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var challengesImagesUrl = '/images/challenges';
+var baseUrl = 'https://aacsite.netlify.app';
+var challenges = [{
+  url: "".concat(baseUrl, "/stringReversal"),
+  title: 'String Reversal',
+  imageUrl: "".concat(challengesImagesUrl, "/stringreversal_c.png")
+}, {
+  url: "".concat(baseUrl, "/palindrome"),
+  title: 'Palindrome',
+  imageUrl: "".concat(challengesImagesUrl, "/palindrome_c.png")
+}, {
+  url: "".concat(baseUrl, "/fizzbuzz"),
+  title: 'Fizz Buzz',
+  imageUrl: "".concat(challengesImagesUrl, "/fizzbuzz_c.png")
+}, {
+  url: "".concat(baseUrl, "/findvowels"),
+  title: 'Find Vowels',
+  imageUrl: "".concat(challengesImagesUrl, "/findvowels_c.png")
+}, {
+  url: "".concat(baseUrl, "/maxchars"),
+  title: 'Max Chars',
+  imageUrl: "".concat(challengesImagesUrl, "/maxchars_c.png")
+}, {
+  url: "".concat(baseUrl, "/anagram"),
+  title: 'Anagram',
+  imageUrl: "".concat(challengesImagesUrl, "/anagram_c.png")
+}];
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (challenges);
 
 /***/ }),
 
