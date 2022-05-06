@@ -20,22 +20,7 @@
 
             <!-- PROJECTS -->
             <div class="section-container">
-                <div id="projects" class="section">
-                    <div class="section-header">
-                        <div class="title-container">
-                            <p class="title">Projects</p>
-                            <div class="title-line w-6/12"></div>
-                        </div>
-                        <p class="subtitle">These are some of the projects I've developed:</p>  
-                    </div>
-
-                    <div class="section-content">
-                        <!-- PROJECT CARD -->
-                        <div class="projects">
-                            <ProjectCard v-for="(project, index) in projects" :key="index" :project="project"></ProjectCard>
-                        </div>
-                    </div>
-                </div>
+               <ProjectList />
             </div>
 
             <!-- HIRE ME -->
@@ -138,7 +123,7 @@ import { ref, watch } from 'vue'
 import Layout from '../../Layouts/AppLayout.vue'
 import StartWall from '../../Components/StartWall.vue'
 import SkillSection from '../../Components/SkillSection.vue'
-import ProjectCard from '../../Components/ProjectCard.vue'
+import ProjectList from '../../Components/ProjectList.vue'
 import PreviewSection from '../../Components/PreviewSection.vue'
 import FlashCard from '../../Components/FlashCard.vue'
 import ContactForm from '../../Components/ContactForm.vue'
@@ -148,7 +133,7 @@ export default {
         Layout,
         StartWall,
         SkillSection,
-        ProjectCard,
+        ProjectList,
         ContactForm,
         PreviewSection,
         FlashCard,
@@ -163,100 +148,6 @@ export default {
 
         const showErrorFlashCard = ref(false)
         const errorFlashCardMessage = ref('')
-        
-        console.log('updated')
-
-        const projects = ref([
-            { 
-                code: 'CPT',
-                title: 'Crypto Portfolio Tracker', 
-                description: 'CPT keeps track of your crypto portfolio and markets. The main features are: portfolio management, charts (top cryptos, distribution), crypto markets.',
-                programmingL: 'php',
-                stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravelb.jpg', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
-                devices: ['mobile', 'tablet', 'desktop'],
-                language: 'English',
-                image: '/images/cryptoPics/cryptopt.gif',
-                demoUrl: 'https://cpptracker.herokuapp.com/login',
-                githubUrl: 'https://github.com/Elvissamir/cryptoPT'
-            },
-            {
-                code: 'Servm',
-                title: 'School Management', 
-                description: 'Servm is a management system developed for the "Antonio José" school. It allows management of students, teachers, courses, subjects and more.',
-                programmingL: 'php',
-                stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravelb.jpg', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
-                devices: ['desktop'],
-                language: 'Spanish',
-                image: '/images/servmPics/servm.gif',
-                demoUrl: 'https://servm.herokuapp.com/login',
-                githubUrl: 'https://github.com/Elvissamir/registrationManager'
-            },
-            {
-                code: 'Myportfweb',
-                title: 'My Portfolio', 
-                description: 'My awesome web portfolio. The design was inspired by paperpillars and theta network.',
-                programmingL: 'php',
-                stack: ['/images/BrandLogos/php.png', '/images/BrandLogos/laravelb.jpg', '/images/BrandLogos/mysql.png', '/images/BrandLogos/inertia.png', '/images/BrandLogos/vue.png', '/images/BrandLogos/tailwind.png'],
-                devices: ['desktop'],
-                language: 'English',
-                image: '/images/myportfwebPics/myportfweb.gif',
-                demoUrl: '',
-                githubUrl: 'https://github.com/Elvissamir/Myportfweb'
-            },
-            {
-                code: 'AAC',
-                title: 'Algorithms & Challenges', 
-                description: 'AAC is a project aimed to gather cool algorithms and coding challenges with a UI.',
-                programmingL: 'php',
-                stack: [
-                    '/images/BrandLogos/javascript.png',
-                    '/images/BrandLogos/vue.png', 
-                    '/images/BrandLogos/tailwind.png'
-                ],
-                devices: ['desktop'],
-                language: 'English',
-                image: '/images/aacPics/aac.gif',
-                demoUrl: 'https://aacsite.netlify.app/',
-                githubUrl: 'https://github.com/Elvissamir/AAC'
-            },
-            {
-                code: 'Fullrvmovies',
-                title: 'RVMovies', 
-                description: 'Movie inventory manager created with Node and React.',
-                programmingL: 'node',
-                stack: [
-                    '/images/BrandLogos/javascript.png',
-                    '/images/BrandLogos/node.png', 
-                    '/images/BrandLogos/express.png', 
-                    '/images/BrandLogos/mongo.png',
-                    '/images/BrandLogos/react.png',
-                    '/images/BrandLogos/tailwind.png'
-                ],
-                devices: ['desktop'],
-                language: 'English',
-                demoUrl:  "https://rvmovies.netlify.app/" ,
-                image: '/images/vmoviesPics/vmovie.gif',
-                githubUrl: 'https://github.com/Elvissamir/Fullrvmovies'
-            },
-             {
-                code: 'Front Store',
-                title: 'React Front Store', 
-                description: 'Front Store developed using react and redux',
-                programmingL: 'node',
-                stack: [
-                    '/images/BrandLogos/javascript.png',
-                    '/images/BrandLogos/node.png', 
-                    '/images/BrandLogos/express.png', 
-                    '/images/BrandLogos/mongo.png',
-                    '/images/BrandLogos/react.png',
-                    '/images/BrandLogos/css.png'
-                ],
-                devices: ['desktop'],
-                language: 'English',
-                image: '/images/scwebPics/scweb.gif',
-                githubUrl: 'https://github.com/Elvissamir/Scweb'
-            }
-        ]);
 
         const courseraVerificationUrl = 'http://coursera.org/verify';
         const certificationImagesUrl = "/images/Certificates";
@@ -302,7 +193,6 @@ export default {
         })
 
         return {
-            projects,
             certificates,
             algorithms,
             challenges,
