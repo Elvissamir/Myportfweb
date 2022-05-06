@@ -35,22 +35,7 @@
 
             <!-- CODING CHALLENGES -->
             <div class="section-container">
-                <div id="challenges"  class="section">
-                    <div class="section-header">
-                        <div class="title-container">
-                            <p class="title">Challenges</p>
-                            <div class="title-line w-6/12"></div>
-                        </div>
-                        <p class="subtitle">Here are some common and cool algorithms and coding challenges with UI: </p>
-                    </div>
-
-                    <div class="section-content">
-                        <div class="preview-section">
-                            <PreviewSection :elements="algorithms"></PreviewSection>
-                            <PreviewSection :elements="challenges"></PreviewSection>    
-                        </div>
-                    </div> 
-                </div>
+               <ChallengesSection />
             </div>
 
             <!-- ABOUT ME -->
@@ -100,7 +85,7 @@ import SkillSection from '../../Components/SkillSection.vue'
 import ProjectList from '../../Components/ProjectList.vue'
 import HireMe from '../../Components/HireMe.vue'
 import EducationSection from '../../Components/EducationSection.vue'
-import PreviewSection from '../../Components/PreviewSection.vue'
+import ChallengesSection from '../../Components/ChallengesSection.vue'
 import FlashCard from '../../Components/FlashCard.vue'
 import ContactForm from '../../Components/ContactForm.vue'
 
@@ -112,8 +97,8 @@ export default {
         ProjectList,
         HireMe,
         EducationSection,
+        ChallengesSection,
         ContactForm,
-        PreviewSection,
         FlashCard,
     },
     props: {
@@ -127,25 +112,6 @@ export default {
         const showErrorFlashCard = ref(false)
         const errorFlashCardMessage = ref('')
 
-        const challengesImagesUrl = '/images/challenges'
-        const basechallengesUrl = 'https://aacsite.netlify.app'
-
-        const algorithms = [
-            {url: `${basechallengesUrl}/binaryTree`, title: 'Binary Tree', imageUrl: `${challengesImagesUrl}/binarytree_c.png`},
-            {url: `${basechallengesUrl}/linkedList`, title: 'Linked List', imageUrl: `${challengesImagesUrl}/linkedlist_c.png`},
-            {url: `${basechallengesUrl}/selectionSort`, title: 'Selection Sort', imageUrl: `${challengesImagesUrl}/selection_c.png`},
-            {url: `${basechallengesUrl}/shortestPath`, title: 'Shortest Path', imageUrl: `${challengesImagesUrl}/shortest_c.png`},
-        ]
-
-        const challenges = [
-            {url: `${basechallengesUrl}/stringReversal`, title: 'String Reversal', imageUrl: `${challengesImagesUrl}/stringreversal_c.png`},
-            {url: `${basechallengesUrl}/palindrome`, title: 'Palindrome', imageUrl: `${challengesImagesUrl}/palindrome_c.png`},
-            {url: `${basechallengesUrl}/fizzbuzz`, title: 'Fizz Buzz', imageUrl: `${challengesImagesUrl}/fizzbuzz_c.png`},
-            {url: `${basechallengesUrl}/findvowels`, title: 'Find Vowels', imageUrl: `${challengesImagesUrl}/findvowels_c.png`},
-            {url: `${basechallengesUrl}/maxchars`, title: 'Max Chars', imageUrl: `${challengesImagesUrl}/maxchars_c.png`},
-            {url: `${basechallengesUrl}/anagram`, title: 'Anagram', imageUrl: `${challengesImagesUrl}/anagram_c.png`}
-        ]
-
         watch(() => props.errors, () => {
             if (Object.keys(props.errors).length > 0) {
                 showErrorFlashCard.value = true
@@ -156,8 +122,6 @@ export default {
         })
 
         return {
-            algorithms,
-            challenges,
             showErrorFlashCard,
             errorFlashCardMessage,
         }

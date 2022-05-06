@@ -32465,6 +32465,77 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/ChallengesSection.vue?vue&type=script&lang=js":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/ChallengesSection.vue?vue&type=script&lang=js ***!
+  \***********************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _PreviewSection_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PreviewSection.vue */ "./resources/js/Components/PreviewSection.vue");
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  components: {
+    PreviewSection: _PreviewSection_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  setup: function setup() {
+    var challengesImagesUrl = '/images/challenges';
+    var basechallengesUrl = 'https://aacsite.netlify.app';
+    var algorithms = [{
+      url: "".concat(basechallengesUrl, "/binaryTree"),
+      title: 'Binary Tree',
+      imageUrl: "".concat(challengesImagesUrl, "/binarytree_c.png")
+    }, {
+      url: "".concat(basechallengesUrl, "/linkedList"),
+      title: 'Linked List',
+      imageUrl: "".concat(challengesImagesUrl, "/linkedlist_c.png")
+    }, {
+      url: "".concat(basechallengesUrl, "/selectionSort"),
+      title: 'Selection Sort',
+      imageUrl: "".concat(challengesImagesUrl, "/selection_c.png")
+    }, {
+      url: "".concat(basechallengesUrl, "/shortestPath"),
+      title: 'Shortest Path',
+      imageUrl: "".concat(challengesImagesUrl, "/shortest_c.png")
+    }];
+    var challenges = [{
+      url: "".concat(basechallengesUrl, "/stringReversal"),
+      title: 'String Reversal',
+      imageUrl: "".concat(challengesImagesUrl, "/stringreversal_c.png")
+    }, {
+      url: "".concat(basechallengesUrl, "/palindrome"),
+      title: 'Palindrome',
+      imageUrl: "".concat(challengesImagesUrl, "/palindrome_c.png")
+    }, {
+      url: "".concat(basechallengesUrl, "/fizzbuzz"),
+      title: 'Fizz Buzz',
+      imageUrl: "".concat(challengesImagesUrl, "/fizzbuzz_c.png")
+    }, {
+      url: "".concat(basechallengesUrl, "/findvowels"),
+      title: 'Find Vowels',
+      imageUrl: "".concat(challengesImagesUrl, "/findvowels_c.png")
+    }, {
+      url: "".concat(basechallengesUrl, "/maxchars"),
+      title: 'Max Chars',
+      imageUrl: "".concat(challengesImagesUrl, "/maxchars_c.png")
+    }, {
+      url: "".concat(basechallengesUrl, "/anagram"),
+      title: 'Anagram',
+      imageUrl: "".concat(challengesImagesUrl, "/anagram_c.png")
+    }];
+    return {
+      challenges: challenges,
+      algorithms: algorithms
+    };
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/ContactForm.vue?vue&type=script&lang=js":
 /*!*****************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/ContactForm.vue?vue&type=script&lang=js ***!
@@ -34122,7 +34193,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Components_ProjectList_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Components/ProjectList.vue */ "./resources/js/Components/ProjectList.vue");
 /* harmony import */ var _Components_HireMe_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../Components/HireMe.vue */ "./resources/js/Components/HireMe.vue");
 /* harmony import */ var _Components_EducationSection_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../Components/EducationSection.vue */ "./resources/js/Components/EducationSection.vue");
-/* harmony import */ var _Components_PreviewSection_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../Components/PreviewSection.vue */ "./resources/js/Components/PreviewSection.vue");
+/* harmony import */ var _Components_ChallengesSection_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../Components/ChallengesSection.vue */ "./resources/js/Components/ChallengesSection.vue");
 /* harmony import */ var _Components_FlashCard_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../Components/FlashCard.vue */ "./resources/js/Components/FlashCard.vue");
 /* harmony import */ var _Components_ContactForm_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../Components/ContactForm.vue */ "./resources/js/Components/ContactForm.vue");
 
@@ -34143,8 +34214,8 @@ __webpack_require__.r(__webpack_exports__);
     ProjectList: _Components_ProjectList_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
     HireMe: _Components_HireMe_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
     EducationSection: _Components_EducationSection_vue__WEBPACK_IMPORTED_MODULE_6__["default"],
+    ChallengesSection: _Components_ChallengesSection_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
     ContactForm: _Components_ContactForm_vue__WEBPACK_IMPORTED_MODULE_9__["default"],
-    PreviewSection: _Components_PreviewSection_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
     FlashCard: _Components_FlashCard_vue__WEBPACK_IMPORTED_MODULE_8__["default"]
   },
   props: {
@@ -34156,50 +34227,6 @@ __webpack_require__.r(__webpack_exports__);
   setup: function setup(props) {
     var showErrorFlashCard = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)(false);
     var errorFlashCardMessage = (0,vue__WEBPACK_IMPORTED_MODULE_0__.ref)('');
-    var challengesImagesUrl = '/images/challenges';
-    var basechallengesUrl = 'https://aacsite.netlify.app';
-    var algorithms = [{
-      url: "".concat(basechallengesUrl, "/binaryTree"),
-      title: 'Binary Tree',
-      imageUrl: "".concat(challengesImagesUrl, "/binarytree_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/linkedList"),
-      title: 'Linked List',
-      imageUrl: "".concat(challengesImagesUrl, "/linkedlist_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/selectionSort"),
-      title: 'Selection Sort',
-      imageUrl: "".concat(challengesImagesUrl, "/selection_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/shortestPath"),
-      title: 'Shortest Path',
-      imageUrl: "".concat(challengesImagesUrl, "/shortest_c.png")
-    }];
-    var challenges = [{
-      url: "".concat(basechallengesUrl, "/stringReversal"),
-      title: 'String Reversal',
-      imageUrl: "".concat(challengesImagesUrl, "/stringreversal_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/palindrome"),
-      title: 'Palindrome',
-      imageUrl: "".concat(challengesImagesUrl, "/palindrome_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/fizzbuzz"),
-      title: 'Fizz Buzz',
-      imageUrl: "".concat(challengesImagesUrl, "/fizzbuzz_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/findvowels"),
-      title: 'Find Vowels',
-      imageUrl: "".concat(challengesImagesUrl, "/findvowels_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/maxchars"),
-      title: 'Max Chars',
-      imageUrl: "".concat(challengesImagesUrl, "/maxchars_c.png")
-    }, {
-      url: "".concat(basechallengesUrl, "/anagram"),
-      title: 'Anagram',
-      imageUrl: "".concat(challengesImagesUrl, "/anagram_c.png")
-    }];
     (0,vue__WEBPACK_IMPORTED_MODULE_0__.watch)(function () {
       return props.errors;
     }, function () {
@@ -34212,8 +34239,6 @@ __webpack_require__.r(__webpack_exports__);
       }
     });
     return {
-      algorithms: algorithms,
-      challenges: challenges,
       showErrorFlashCard: showErrorFlashCard,
       errorFlashCardMessage: errorFlashCardMessage
     };
@@ -34813,6 +34838,48 @@ __webpack_require__.r(__webpack_exports__);
     phpVersion: String
   }
 }));
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/ChallengesSection.vue?vue&type=template&id=4863471a":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/ChallengesSection.vue?vue&type=template&id=4863471a ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  id: "challenges",
+  "class": "section"
+};
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"section-header\"><div class=\"title-container\"><p class=\"title\">Challenges</p><div class=\"title-line w-6/12\"></div></div><p class=\"subtitle\">Here are some common and cool algorithms and coding challenges with UI: </p></div>", 1);
+
+var _hoisted_3 = {
+  "class": "section-content"
+};
+var _hoisted_4 = {
+  "class": "preview-section"
+};
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  var _component_PreviewSection = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("PreviewSection");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_PreviewSection, {
+    elements: $setup.algorithms
+  }, null, 8
+  /* PROPS */
+  , ["elements"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_PreviewSection, {
+    elements: $setup.challenges
+  }, null, 8
+  /* PROPS */
+  , ["elements"])])])]);
+}
 
 /***/ }),
 
@@ -38323,33 +38390,8 @@ var _hoisted_6 = {
 var _hoisted_7 = {
   "class": "section-container"
 };
-var _hoisted_8 = {
-  id: "challenges",
-  "class": "section"
-};
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "section-header"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "title-container"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "title"
-}, "Challenges"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "title-line w-6/12"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "subtitle"
-}, "Here are some common and cool algorithms and coding challenges with UI: ")], -1
-/* HOISTED */
-);
-
-var _hoisted_10 = {
-  "class": "section-content"
-};
-var _hoisted_11 = {
-  "class": "preview-section"
-};
-
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "section-container"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   id: "about",
@@ -38370,15 +38412,15 @@ var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_13 = {
+var _hoisted_9 = {
   "class": "section-container"
 };
-var _hoisted_14 = {
+var _hoisted_10 = {
   id: "contact",
   "class": "section"
 };
 
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "section-header"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "title-container"
@@ -38390,7 +38432,7 @@ var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_16 = {
+var _hoisted_12 = {
   "class": "section-content"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -38406,7 +38448,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   var _component_EducationSection = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("EducationSection");
 
-  var _component_PreviewSection = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("PreviewSection");
+  var _component_ChallengesSection = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ChallengesSection");
 
   var _component_ContactForm = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ContactForm");
 
@@ -38428,15 +38470,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         message: $setup.errorFlashCardMessage
       }, null, 8
       /* PROPS */
-      , ["message"])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" START WALL "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_StartWall)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" SECTIONS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" SKILLS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SkillSection)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" PROJECTS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ProjectList)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" HIRE ME "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_HireMe)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" EDUCATION & ACHIEVEMENTS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_EducationSection)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" CODING CHALLENGES "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_PreviewSection, {
-        elements: $setup.algorithms
-      }, null, 8
-      /* PROPS */
-      , ["elements"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_PreviewSection, {
-        elements: $setup.challenges
-      }, null, 8
-      /* PROPS */
-      , ["elements"])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" ABOUT ME "), _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" CONTACT ME "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [_hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactForm, {
+      , ["message"])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" START WALL "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_StartWall)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" SECTIONS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" SKILLS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SkillSection)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" PROJECTS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ProjectList)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" HIRE ME "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_HireMe)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" EDUCATION & ACHIEVEMENTS "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_EducationSection)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" CODING CHALLENGES "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ChallengesSection)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" ABOUT ME "), _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" CONTACT ME "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [_hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactForm, {
         errors: $props.errors
       }, null, 8
       /* PROPS */
@@ -64229,6 +64263,34 @@ exports["default"] = (sfc, props) => {
 
 /***/ }),
 
+/***/ "./resources/js/Components/ChallengesSection.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/Components/ChallengesSection.vue ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _ChallengesSection_vue_vue_type_template_id_4863471a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ChallengesSection.vue?vue&type=template&id=4863471a */ "./resources/js/Components/ChallengesSection.vue?vue&type=template&id=4863471a");
+/* harmony import */ var _ChallengesSection_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ChallengesSection.vue?vue&type=script&lang=js */ "./resources/js/Components/ChallengesSection.vue?vue&type=script&lang=js");
+/* harmony import */ var _var_www_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,_var_www_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_ChallengesSection_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_ChallengesSection_vue_vue_type_template_id_4863471a__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Components/ChallengesSection.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
 /***/ "./resources/js/Components/ContactForm.vue":
 /*!*************************************************!*\
   !*** ./resources/js/Components/ContactForm.vue ***!
@@ -65839,6 +65901,22 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./resources/js/Components/ChallengesSection.vue?vue&type=script&lang=js":
+/*!*******************************************************************************!*\
+  !*** ./resources/js/Components/ChallengesSection.vue?vue&type=script&lang=js ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ChallengesSection_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ChallengesSection_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./ChallengesSection.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/ChallengesSection.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/Components/ContactForm.vue?vue&type=script&lang=js":
 /*!*************************************************************************!*\
   !*** ./resources/js/Components/ContactForm.vue?vue&type=script&lang=js ***!
@@ -66668,6 +66746,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Welcome_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Welcome.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Welcome.vue?vue&type=script&lang=js");
  
+
+/***/ }),
+
+/***/ "./resources/js/Components/ChallengesSection.vue?vue&type=template&id=4863471a":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/Components/ChallengesSection.vue?vue&type=template&id=4863471a ***!
+  \*************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ChallengesSection_vue_vue_type_template_id_4863471a__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ChallengesSection_vue_vue_type_template_id_4863471a__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./ChallengesSection.vue?vue&type=template&id=4863471a */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Components/ChallengesSection.vue?vue&type=template&id=4863471a");
+
 
 /***/ }),
 
