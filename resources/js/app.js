@@ -6,9 +6,9 @@ import { InertiaProgress } from '@inertiajs/progress';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faCog, faDatabase, faGlobe, faEnvelope, faBars } from '@fortawesome/free-solid-svg-icons'
-import { faCss3, faGit, faGithub, faGithubSquare, faHtml5, faJs, faLaravel, faLinkedin, faNodeJs, faNpm, faPhp, faVuejs } from '@fortawesome/free-brands-svg-icons'
+import { faCss3, faGit, faGithub, faGithubSquare, faHtml5, faJs, faLaravel, faLinkedin, faNodeJs, faNpm, faReact, faVuejs } from '@fortawesome/free-brands-svg-icons'
 
-const brandIcons = [faPhp, faLaravel, faVuejs, faHtml5, faCss3, faJs, faGit, faGithub, faNodeJs, faNpm, faGithubSquare, faLinkedin];
+const brandIcons = [faReact, faLaravel, faVuejs, faHtml5, faCss3, faJs, faGit, faGithub, faNodeJs, faNpm, faGithubSquare, faLinkedin];
 const solidIcons = [faCog, faDatabase, faEnvelope, faGlobe, faBars];
 
 solidIcons.forEach(icon => library.add(icon));
