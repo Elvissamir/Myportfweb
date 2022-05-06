@@ -32518,51 +32518,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _data_certificates__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../data/certificates */ "./resources/js/data/certificates.js");
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   setup: function setup() {
-    var courseraVerificationUrl = 'http://coursera.org/verify';
-    var certificationImagesUrl = "/images/Certificates";
-    var certificates = [{
-      title: 'HTML5',
-      image: "".concat(certificationImagesUrl, "/03html.png"),
-      url: "".concat(courseraVerificationUrl, "/J27UJY2P9M9K")
-    }, {
-      title: 'CSS3',
-      image: "".concat(certificationImagesUrl, "/01css.png"),
-      url: "".concat(courseraVerificationUrl, "/2NHCEW4VTSGR")
-    }, {
-      title: 'JS',
-      image: "".concat(certificationImagesUrl, "/02js.png"),
-      url: "".concat(courseraVerificationUrl, "/3PSJWWABDX72")
-    }, {
-      title: 'Mobile Design',
-      image: "".concat(certificationImagesUrl, "/05styling.png"),
-      url: "".concat(courseraVerificationUrl, "/S3QDRDEVRRW9")
-    }, {
-      title: 'GIT',
-      image: "".concat(certificationImagesUrl, "/04git.png"),
-      url: "".concat(courseraVerificationUrl, "/DJ2RQAPH7Z48")
-    }, {
-      title: 'Python Indtroduction',
-      image: "".concat(certificationImagesUrl, "/01py.png"),
-      url: "".concat(courseraVerificationUrl, "/AH66XLUFPF5L")
-    }, {
-      title: 'Python Data Structures',
-      image: "".concat(certificationImagesUrl, "/02py.png"),
-      url: "".concat(courseraVerificationUrl, "/DSL4J4DP5Z3E")
-    }, {
-      title: 'Python Databases',
-      image: "".concat(certificationImagesUrl, "/03py.png"),
-      url: "".concat(courseraVerificationUrl, "/93KEAYK5GUED")
-    }, {
-      title: 'Python Web Data',
-      image: "".concat(certificationImagesUrl, "/04py.png"),
-      url: "".concat(courseraVerificationUrl, "/SEUQQ2RTH8YM")
-    }, {
-      title: 'Python Conclusion',
-      image: "".concat(certificationImagesUrl, "/05py.jpg"),
-      url: "".concat(courseraVerificationUrl, "/XZGEYJAFWZTG")
-    }];
+    var certificates = _toConsumableArray(_data_certificates__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
     return {
       certificates: certificates
     };
@@ -39913,6 +39886,64 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/data/certificates.js":
+/*!*******************************************!*\
+  !*** ./resources/js/data/certificates.js ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var courseraVerificationUrl = 'http://coursera.org/verify';
+var certificationImagesUrl = "/images/Certificates";
+var certificates = [{
+  title: 'HTML5',
+  image: "".concat(certificationImagesUrl, "/03html.png"),
+  url: "".concat(courseraVerificationUrl, "/J27UJY2P9M9K")
+}, {
+  title: 'CSS3',
+  image: "".concat(certificationImagesUrl, "/01css.png"),
+  url: "".concat(courseraVerificationUrl, "/2NHCEW4VTSGR")
+}, {
+  title: 'JS',
+  image: "".concat(certificationImagesUrl, "/02js.png"),
+  url: "".concat(courseraVerificationUrl, "/3PSJWWABDX72")
+}, {
+  title: 'Mobile Design',
+  image: "".concat(certificationImagesUrl, "/05styling.png"),
+  url: "".concat(courseraVerificationUrl, "/S3QDRDEVRRW9")
+}, {
+  title: 'GIT',
+  image: "".concat(certificationImagesUrl, "/04git.png"),
+  url: "".concat(courseraVerificationUrl, "/DJ2RQAPH7Z48")
+}, {
+  title: 'Python Indtroduction',
+  image: "".concat(certificationImagesUrl, "/01py.png"),
+  url: "".concat(courseraVerificationUrl, "/AH66XLUFPF5L")
+}, {
+  title: 'Python Data Structures',
+  image: "".concat(certificationImagesUrl, "/02py.png"),
+  url: "".concat(courseraVerificationUrl, "/DSL4J4DP5Z3E")
+}, {
+  title: 'Python Databases',
+  image: "".concat(certificationImagesUrl, "/03py.png"),
+  url: "".concat(courseraVerificationUrl, "/93KEAYK5GUED")
+}, {
+  title: 'Python Web Data',
+  image: "".concat(certificationImagesUrl, "/04py.png"),
+  url: "".concat(courseraVerificationUrl, "/SEUQQ2RTH8YM")
+}, {
+  title: 'Python Conclusion',
+  image: "".concat(certificationImagesUrl, "/05py.jpg"),
+  url: "".concat(courseraVerificationUrl, "/XZGEYJAFWZTG")
+}];
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (certificates);
 
 /***/ }),
 
